@@ -47,7 +47,8 @@ if __name__ == '__main__':
     for N, reps in zip((1000, 2000, 4000), R):
         r = [entropia(N, d, a, np.random.default_rng(31*N+s+d+1000*SEM)) for s in range(reps)]
         S.append(np.mean([x[0] for x in r])); M.append(np.mean([x[1] for x in r]))
-        print(f' N = {N}: S = {S[-1]:.2f}  moleculas contadas = {M[-1]:.1f}  modos U = {np.mean([x[2] for x in r]):.0f} de '
+        es = np.std([x[0] for x in r])/np.sqrt(len(r)); em = np.std([x[1] for x in r])/np.sqrt(len(r))
+        print(f' N = {N}: S = {S[-1]:.2f} +- {es:.2f}  moleculas contadas = {M[-1]:.1f} +- {em:.1f}  modos U = {np.mean([x[2] for x in r]):.0f} de '
               f'{np.mean([x[3] for x in r])/2:.0f}  nats por molecula = {S[-1]/M[-1]:.2f}', flush=True)
-    print(f' nats por molecula pela formula de Barton: ' + ', '.join(f'{x:.2f}' for x in [s_/(0.173205*((n/(3.14159265/24))**0.5)*4*3.14159265*(a/2)**2) for s_, n in zip(S, (1000, 2000, 4000))]) if d == 4 else '')
+    print(f' nats por molecula pela formula de Barton: ' + ', '.join(f'{x:.2f}' for x in [s_/(0.173205*((n/(3.14159265/24))**0.5)*4*3.14159265*(a/2)**2) for s_, n in zip(S, (1000, 2000, 4000))]) if d == 4 else ' nats por molecula pela formula (2+1): ' + ', '.join(f'{x:.2f}' for x in [s_/(0.218853*((n/(3.14159265/12))**(1/3))*3.14159265*a) for s_, n in zip(S, (1000, 2000, 4000))]))
     print(f' S cresce como N^{np.polyfit(np.log(Ns), np.log(S), 1)[0]:.2f}; moleculas como N^{np.polyfit(np.log(Ns), np.log(M), 1)[0]:.2f}')

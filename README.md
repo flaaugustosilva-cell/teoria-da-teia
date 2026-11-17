@@ -67,7 +67,9 @@ Regra do corte pela maior anticadeia (17/11): em cada região, contam tantas vib
 
 Cuidados: os nats por molécula mudam entre as duas regiões; poucas realizações; 3+1 não testado. A escala usada (N^((d−1)/d)) já existe na literatura com coeficiente escolhido à mão (Surya, X e Yazdi, arXiv:2008.07697); fixá-lo pela maior anticadeia pode ser próprio.
 
-**Próximo passo:** escolher entre (a) rodar 3+1 com dezenas de milhares de nós, o que exige computação fora do alcance atual, e (b) voltar a 2+1 com mais rodadas para fixar os nats por molécula com precisão e entender a diferença entre regiões.
+**Resultado de 17/11 à noite (2+1, 6 a 8 rodadas):** a diferença entre regiões é uma parte constante de ~15 nats; a parte que segue a área vale ~2,8 nats por molécula com 4000 nós, ainda subindo (1,4 → 2,4 → 2,8). Os valores por molécula de 3+1 provavelmente estão inflados pela mesma constante.
+
+**Próximo passo:** medir a parte de área com uma terceira região em 2+1 e ver se ela para de subir com N.
 
 ## Regras de trabalho
 
