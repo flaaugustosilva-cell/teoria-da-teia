@@ -67,9 +67,9 @@ Regra do corte pela maior anticadeia (17/11): em cada região, contam tantas vib
 
 Cuidados: os nats por molécula mudam entre as duas regiões; poucas realizações; 3+1 não testado. A escala usada (N^((d−1)/d)) já existe na literatura com coeficiente escolhido à mão (Surya, X e Yazdi, arXiv:2008.07697); fixá-lo pela maior anticadeia pode ser próprio.
 
-**Resultado de 17/11 à noite (2+1, 6 a 8 rodadas):** a diferença entre regiões é uma parte constante de ~15 nats; a parte que segue a área vale ~2,8 nats por molécula com 4000 nós, ainda subindo (1,4 → 2,4 → 2,8). Os valores por molécula de 3+1 provavelmente estão inflados pela mesma constante.
+**Resultado de 17/11 à noite (2+1, três regiões, 6 a 8 rodadas):** a ideia de uma "constante de ~15 nats" caiu: a região média dá a mesma entropia que a maior, porque o diamante grande é finito e a região maior já sente o lado de fora. Medindo como S cresce com N numa região fixa, um campo escalar em 2+1 deixa ~5 a 7 nats por molécula (erro de 15% a 20%), não firme. Para firmar seria preciso uma região muito menor que o diamante grande, o que exige teias bem maiores que 4000 nós.
 
-**Próximo passo:** medir a parte de área com uma terceira região em 2+1 e ver se ela para de subir com N.
+**Próximo passo:** levar o cálculo a teias maiores (dezenas de milhares de nós), com um método que não guarde a matriz inteira, ou registrar a regra da anticadeia como resultado parcial.
 
 ## Regras de trabalho
 
