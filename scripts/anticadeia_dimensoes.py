@@ -4,7 +4,8 @@ p no passado do topo, q fora dele, p -> q, ambos com t < 0, e q e o unico no do 
 Contar direto inclui a curvatura da borda, que a formula de horizonte plano nao inclui.
 Funcao de Green: 3D 1/(2 pi tau); 4D proporcional a matriz de ligacoes (Johnston). A escala nao importa:
 a regra conta modos e a entropia de Sorkin nao depende da normalizacao.
-Uso: python anticadeia_dimensoes.py d a      (d = 3 ou 4; a = tamanho de U, ex. 0.6)"""
+Uso: python anticadeia_dimensoes.py d a      (d = 3 ou 4; a = tamanho de U, ex. 0.6)
+     Opcional (Windows: set REPS=2,2,2 e set SEMENTE=1 antes): REPS = rodadas por tamanho; SEMENTE = outro sorteio."""
 import sys, numpy as np
 from ssee import sorteia
 from corte_cadeia import mantem
@@ -42,9 +43,11 @@ def entropia(N, d, a, rng):
 if __name__ == '__main__':
     d, a = int(sys.argv[1]), float(sys.argv[2]); Ns = (1000, 2000, 4000); S = []; M = []
     print(f'd = {d}, a = {a}. Lei de area pede S ~ N^{(d-2)/d:.2f}')
-    for N, reps in ((1000, 3), (2000, 2), (4000, 1)):
-        r = [entropia(N, d, a, np.random.default_rng(31*N+s+d)) for s in range(reps)]
+    import os; R = [int(x) for x in os.environ.get('REPS', '3,2,1').split(',')]; SEM = int(os.environ.get('SEMENTE', '0'))
+    for N, reps in zip((1000, 2000, 4000), R):
+        r = [entropia(N, d, a, np.random.default_rng(31*N+s+d+1000*SEM)) for s in range(reps)]
         S.append(np.mean([x[0] for x in r])); M.append(np.mean([x[1] for x in r]))
         print(f' N = {N}: S = {S[-1]:.2f}  moleculas contadas = {M[-1]:.1f}  modos U = {np.mean([x[2] for x in r]):.0f} de '
               f'{np.mean([x[3] for x in r])/2:.0f}  nats por molecula = {S[-1]/M[-1]:.2f}', flush=True)
+    print(f' nats por molecula pela formula de Barton: ' + ', '.join(f'{x:.2f}' for x in [s_/(0.173205*((n/(3.14159265/24))**0.5)*4*3.14159265*(a/2)**2) for s_, n in zip(S, (1000, 2000, 4000))]) if d == 4 else '')
     print(f' S cresce como N^{np.polyfit(np.log(Ns), np.log(S), 1)[0]:.2f}; moleculas como N^{np.polyfit(np.log(Ns), np.log(M), 1)[0]:.2f}')

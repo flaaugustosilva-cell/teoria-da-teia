@@ -63,11 +63,11 @@ Regra do corte pela maior anticadeia (17/11): em cada região, contam tantas vib
 | 2+1, região pequena | cresce como N^0,28; ~7,5 nats por molécula | lei de área: N^0,33 |
 | 2+1, região maior | cresce como N^0,31; ~4,2 nats por molécula | lei de área: N^0,33 |
 
-**Em 3+1 (17/11, noite):** a mesma regra dá crescimento N^0,58 (lei de área: N^0,50) e cerca de **7,5 nats por molécula para um campo escalar**, estável em 2000 e 4000 nós (`anticadeia_dimensoes.py`). Com as ~49 espécies do Modelo Padrão, o grão sairia entre 15,2 e 17,0 l_P: cobre a janela 3 de supressão (15,0 a 16,1) e o intervalo depois dela. Inconclusivo, e com alerta de coincidência; esse grão fica fora da faixa viável de Λ. Em 2+1, contando moléculas direto na teia, o ruído (4 a 10 moléculas) não permite explicar a diferença entre regiões.
+**Em 3+1 (17/11, noite, revisado):** com mais rodadas e moléculas contadas na teia, um campo escalar deixa de **5 a 9 nats por molécula** (média ~6), e a entropia cresce como N^0,58 a 0,68 (lei de área: N^0,50). Com até 4000 nós a região interna é pequena demais e o corte quase não age nela; o regime certo não é alcançável nem aqui nem no PC do autor. Com as ~49 espécies, o grão sairia entre ~13 e ~18 l_P, faixa que cobre várias janelas e intervalos: inconclusivo. A contribuição de férmions não pode ser calculada: não há formulação aceita de espinores em conjuntos causais (`anticadeia_dimensoes.py`).
 
 Cuidados: os nats por molécula mudam entre as duas regiões; poucas realizações; 3+1 não testado. A escala usada (N^((d−1)/d)) já existe na literatura com coeficiente escolhido à mão (Surya, X e Yazdi, arXiv:2008.07697); fixá-lo pela maior anticadeia pode ser próprio.
 
-**Próximo passo:** em 3+1, repetir com mais realizações e uma segunda região, e calcular a contribuição de férmions e campos de calibre por molécula (até agora só o escalar).
+**Próximo passo:** escolher entre (a) rodar 3+1 com dezenas de milhares de nós, o que exige computação fora do alcance atual, e (b) voltar a 2+1 com mais rodadas para fixar os nats por molécula com precisão e entender a diferença entre regiões.
 
 ## Regras de trabalho
 
