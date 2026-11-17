@@ -63,9 +63,11 @@ Regra do corte pela maior anticadeia (17/11): em cada região, contam tantas vib
 | 2+1, região pequena | cresce como N^0,28; ~7,5 nats por molécula | lei de área: N^0,33 |
 | 2+1, região maior | cresce como N^0,31; ~4,2 nats por molécula | lei de área: N^0,33 |
 
+**Em 3+1 (17/11, noite):** a mesma regra dá crescimento N^0,58 (lei de área: N^0,50) e cerca de **7,5 nats por molécula para um campo escalar**, estável em 2000 e 4000 nós (`anticadeia_dimensoes.py`). Com as ~49 espécies do Modelo Padrão, o grão sairia entre 15,2 e 17,0 l_P: cobre a janela 3 de supressão (15,0 a 16,1) e o intervalo depois dela. Inconclusivo, e com alerta de coincidência; esse grão fica fora da faixa viável de Λ. Em 2+1, contando moléculas direto na teia, o ruído (4 a 10 moléculas) não permite explicar a diferença entre regiões.
+
 Cuidados: os nats por molécula mudam entre as duas regiões; poucas realizações; 3+1 não testado. A escala usada (N^((d−1)/d)) já existe na literatura com coeficiente escolhido à mão (Surya, X e Yazdi, arXiv:2008.07697); fixá-lo pela maior anticadeia pode ser próprio.
 
-**Próximo passo:** explicar a diferença entre as regiões (correção de curvatura da borda) e testar em 3+1, que decide a hipótese das espécies.
+**Próximo passo:** em 3+1, repetir com mais realizações e uma segunda região, e calcular a contribuição de férmions e campos de calibre por molécula (até agora só o escalar).
 
 ## Regras de trabalho
 
