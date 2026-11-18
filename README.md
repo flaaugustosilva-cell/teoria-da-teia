@@ -50,7 +50,7 @@ O nó central é o corte: quantas vibrações de um campo contam como entropia n
 
 1. **O corte da entropia de emaranhamento.** Precisa sair das relações da teia, sem número ajustado, e dar lei de área em 1+1, 2+1 e 3+1. Candidata atual: a maior anticadeia (abaixo).
 2. **Os 47 nats por molécula.** Hipótese em aberto: seriam a soma das ~49 espécies de partículas do Modelo Padrão. Testável só quando o corte estiver fixado em 3+1.
-3. **As janelas de supressão com três camadas.** Falta saber se valem para as teias mais comuns, com a ação completa.
+3. **As janelas de supressão com três camadas.** Resolvido na literatura no essencial: as teias em camadas, inclusive as mais comuns (Kleitman–Rothschild), são suprimidas com a ação completa sempre que o grão está acima de um limiar (Mathur, Singh e Surya 2020; Carlip e Carlip 2022; arXiv:2311.18238). Resta saber se, como na nossa soma exata de duas camadas, a supressão vale só em janelas.
 4. **Escolher a dimensão (peça 2).** Nenhum peso sem alvo posto à mão produz espaço-tempo em teias gerais.
 5. **A matéria mudando a teia (peça 3).** Nada feito; necessária para ver estrutura se formar.
 6. **Uma previsão própria (peça 5).** Candidata fraca: α de Λ dentro da janela 1 (0,0077 a 0,0155); hoje não testável.
