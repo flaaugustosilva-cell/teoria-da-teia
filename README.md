@@ -71,6 +71,8 @@ Cuidados: os nats por molécula mudam entre as duas regiões; poucas realizaçõ
 
 **Próximo passo:** levar o cálculo a teias maiores (dezenas de milhares de nós), com um método que não guarde a matriz inteira, ou registrar a regra da anticadeia como resultado parcial.
 
+**Teias grandes (17/11, noite):** um método novo (`grande.py`) calcula só as vibrações que a regra guarda e chega a 16 mil nós em 2+1. Ele bate com o método antigo em 4 mil nós (1% a 2%), mas em 12 mil nós superestima a entropia em ~8% com o ajuste padrão (`convergencia.py`). Os resultados grandes já obtidos (crescimento ~N^0,45) estão inflados por esse erro e ainda não valem. Próximo: refazer com o ajuste mais preciso.
+
 ## Regras de trabalho
 
 - Todo número é repetido com três tamanhos de teia e mais de uma realização.
