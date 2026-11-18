@@ -79,6 +79,8 @@ Cuidados: os nats por molécula mudam entre as duas regiões; poucas realizaçõ
 
 **Comparação com a literatura (18/11):** em 1+1 a regra guarda praticamente o mesmo número de vibrações que o corte escolhido à mão por Sorkin e Yazdi (58 / 82 / 122 contra 62 / 88 / 125), e os dois tendem a 2√N. A regra explica por que aquele corte funciona e o generaliza sem parâmetro. Em 2+1 ela implica uma constante de corte c₃ ≈ 0,14 a 0,17, subindo devagar; em 3+1 a constante implicada triplica entre 1000 e 4000 nós, então ali a regra não equivale a um corte fixo. Os valores usados na literatura em 3D e 4D não foram publicados (`joelho.py`, `c_implicito.py`).
 
+**Busca na literatura (18/11):** que o corte de 1+1 guarda ~√N modos já era conhecido. Nas fontes lidas, ninguém identifica esse número com a maior anticadeia nem propõe a largura como regra de corte sem parâmetro em qualquer dimensão. Isso não prova ineditismo. O que pode ser novo: o coeficiente (os dois dão 2√N) e a forma intrínseca, sem coordenadas.
+
 ## Regras de trabalho
 
 - Todo número é repetido com três tamanhos de teia e mais de uma realização.
