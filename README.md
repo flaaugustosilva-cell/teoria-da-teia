@@ -73,6 +73,8 @@ Cuidados: os nats por molécula mudam entre as duas regiões; poucas realizaçõ
 
 **Teias grandes (17/11, noite):** um método novo (`grande.py`) calcula só as vibrações que a regra guarda e chega a 16 mil nós em 2+1. Ele bate com o método antigo em 4 mil nós (1% a 2%), mas em 12 mil nós superestima a entropia em ~8% com o ajuste padrão (`convergencia.py`). Os resultados grandes já obtidos (crescimento ~N^0,45) estão inflados por esse erro e ainda não valem. Próximo: refazer com o ajuste mais preciso.
 
+**Kaggle, 2+1 até 24 mil nós (18/11):** com o método rápido validado (erro de 0,1% contra o exato em 8 mil nós), a entropia cresce como N^0,42 a 0,48 se ajustada como potência, acima da lei de área (0,33). Mas uma lei de área com uma constante negativa ajusta igualmente bem, e aí o coeficiente fica em ~10 a 12 nats por molécula, coerente nas três regiões. Com 4 tamanhos de teia não dá para separar as duas leituras; seriam precisas teias de 100 mil nós ou mais. A regra não foi refutada nem confirmada em 2+1 (`analise_kaggle.py`).
+
 ## Regras de trabalho
 
 - Todo número é repetido com três tamanhos de teia e mais de uma realização.
