@@ -75,6 +75,8 @@ Cuidados: os nats por molécula mudam entre as duas regiões; poucas realizaçõ
 
 **Kaggle, 2+1 até 24 mil nós (18/11):** com o método rápido validado (erro de 0,1% contra o exato em 8 mil nós), a entropia cresce como N^0,42 a 0,48 se ajustada como potência, acima da lei de área (0,33). Mas uma lei de área com uma constante negativa ajusta igualmente bem, e aí o coeficiente fica em ~10 a 12 nats por molécula, coerente nas três regiões. Com 4 tamanhos de teia não dá para separar as duas leituras; seriam precisas teias de 100 mil nós ou mais. A regra não foi refutada nem confirmada em 2+1 (`analise_kaggle.py`).
 
+**Maior anticadeia mais rápida (18/11):** calculada como fluxo sobre as ligações diretas (`largura_fluxo.py`), em vez de emparelhamento sobre todas as relações. Resultado idêntico em 1, 2, 4 e 8 mil nós; com 16 mil nós leva 35 s, contra 4 a 46 min antes. `grande2.py` junta isso ao método rápido e reproduz exatamente as rodadas anteriores. Próximo: teias de 32 e 48 mil nós no Kaggle.
+
 ## Regras de trabalho
 
 - Todo número é repetido com três tamanhos de teia e mais de uma realização.
