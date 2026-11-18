@@ -77,6 +77,8 @@ Cuidados: os nats por molécula mudam entre as duas regiões; poucas realizaçõ
 
 **Maior anticadeia mais rápida (18/11):** calculada como fluxo sobre as ligações diretas (`largura_fluxo.py`), em vez de emparelhamento sobre todas as relações. Resultado idêntico em 1, 2, 4 e 8 mil nós; com 16 mil nós leva 35 s, contra 4 a 46 min antes. `grande2.py` junta isso ao método rápido e reproduz exatamente as rodadas anteriores. Próximo: teias de 32 e 48 mil nós no Kaggle.
 
+**Comparação com a literatura (18/11):** em 1+1 a regra guarda praticamente o mesmo número de vibrações que o corte escolhido à mão por Sorkin e Yazdi (58 / 82 / 122 contra 62 / 88 / 125), e os dois tendem a 2√N. A regra explica por que aquele corte funciona e o generaliza sem parâmetro. Em 2+1 ela implica uma constante de corte c₃ ≈ 0,14 a 0,17, subindo devagar; em 3+1 a constante implicada triplica entre 1000 e 4000 nós, então ali a regra não equivale a um corte fixo. Os valores usados na literatura em 3D e 4D não foram publicados (`joelho.py`, `c_implicito.py`).
+
 ## Regras de trabalho
 
 - Todo número é repetido com três tamanhos de teia e mais de uma realização.
