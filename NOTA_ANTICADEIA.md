@@ -30,7 +30,7 @@ Os dois números tendem a 2√N. Num diamante 1+1 sorteado, ordenar os elementos
 
 ## O que já era conhecido
 
-Que o corte de 1+1 corresponde a guardar ~√N modos, motivado pelo comprimento de onda mínimo do grão (tese de Nomaan X, arXiv:2105.07241; Belenchia e outros). Nas fontes lidas não encontrei a identificação desse número com a maior anticadeia, nem a largura proposta como regra de corte em qualquer dimensão. A busca foi limitada e não prova ineditismo.
+Que o corte de 1+1 corresponde a guardar ~√N modos, motivado pelo comprimento de onda mínimo do grão (tese de Nomaan X, arXiv:2105.07241; Belenchia e outros). Nas fontes lidas não encontrei a identificação desse número com a maior anticadeia, nem a largura proposta como regra de corte em qualquer dimensão. A busca foi limitada e não prova ineditismo. Segunda busca (18/11): Surya, X e Yazdi (arXiv:2008.07697) já motivaram o corte pela ideia de que o número de modos deve ser proporcional ao volume espacial de uma hipersuperfície de Cauchy, mas estimaram esse volume pelo contínuo, e em de Sitter o valor ficou grande demais; a maior anticadeia já é conhecida como o análogo de Cauchy (Belenchia e outros 2017; Yazdi 2022). Medir a largura da própria teia (Dilworth) e usá-la como número de corte não apareceu. Avaliação: provavelmente inédito como procedimento, mas muito próximo de ideias publicadas; o teste decisivo é de Sitter.
 
 ## Limites
 
