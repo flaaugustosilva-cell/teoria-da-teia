@@ -52,3 +52,5 @@ Scripts na pasta [`scripts`](scripts/): `corte_anticadeia.py` (regra em 1+1 e 2+
 ## Teste em de Sitter 1+1 (18/11)
 
 Fatia |T| < 1,2, cunha tipo Rindler, 3 rodadas por N (scripts/ds2_anticadeia.py). Sem corte, S cresce como N^1,02 (lei de volume). Com a regra da largura, S = 2,31 / 2,66 / 2,98 / 3,39 para N = 500 / 1000 / 2000 / 3000: crescimento logarítmico, que é a forma da lei de área em 1+1, sem nenhum parâmetro ajustado. Mas a inclinação contra ln N é 0,57, contra 1/6 = 0,167 esperado para duas pontas: a regra guarda modos demais, o mesmo defeito que Surya, X e Yazdi acharam na estimativa pela fatia espacial. Em de Sitter, a regra acerta a forma e erra o coeficiente.
+
+Variante pré-registrada (18/11, 14:40, registrada antes de rodar): guardar em O largura(U) + largura(U') modos de cada sinal. Resultado: de Sitter 0,341 e Minkowski 0,267 (a original dá 0,171), contra 0,167 previsto nos dois. A variante caiu e, como combinado, nenhuma outra foi testada em seguida (scripts/variante_UUlinha.py). Uma variante testada, nenhuma funcionou.
