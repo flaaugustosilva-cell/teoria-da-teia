@@ -103,3 +103,15 @@ python corte_anticadeia.py 2
 Os scripts usam uns aos outros; rode-os de dentro da pasta `scripts`.
 
 As contas e simulações foram feitas com a ajuda de um assistente de IA (Claude). O histórico completo, com todas as correções, fica num registro privado do autor.
+
+## Onde a teoria está travada e por quê (balanço de 18/11/2026)
+
+**De pé:** a teia como conjunto causal com a ação de Benincasa–Dowker; a supressão das teias ruins (as nossas janelas coincidem com |cos β| < 1/2 de Loomis e Carlip 2017 — confirmação, não contribuição); a regra da maior anticadeia (provavelmente própria; certa em Minkowski 1+1, forma certa e coeficiente errado em de Sitter 1+1, indecisa em 2+1).
+
+**Caiu nesta série:** regras locais de crescimento, diamantes, assinatura, dizimação, Chladni, picos de Feynman, gravidade centrífuga, a variante pré-registrada da anticadeia e a massa como saída para s₁ (3,15 a 3,65, contra 0,96 a 1,93 necessários).
+
+**O nó:** as três escalas do grão só se conciliam com ~1 nat por molécula por espécie, mas toda medida de s₁ depende de um corte no espectro, e nenhuma regra de corte (da literatura ou nossa) funciona em todos os espaços. Sem um princípio que fixe o corte, a tensão não pode ser confirmada nem resolvida.
+
+**Precisa de ideia nova, não de mais contas:** (1) um princípio que fixe o corte sem ajuste; (2) medir a entropia de horizonte sem passar pelo corte; (3) espinores em conjuntos causais (45 das 49 espécies são férmions).
+
+**Regra:** toda tentativa nova sobre o corte é pré-registrada no Registro antes de rodar, uma de cada vez, e testada também onde não foi escolhida.
