@@ -47,3 +47,8 @@ Scripts na pasta [`scripts`](scripts/): `corte_anticadeia.py` (regra em 1+1 e 2+
 1. A identificação "modos guardados = maior anticadeia" já aparece em algum trabalho?
 2. Qual c_3 e qual c_4 foram usados em arXiv:1712.04227, para comparar com 0,17 e 0,03?
 3. Há razão para esperar que a largura deixe de acompanhar o corte certo em 3+1?
+
+
+## Teste em de Sitter 1+1 (18/11)
+
+Fatia |T| < 1,2, cunha tipo Rindler, 3 rodadas por N (scripts/ds2_anticadeia.py). Sem corte, S cresce como N^1,02 (lei de volume). Com a regra da largura, S = 2,31 / 2,66 / 2,98 / 3,39 para N = 500 / 1000 / 2000 / 3000: crescimento logarítmico, que é a forma da lei de área em 1+1, sem nenhum parâmetro ajustado. Mas a inclinação contra ln N é 0,57, contra 1/6 = 0,167 esperado para duas pontas: a regra guarda modos demais, o mesmo defeito que Surya, X e Yazdi acharam na estimativa pela fatia espacial. Em de Sitter, a regra acerta a forma e erra o coeficiente.
