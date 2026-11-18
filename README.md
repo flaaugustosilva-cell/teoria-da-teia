@@ -117,3 +117,5 @@ As contas e simulações foram feitas com a ajuda de um assistente de IA (Claude
 **Regra:** toda tentativa nova sobre o corte é pré-registrada no Registro antes de rodar, uma de cada vez, e testada também onde não foi escolhida.
 
 **Janela 2 testada (18/11, pré-registrada):** o Λ flutuante com memória não aceita a janela 2 (α = 0,031 a 0,035): só 0,2% a 0,7% das histórias chegam vivas a hoje, nenhuma com Δχ² < 25, todas sem matéria e com Λ dominando já na recombinação. A única janela candidata continua sendo a 1 (grão 5,7 a 8,0 l_P), que exige 0,95 a 1,9 nats por molécula por espécie.
+
+**Entropia por molécula sem corte (18/11, pré-registrada):** entropia de Sorkin do par de nós de cada molécula de horizonte, com o vácuo da teia inteira e nenhum corte (`scripts/molecula_sem_corte.py`). 2+1: 1,68 / 1,70 / 1,85; 3+1: 1,45 / 1,69 / 1,90 nats para N = 1000 / 2000 / 4000. Os números caem na faixa-alvo (0,95 a 1,9), mas crescem ~0,23 a cada dobra de N em 3+1 (31%, contra < 20% exigido): não passa. Falta o controle com pares longe do horizonte.
