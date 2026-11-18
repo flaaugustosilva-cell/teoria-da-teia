@@ -1,6 +1,8 @@
 # Teoria da Teia — Estado atual
 
-Atualizado em 17/11/2026 · Flavio
+Atualizado em 18/11/2026 · Flavio Augusto da Silva
+
+**Nota sobre a regra da maior anticadeia:** [versão acadêmica](NOTA_ANTICADEIA.md) · [versão em linguagem simples](NOTA_ANTICADEIA_SIMPLES.md)
 
 Este é o resumo vivo da teoria. Os resultados vêm de simulações em Python que estão na pasta [`scripts`](scripts/), cada uma com instruções de uso no topo do arquivo.
 
