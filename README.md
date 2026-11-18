@@ -115,3 +115,5 @@ As contas e simulações foram feitas com a ajuda de um assistente de IA (Claude
 **Precisa de ideia nova, não de mais contas:** (1) um princípio que fixe o corte sem ajuste; (2) medir a entropia de horizonte sem passar pelo corte; (3) espinores em conjuntos causais (45 das 49 espécies são férmions).
 
 **Regra:** toda tentativa nova sobre o corte é pré-registrada no Registro antes de rodar, uma de cada vez, e testada também onde não foi escolhida.
+
+**Janela 2 testada (18/11, pré-registrada):** o Λ flutuante com memória não aceita a janela 2 (α = 0,031 a 0,035): só 0,2% a 0,7% das histórias chegam vivas a hoje, nenhuma com Δχ² < 25, todas sem matéria e com Λ dominando já na recombinação. A única janela candidata continua sendo a 1 (grão 5,7 a 8,0 l_P), que exige 0,95 a 1,9 nats por molécula por espécie.
