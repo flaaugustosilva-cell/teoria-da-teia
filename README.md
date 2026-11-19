@@ -123,3 +123,24 @@ As contas e simulações foram feitas com a ajuda de um assistente de IA (Claude
 **Controle (18/11, pré-registrado): a linha morre.** Pares ligados que não cruzam o horizonte dão quase o mesmo valor que as moléculas (1,72 / 1,94 / 2,16 contra 1,45 / 1,69 / 1,90; diferença de 12% a 16%, abaixo dos 20% exigidos) e crescem do mesmo jeito com N. O valor é de qualquer ligação, não do horizonte; a coincidência com a faixa-alvo era acaso (`scripts/controle_molecula.py`).
 
 **Gargalo causal (18/11, pré-registrado): cai.** Corte em U = maior número de cadeias disjuntas, por ligações, de U para fora (Menger). O gargalo cresce como o volume de U (≈ 0,6 a 0,7 × N_U em Minkowski e de Sitter 1+1), não como a borda: as ligações de um conjunto causal são não locais, e a maioria dos nós de U liga direto com o lado de fora (`scripts/gargalo_causal.py`).
+
+## Dicionário de Planck e definições (18/11/2026)
+
+**Elemento:** um evento do espaço-tempo, sem posição, tamanho nem partes; só relações de antes, depois ou sem relação causal. Não é partícula. O grão é a densidade média: um elemento por ℓ⁴ em 3+1, sorteados ao acaso (Poisson).
+
+**Molécula de horizonte:** par de elementos ligados que atravessa a borda (p dentro do passado da região, q fora, p → q ligação, q único elemento do futuro de p antes do corte). O número delas cresce como a área (N^(1/3) em 2+1, N^(1/2) em 3+1). Ressalvas: as pontas de uma ligação podem estar longe ao longo de uma direção de luz; os nats por molécula não são propriedade dela (qualquer par ligado dá ~2 nats sem corte); depende da região escolhida.
+
+| Grandeza | O que vira na teia | Situação |
+|---|---|---|
+| c | a própria ordem causal | estabelecido |
+| Volume | número de elementos × ℓ⁴ | estabelecido |
+| Tempo | comprimento da maior cadeia × constante de ordem 1 | estabelecido, com ressalva |
+| Comprimento de Planck | converte contagem em fase: cada elemento pesa (ℓ/ℓ_p)² | estabelecido |
+| Área de Planck | uma molécula de horizonte; A/4 = moléculas × nats por molécula | **o nó da teoria** |
+| G, massa de Planck | hipótese das espécies: 1/G sai da contagem de campos (49) e do grão | hipótese |
+| ħ | converte ação em fase em exp(iS/ħ) | estabelecido |
+| Energia, temperatura | sem definição própria; previsão: Λ ~ 1/√V | parcial |
+
+O grão não é o comprimento de Planck: ℓ = x · l_P, com x entre 5,7 e 8,0 (mil a quatro mil volumes de Planck por elemento).
+
+Um arquivo recebido em 18/11 que dizia resolver o nó por decomposição em valores singulares foi conferido e não vale: usa um grafo aleatório comum (não uma teia causal), a tabela não sai do código (0,20 a 0,40 nats) nem bate com as próprias colunas, depende de dois fatores escolhidos à mão (x² e √49 × 1,4) e compara um total com a faixa por espécie (o alvo total é de 47 a 92 nats por molécula).
