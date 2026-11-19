@@ -1,0 +1,4 @@
+n=10: sorteios 1000000, validas 176967, descartadas (altura<=2) 823033, B media 12.17 desvio 12.32
+n=20: sorteios 1000000, validas 641274, descartadas (altura<=2) 358726, B media 15.26 desvio 21.38
+n=40: sorteios 1000000, validas 983727, descartadas (altura<=2) 16273, B media 20.87 desvio 46.58
+n=80: sorteios 200000, validas 200000, descartadas (altura<=2) 0, B media 32.38 desvio 108.84

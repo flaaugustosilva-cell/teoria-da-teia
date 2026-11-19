@@ -1,0 +1,51 @@
+=== E1: regressao de B em R, R^2, h, minimais, maximais ===
+ n= 10: validas  176967 (descartadas 823033), Var(B) =      151.7, R2 = 0.1451, Var(residuo) =     129.7
+ n= 20: validas  641274 (descartadas 358726), Var(B) =      457.2, R2 = 0.0742, Var(residuo) =     423.3
+ n= 40: validas  983727 (descartadas 16273), Var(B) =     2169.9, R2 = 0.0483, Var(residuo) =    2065.1
+ n= 80: validas  200000 (descartadas 0), Var(B) =    11846.1, R2 = 0.0197, Var(residuo) =   11613.0
+ n=160: validas   50000 (descartadas 0), Var(B) =    56509.2, R2 = 0.0066, Var(residuo) =   56136.0
+ expoente de Var(B) em n: 2.178; de Var(residuo): 2.229
+ -> modo global identificado (R2 >= 0,90 em 40, 80, 160): False; residuo local (expoente <= 1,2): False
+
+=== E2: distribuicao de X = (B - media)/desvio ===
+ n= 10: assimetria -1.205 [-1.240, -1.174]  curtose exc. +3.860 [+3.637, +4.151]  P(|X|>3) = 0.01697 (gauss. 0,00270)  P(|X|>4) = 0.002577 (gauss. 0,000063)
+ n= 20: assimetria -0.487 [-0.509, -0.469]  curtose exc. +2.774 [+2.675, +2.883]  P(|X|>3) = 0.01311 (gauss. 0,00270)  P(|X|>4) = 0.003075 (gauss. 0,000063)
+ n= 40: assimetria -0.158 [-0.170, -0.149]  curtose exc. +1.481 [+1.443, +1.521]  P(|X|>3) = 0.00943 (gauss. 0,00270)  P(|X|>4) = 0.001678 (gauss. 0,000063)
+ n= 80: assimetria -0.089 [-0.104, -0.077]  curtose exc. +0.512 [+0.466, +0.546]  P(|X|>3) = 0.00545 (gauss. 0,00270)  P(|X|>4) = 0.000510 (gauss. 0,000063)
+ n=160: assimetria -0.049 [-0.076, -0.025]  curtose exc. +0.138 [+0.091, +0.182]  P(|X|>3) = 0.00380 (gauss. 0,00270)  P(|X|>4) = 0.000120 (gauss. 0,000063)
+ KS entre n = 80 e 160: D = 0.0113, p = 7.01e-05; compativel com gaussiana (n = 160): True
+
+=== E3: Q (estimador sem vies de |phi|^2) em angulos pequenos; * = valido (Q > 4 ep) ===
+ n= 10: 0.01:0.985*  0.02:0.942*  0.03:0.877*  0.045:0.757*  0.06:0.631*  0.08:0.487*  0.1:0.387*  0.13:0.307*  0.16:0.275*  0.2:0.253*  0.25:0.209*  0.32:0.0951*
+ n= 20: 0.01:0.956*  0.02:0.839*  0.03:0.686*  0.045:0.461*  0.06:0.291*  0.08:0.156*  0.1:0.0892*  0.13:0.0457*  0.16:0.0273*  0.2:0.0155*  0.25:0.00808*  0.32:0.00179*
+ n= 40: 0.01:0.809*  0.02:0.454*  0.03:0.199*  0.045:0.0473*  0.06:0.0111*  0.08:0.00184*  0.1:0.000387*  0.13:3.58e-05*  0.16:5.33e-06  0.2:-7.5e-07  0.25:-1.64e-07  0.32:1.44e-07
+ n= 80: 0.01:0.323*  0.02:0.0183*  0.03:0.000516*  0.045:-1.98e-07  0.06:1.93e-05  0.08:-9.64e-07  0.1:-3.35e-06  0.13:-4.57e-06  0.16:-2.79e-06  0.2:1.87e-06  0.25:2.86e-09  0.32:5.74e-06
+ n=160: 0.01:0.0047*  0.02:-7.76e-07  0.03:-1.88e-05  0.045:1.91e-06  0.06:8.96e-06  0.08:-1.81e-05  0.1:-1.58e-05  0.13:7.77e-05  0.16:-8.51e-06  0.2:0.000116  0.25:3.86e-05  0.32:-1.51e-06
+
+ Colapso (n = 40, 80, 160): 9 comparacoes, 0% dentro de 3 erros -> aceito: False
+   desvios (em erros combinados): 74.8 56.1 18.8 29.7 74.8 64.0 30.9 18.8 14.0
+
+ Ajuste de ln|phi| = 0,5 ln Q contra omega (12 pontos validos de n = 40, 80, 160; omega de 0.40 a 5.20):
+   exponencial: a = +0.2453, taxa = 0.8706, chi2/gl = 2696.41, AIC = 26968.1
+   gaussiano  : a = -0.0354, taxa = 0.4778, chi2/gl = 5661.41, AIC = 56618.1
+   potencia   : a = -0.6194, taxa = 0.5647, chi2/gl = 11294.54, AIC = 112949.4
+   melhor: exponencial; diferenca de AIC para o segundo: 29650.0 -> decisivo: True
+
+ Estrutura fina (modelo exponencial):
+   n=10 theta=0.50: Q = 5.331e-02 +- 6.5e-04 (valido)  previsto 2.705e-04  desvio 82.2
+   n=10 theta=0.75: Q = 4.580e-02 +- 6.0e-04 (valido)  previsto 3.481e-06  desvio 77.0
+   n=10 theta=1.00: Q = 3.426e-03 +- 1.7e-04 (valido)  previsto 4.479e-08  desvio 20.5
+   n=20 theta=0.50: Q = 7.844e-05 +- 1.6e-05 (valido)  previsto 4.479e-08  desvio 4.9
+   n=20 theta=0.75: Q = -1.513e-06 +- 3.6e-07 (abaixo da resolucao)  previsto 7.418e-12  desvio 4.2
+   n=20 theta=1.00: Q = -1.497e-06 +- 4.9e-07 (abaixo da resolucao)  previsto 1.228e-15  desvio 3.0
+   n=40 theta=0.50: Q = -9.340e-07 +- 4.3e-07 (abaixo da resolucao)  previsto 1.228e-15  desvio 2.2
+   n=40 theta=0.75: Q = 1.526e-06 +- 2.6e-06 (abaixo da resolucao)  previsto 3.369e-23  desvio 0.6
+   n=40 theta=1.00: Q = -5.609e-07 +- 9.3e-07 (abaixo da resolucao)  previsto 9.240e-31  desvio 0.6
+   4 pontos validos, 0% dentro de 3 erros -> desprezivel: False
+
+ Angulos da janela (so reportados):
+   x=6 (theta = 2.339): n=10: +2.75e-06 +- 1.1e-05  n=20: +1.59e-06 +- 3.1e-06  n=40: +1.03e-07 +- 1.6e-06  n=80: +1.31e-06 +- 8.1e-06  n=160: -1.73e-05 +- 1.2e-05
+   x=7 (theta = 3.184): n=10: -2.30e-06 +- 5.7e-06  n=20: +2.33e-06 +- 3.9e-06  n=40: -7.57e-07 +- 7.1e-07  n=80: +2.98e-06 +- 9.5e-06  n=160: -1.02e-05 +- 2.5e-05
+   x=8 (theta = 4.158): n=10: -4.49e-06 +- 3.4e-06  n=20: +1.34e-07 +- 2.5e-06  n=40: -7.45e-07 +- 7.3e-07  n=80: -2.44e-06 +- 4.6e-06  n=160: +3.21e-05 +- 5.1e-05
+
+=== VEREDITO DE E: E-c: inconclusivo ===

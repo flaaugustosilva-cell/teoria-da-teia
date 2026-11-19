@@ -1,0 +1,1 @@
+n=160: sorteios 50000, validas 50000, descartadas (altura<=2) 0, B media 49.25 desvio 237.72
