@@ -1,0 +1,13 @@
+ln|Aut| (cota inferior por gemeos) e elementos isolados, primeiras 2000 teias de cada n (mesma semente):
+ n= 40: ln|Aut| media  13.49  max  54.78 | isolados media  7.40
+ n= 80: ln|Aut| media  15.05  max  68.58 | isolados media  8.19
+ n=120: ln|Aut| media  15.05  max  58.25 | isolados media  8.31
+ n=160: ln|Aut| media  15.33  max  56.21 | isolados media  8.60
+
+Crescimento de ln|Z_ruim| (por n e por n ln n) e inclinacao de L:
+ x=0.832: lnZ/n =  7.588 14.530 21.464 28.396 | lnZ/(n ln n) =  2.057  3.316  4.483  5.595 | inclinacao dL/dn =  30.783 | L<0 em todos: False | decrescente: False
+ x=  5.0: lnZ/n =  3.848  7.052 10.248 13.442 | lnZ/(n ln n) =  1.043  1.609  2.141  2.649 | inclinacao dL/dn =  12.091 | L<0 em todos: False | decrescente: False
+ x=  6.0: lnZ/n =  0.601  0.509  0.476  0.461 | lnZ/(n ln n) =  0.163  0.116  0.099  0.091 | inclinacao dL/dn =  -4.135 | L<0 em todos: True | decrescente: True
+ x=  7.0: lnZ/n =  0.111  0.077  0.057  0.044 | lnZ/(n ln n) =  0.030  0.017  0.012  0.009 | inclinacao dL/dn =  -4.528 | L<0 em todos: True | decrescente: True
+ x=  8.0: lnZ/n =  0.948  0.879  0.812  0.752 | lnZ/(n ln n) =  0.257  0.201  0.170  0.148 | inclinacao dL/dn =  -3.863 | L<0 em todos: True | decrescente: True
+ x=  9.0: lnZ/n =  6.228 11.811 17.386 22.959 | lnZ/(n ln n) =  1.688  2.695  3.632  4.524 | inclinacao dL/dn =  23.987 | L<0 em todos: False | decrescente: False

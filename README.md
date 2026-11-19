@@ -4,6 +4,8 @@ Atualizado em 18/11/2026 · Flavio Augusto da Silva
 
 **Nota sobre a regra da maior anticadeia:** [versão acadêmica](NOTA_ANTICADEIA.md) · [versão em linguagem simples](NOTA_ANTICADEIA_SIMPLES.md)
 
+**E1, supressão das teias ruins contra as boas (19/11/2026, pré-registrado):** [pré-registro, resultados e conclusão](dados/e1/LEIAME.md)
+
 Este é o resumo vivo da teoria. Os resultados vêm de simulações em Python que estão na pasta [`scripts`](scripts/), cada uma com instruções de uso no topo do arquivo.
 
 ## A teoria em poucas linhas
@@ -21,8 +23,8 @@ Resultados conferidos com três tamanhos de teia e mais de uma realização. A m
 | Limite do grão pelos dados de Lee 2020 | R₀ ≤ 34 µm (95%) | ajuste próprio |
 | Moléculas de horizonte seguem a área (2+1 e 3+1) | coeficientes 0,219 e 0,1745 | reproduz Barton e outros (2019) |
 | A contagem segue a área também na fusão de dois horizontes | razão 0,21 a 0,27 (teoria 0,219) | teste próprio (`fusao_horizontes.py`) |
-| Supressão quântica das teias de duas camadas é em janelas | janela 1: grão 5,7 a 8,1 l_P (α 0,0077 a 0,0155) | soma exata própria (`janelas_supressao.py`, `camadas_variaveis.py`); condição de Loomis e Carlip |
-| Tensão entre entropia e supressão | grão da entropia 0,83 l_P, abaixo da janela; faltam ~47 nats por molécula | comparação própria |
+| Teias de duas camadas: termo n² cancelado em janelas (supressão \|Z\| → 0 demonstrada só para camadas cheias m × m) | janela 1: grão 5,7 a 8,0 l_P (α 0,0077 a 0,0155) | soma exata própria (`janelas_supressao.py`, `camadas_variaveis.py`); condição de Loomis e Carlip |
+| Tensão entre entropia e supressão | grão da entropia 0,83 l_P, abaixo da janela; a janela 1 exige s total entre 46,5 e 93,1 nats por molécula | comparação própria; condição conjunta s = 10√2·π·β (auditoria de 19/11) |
 | Tensão entre entropia e Λ flutuante | densidade ~10⁴ vezes diferente | comparação própria |
 | Corte pela maior cadeia acerta o caso 1+1 sem ajuste | entropia logarítmica, inclinação 0,25 | regra própria (`corte_cadeia.py`) |
 | Começo pequeno: no tempo de Planck a radiação quase satura a entropia máxima | razão 0,62, caindo como t^(−1/2) | reproduz Layzer, Frautschi (`comeco_pequeno.py`) |
@@ -49,7 +51,7 @@ Ideias testadas e refutadas. Ficam registradas para não serem repetidas.
 O nó central é o corte: quantas vibrações de um campo contam como entropia na teia. Ele decide os três primeiros itens ao mesmo tempo.
 
 1. **O corte da entropia de emaranhamento.** Precisa sair das relações da teia, sem número ajustado, e dar lei de área em 1+1, 2+1 e 3+1. Candidata atual: a maior anticadeia (abaixo).
-2. **Os 47 nats por molécula.** Hipótese em aberto: seriam a soma das ~49 espécies de partículas do Modelo Padrão. Testável só quando o corte estiver fixado em 3+1.
+2. **Os 46,5 a 93,1 nats por molécula.** Hipótese em aberto: seriam a soma das ~49 espécies de partículas do Modelo Padrão (número suspenso como fundamento em 19/11/2026 até sua origem e sua relação com g = 106,75 serem esclarecidas; ver E5). Testável só quando o corte estiver fixado em 3+1.
 3. **As janelas de supressão com três camadas.** Resolvido na literatura no essencial: as teias em camadas, inclusive as mais comuns (Kleitman–Rothschild), são suprimidas com a ação completa sempre que o grão está acima de um limiar (Mathur, Singh e Surya 2020; Carlip e Carlip 2022; arXiv:2311.18238). Atualização (18/11): as janelas não são novidade. Loomis e Carlip (2017) já dão a condição |cos β| < 1/2, que é exatamente a nossa e já tem janelas; os trabalhos de 2022 e 2023 a reescrevem como tan > 1,76 (≈ √3), que só cobre a primeira metade da janela, sem comentar o resto. Soma exata de 3 camadas (n = 9, 12, 13; scripts/tres_camadas.py) com a ação de ligações: supressão simétrica em torno de 90°, mais forte na janela 1 e crescendo com n; n pequeno demais para ver as bordas.
 4. **Escolher a dimensão (peça 2).** Nenhum peso sem alvo posto à mão produz espaço-tempo em teias gerais.
 5. **A matéria mudando a teia (peça 3).** Nada feito; necessária para ver estrutura se formar.
@@ -65,7 +67,7 @@ Regra do corte pela maior anticadeia (17/11): em cada região, contam tantas vib
 | 2+1, região pequena | cresce como N^0,28; ~7,5 nats por molécula | lei de área: N^0,33 |
 | 2+1, região maior | cresce como N^0,31; ~4,2 nats por molécula | lei de área: N^0,33 |
 
-**Em 3+1 (17/11, noite, revisado):** com mais rodadas e moléculas contadas na teia, um campo escalar deixa de **5 a 9 nats por molécula** (média ~6), e a entropia cresce como N^0,58 a 0,68 (lei de área: N^0,50). Com até 4000 nós a região interna é pequena demais e o corte quase não age nela; o regime certo não é alcançável nem aqui nem no PC do autor. Com as ~49 espécies, o grão sairia entre ~13 e ~18 l_P, faixa que cobre várias janelas e intervalos: inconclusivo. A contribuição de férmions não pode ser calculada: não há formulação aceita de espinores em conjuntos causais (`anticadeia_dimensoes.py`).
+**Em 3+1 (17/11, noite, revisado):** com mais rodadas e moléculas contadas na teia, um campo escalar deixa de **5 a 9 nats por molécula** (média ~6), e a entropia cresce como N^0,58 a 0,68 (lei de área: N^0,50). Com até 4000 nós a região interna é pequena demais e o corte quase não age nela; o regime certo não é alcançável nem aqui nem no PC do autor. Com as ~49 espécies (número suspenso em 19/11; ver E5), o grão sairia entre ~13 e ~18 l_P, faixa que cobre várias janelas e intervalos: inconclusivo. A contribuição de férmions não pode ser calculada: não há formulação aceita de espinores em conjuntos causais (`anticadeia_dimensoes.py`).
 
 Cuidados: os nats por molécula mudam entre as duas regiões; poucas realizações; 3+1 não testado. A escala usada (N^((d−1)/d)) já existe na literatura com coeficiente escolhido à mão (Surya, X e Yazdi, arXiv:2008.07697); fixá-lo pela maior anticadeia pode ser próprio.
 
@@ -112,11 +114,11 @@ As contas e simulações foram feitas com a ajuda de um assistente de IA (Claude
 
 **O nó:** as três escalas do grão só se conciliam com ~1 nat por molécula por espécie, mas toda medida de s₁ depende de um corte no espectro, e nenhuma regra de corte (da literatura ou nossa) funciona em todos os espaços. Sem um princípio que fixe o corte, a tensão não pode ser confirmada nem resolvida.
 
-**Precisa de ideia nova, não de mais contas:** (1) um princípio que fixe o corte sem ajuste; (2) medir a entropia de horizonte sem passar pelo corte; (3) espinores em conjuntos causais (45 das 49 espécies são férmions).
+**Precisa de ideia nova, não de mais contas:** (1) um princípio que fixe o corte sem ajuste; (2) medir a entropia de horizonte sem passar pelo corte; (3) espinores em conjuntos causais (45 das 49 espécies são férmions; o 49 está suspenso como fundamento desde 19/11, ver E5).
 
 **Regra:** toda tentativa nova sobre o corte é pré-registrada no Registro antes de rodar, uma de cada vez, e testada também onde não foi escolhida.
 
-**Janela 2 testada (18/11, pré-registrada):** o Λ flutuante com memória não aceita a janela 2 (α = 0,031 a 0,035): só 0,2% a 0,7% das histórias chegam vivas a hoje, nenhuma com Δχ² < 25, todas sem matéria e com Λ dominando já na recombinação. A única janela candidata continua sendo a 1 (grão 5,7 a 8,0 l_P), que exige 0,95 a 1,9 nats por molécula por espécie.
+**Janela 2 testada (18/11, pré-registrada):** o Λ flutuante com memória não aceita a janela 2 (α = 0,031 a 0,035): só 0,2% a 0,7% das histórias chegam vivas a hoje, nenhuma com Δχ² < 25, todas sem matéria e com Λ dominando já na recombinação. A única janela candidata continua sendo a 1 (grão 5,7 a 8,0 l_P), que exige 46,5 a 93,1 nats por molécula no total (0,95 a 1,9 por espécie, se forem 49 — número suspenso em 19/11).
 
 **Entropia por molécula sem corte (18/11, pré-registrada):** entropia de Sorkin do par de nós de cada molécula de horizonte, com o vácuo da teia inteira e nenhum corte (`scripts/molecula_sem_corte.py`). 2+1: 1,68 / 1,70 / 1,85; 3+1: 1,45 / 1,69 / 1,90 nats para N = 1000 / 2000 / 4000. Os números caem na faixa-alvo (0,95 a 1,9), mas crescem ~0,23 a cada dobra de N em 3+1 (31%, contra < 20% exigido): não passa. Falta o controle com pares longe do horizonte.
 
@@ -137,11 +139,15 @@ As contas e simulações foram feitas com a ajuda de um assistente de IA (Claude
 | Tempo | comprimento da maior cadeia × constante de ordem 1 | estabelecido, com ressalva |
 | Comprimento de Planck | converte contagem em fase: cada elemento pesa (ℓ/ℓ_p)² | estabelecido |
 | Área de Planck | uma molécula de horizonte; A/4 = moléculas × nats por molécula | **o nó da teoria** |
-| G, massa de Planck | hipótese das espécies: 1/G sai da contagem de campos (49) e do grão | hipótese |
+| G, massa de Planck | hipótese das espécies: 1/G sai da contagem de campos (49, suspenso em 19/11) e do grão | hipótese |
 | ħ | converte ação em fase em exp(iS/ħ) | estabelecido |
 | Energia, temperatura | sem definição própria; previsão: Λ ~ 1/√V | parcial |
 
 O grão não é o comprimento de Planck: ℓ = x · l_P, com x entre 5,7 e 8,0 (mil a quatro mil volumes de Planck por elemento).
+
+**De onde vem o 0,83 (auditoria de 19/11/2026).** Em 3+1, o número de moléculas é N_mol = a₄ · A / ℓ², com a₄ = √3/10 (Barton e outros 2019). Exigindo s · N_mol = A / (4 l_P²), com l_P = √(Għ), sai ℓ = 2√(a₄ · s) · l_P = 0,832 · √s · l_P. Com s = 1 nat, ℓ = 0,83 l_P. Aqui s é só a razão S_BH / N_mol, sem significado microscópico (decisão de 19/11).
+
+**Condição conjunta (auditoria de 19/11/2026).** A ação de Benincasa–Dowker usa l_p = √(8πGħ); nas teias de duas camadas, a fase por ligação é β = √(2/3) · (ℓ/l_p)². Eliminando ℓ: s = 10√2 · π · β ≈ 44,43 · β. O grão se cancela; a janela 1 (π/3 < β < 2π/3) exige s entre 46,5 e 93,1. A comparação supõe o mesmo G na ação e na entropia, o que está em aberto (E6).
 
 Um arquivo recebido em 18/11 que dizia resolver o nó por decomposição em valores singulares foi conferido e não vale: usa um grafo aleatório comum (não uma teia causal), a tabela não sai do código (0,20 a 0,40 nats) nem bate com as próprias colunas, depende de dois fatores escolhidos à mão (x² e √49 × 1,4) e compara um total com a faixa por espécie (o alvo total é de 47 a 92 nats por molécula).
 
