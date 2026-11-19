@@ -1,0 +1,10 @@
+d=4 s=20261120 n= 6: validas 43167, descartadas (altura<=2) 956833, B media 10.78 desvio 8.32, ln|Aut| medio 0.80
+d=4 s=20261120 n= 8: validas 99473, descartadas (altura<=2) 900527, B media 11.56 desvio 10.41, ln|Aut| medio 1.88
+d=4 s=20261120 n=10: validas 177308, descartadas (altura<=2) 822692, B media 12.23 desvio 12.29, ln|Aut| medio 3.06
+d=4 s=20261120 n=12: validas 268130, descartadas (altura<=2) 731870, B media 12.86 desvio 14.06, ln|Aut| medio 4.23
+d=4 s=20261120 n=14: validas 364864, descartadas (altura<=2) 635136, B media 13.48 desvio 15.78, ln|Aut| medio 5.38
+d=4 s=20261120 n=16: validas 463130, descartadas (altura<=2) 536870, B media 14.13 desvio 17.59, ln|Aut| medio 6.47
+d=4 s=20261120 n=20: validas 640672, descartadas (altura<=2) 359328, B media 15.27 desvio 21.38, ln|Aut| medio 8.42
+d=4 s=20261120 n=24: validas 778395, descartadas (altura<=2) 221605, B media 16.28 desvio 25.64, ln|Aut| medio 10.02
+d=4 s=20261120 n=28: validas 872550, descartadas (altura<=2) 127450, B media 17.38 desvio 30.35, ln|Aut| medio 11.32
+d=4 s=20261120 n=32: validas 931920, descartadas (altura<=2) 68080, B media 18.47 desvio 35.46, ln|Aut| medio 12.31
