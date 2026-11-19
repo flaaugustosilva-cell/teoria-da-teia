@@ -144,3 +144,5 @@ As contas e simulações foram feitas com a ajuda de um assistente de IA (Claude
 O grão não é o comprimento de Planck: ℓ = x · l_P, com x entre 5,7 e 8,0 (mil a quatro mil volumes de Planck por elemento).
 
 Um arquivo recebido em 18/11 que dizia resolver o nó por decomposição em valores singulares foi conferido e não vale: usa um grafo aleatório comum (não uma teia causal), a tabela não sai do código (0,20 a 0,40 nats) nem bate com as próprias colunas, depende de dois fatores escolhidos à mão (x² e √49 × 1,4) e compara um total com a faixa por espécie (o alvo total é de 47 a 92 nats por molécula).
+
+**Teste honesto da SVD (19/11, pré-registrado): cai.** SVD do bloco cruzado do vácuo SJ de uma teia de verdade em 2+1, sem corte e sem fatores livres (`scripts/svd_teia.py`): S_svd por molécula = 0,69 / 0,50 / 0,25 para N = 1000 / 2000 / 4000 (queda de 64%, contra < 20% exigido); o controle aleatório dá S_svd parecido (diferença de +6%, −13% e +52%; só 2 rodadas em N = 4000). Não há estabilidade por molécula, e o valor não distingue região de subconjunto sorteado.
