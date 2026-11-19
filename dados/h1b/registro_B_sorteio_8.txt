@@ -1,0 +1,1 @@
+n=8: sorteios 10000000, validas 999744, descartadas (altura<=2) 9000256

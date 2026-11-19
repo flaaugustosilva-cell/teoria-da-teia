@@ -1,0 +1,8 @@
+n=5: |Z_boa| minimo pontual 0.251866 em x = 6.2699 (mpmath, 60 digitos: 0.251866); cota inferior rigorosa na janela 0.2333; R maximo rigoroso 0.5696; 20000 intervalos, 1 niveis
+     H1 (|Z_boa| >= 1 em toda a janela): FALHA (ponto exato abaixo de 1);  H1* (R < 1 em toda a janela): demonstrada
+n=6: |Z_boa| minimo pontual 1.796961 em x = 7.6485 (mpmath, 60 digitos: 1.796961); cota inferior rigorosa na janela 1.6703; R maximo rigoroso 0.0748; 20000 intervalos, 1 niveis
+     H1 (|Z_boa| >= 1 em toda a janela): demonstrada;  H1* (R < 1 em toda a janela): demonstrada
+n=7: |Z_boa| minimo pontual 2.580519 em x = 7.8424 (mpmath, 60 digitos: 2.580519); cota inferior rigorosa na janela 1.5300; R maximo rigoroso 0.0412; 20000 intervalos, 1 niveis
+     H1 (|Z_boa| >= 1 em toda a janela): demonstrada;  H1* (R < 1 em toda a janela): demonstrada
+n=8: |Z_boa| minimo pontual 0.539294 em x = 7.2355 (mpmath, 60 digitos: 0.539294); cota inferior rigorosa na janela 0.0144; R maximo rigoroso 0.2781; 28240 intervalos, 3 niveis
+     H1 (|Z_boa| >= 1 em toda a janela): FALHA (ponto exato abaixo de 1);  H1* (R < 1 em toda a janela): demonstrada

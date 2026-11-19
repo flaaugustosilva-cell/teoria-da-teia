@@ -1,0 +1,12 @@
+n=5: conferencia ruins x formula do E1: maior diferenca em ln|Z| = 8.88e-16
+   W_n = 28.2500; min |Z_boa| na janela: grade 0.2519 (em x = 6.270), rigoroso >= 0.2500 -> H1 em toda a janela: False
+   max |Z_ruim| rigoroso <= 0.5043; R = |Z_ruim|/|Z_boa|: max na grade 0.5255 (x = 7.576), max rigoroso <= 2.0170
+n=6: conferencia ruins x formula do E1: maior diferenca em ln|Z| = 1.07e-14
+   W_n = 164.4167; min |Z_boa| na janela: grade 1.7970 (em x = 7.649), rigoroso >= 1.7843 -> H1 em toda a janela: True
+   max |Z_ruim| rigoroso <= 0.3165; R = |Z_ruim|/|Z_boa|: max na grade 0.0724 (x = 8.029), max rigoroso <= 0.1774
+n=7: conferencia ruins x formula do E1: maior diferenca em ln|Z| = 9.44e-13
+   W_n = 1171.0250; min |Z_boa| na janela: grade 2.5805 (em x = 7.842), rigoroso >= 2.4755 -> H1 em toda a janela: True
+   max |Z_ruim| rigoroso <= 0.1672; R = |Z_ruim|/|Z_boa|: max na grade 0.0233 (x = 5.933), max rigoroso <= 0.0675
+n=8: conferencia ruins x formula do E1: maior diferenca em ln|Z| = 1.39e-11
+   W_n = 10551.5271; min |Z_boa| na janela: grade 0.5393 (em x = 6.660), rigoroso >= -0.5585 -> H1 em toda a janela: False
+   max |Z_ruim| rigoroso <= 0.0723; R = |Z_ruim|/|Z_boa|: max na grade 0.0029 (x = 8.029), max rigoroso <= inf

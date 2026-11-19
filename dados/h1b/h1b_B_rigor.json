@@ -1,0 +1,54 @@
+{
+ "5": {
+  "min_Zboa_pontual": 0.25186583471589186,
+  "theta_min": 2.554303322927717,
+  "x_min": 6.2699486055336955,
+  "min_Zboa_mpmath": 0.25186583471590007,
+  "min_Zboa_rigoroso": 0.23334872432397355,
+  "R_max_rigoroso": 0.569591358379935,
+  "intervalos_avaliados": 20000,
+  "niveis": 1,
+  "H1_toda_janela": false,
+  "H1_falha_provada": true,
+  "Hstar_toda_janela": true
+ },
+ "6": {
+  "min_Zboa_pontual": 1.7969605449348387,
+  "theta_min": 3.8010024796027784,
+  "x_min": 7.6485097251629615,
+  "min_Zboa_mpmath": 1.796960544934922,
+  "min_Zboa_rigoroso": 1.6703264374163298,
+  "R_max_rigoroso": 0.07477210576583214,
+  "intervalos_avaliados": 20000,
+  "niveis": 1,
+  "H1_toda_janela": true,
+  "H1_falha_provada": false,
+  "Hstar_toda_janela": true
+ },
+ "7": {
+  "min_Zboa_pontual": 2.580519040702685,
+  "theta_min": 3.996173923207044,
+  "x_min": 7.842417117067771,
+  "min_Zboa_mpmath": 2.580519040705048,
+  "min_Zboa_rigoroso": 1.530025532898855,
+  "R_max_rigoroso": 0.04118859394972794,
+  "intervalos_avaliados": 20000,
+  "niveis": 1,
+  "H1_toda_janela": true,
+  "H1_falha_provada": false,
+  "Hstar_toda_janela": true
+ },
+ "8": {
+  "min_Zboa_pontual": 0.5392941638014559,
+  "theta_min": 3.401606569564152,
+  "x_min": 7.23552065416607,
+  "min_Zboa_mpmath": 0.5392941638552637,
+  "min_Zboa_rigoroso": 0.01438013052776932,
+  "R_max_rigoroso": 0.27814594105728196,
+  "intervalos_avaliados": 28240,
+  "niveis": 3,
+  "H1_toda_janela": false,
+  "H1_falha_provada": true,
+  "Hstar_toda_janela": true
+ }
+}

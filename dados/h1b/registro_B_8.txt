@@ -1,0 +1,1 @@
+n=8: naturais 2800472 (ok), rotuladas 431723379 (ok), classes 16999 (ok); classes de altura >= 3: 16442, certificadas 16442, nao certificadas 0; tentativas medias 1.14, max 6; tempos: enumeracao 76.8s, classes 162.0s, certificados 28.2s
