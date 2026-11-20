@@ -1,0 +1,8 @@
+n= 6: N =   4310611, 1/N = 2.3e-07; pontos com erro do jackknife abaixo de 1/N: 0/21; Q < -3 erros: 0 ; resolvidos usando o maior entre o erro do jackknife e raiz(2)/N: 21/21
+n= 8: N =   9996950, 1/N = 1.0e-07; pontos com erro do jackknife abaixo de 1/N: 0/21; Q < -3 erros: 0 ; resolvidos usando o maior entre o erro do jackknife e raiz(2)/N: 21/21
+n=10: N =  17694616, 1/N = 5.7e-08; pontos com erro do jackknife abaixo de 1/N: 0/21; Q < -3 erros: 0 ; resolvidos usando o maior entre o erro do jackknife e raiz(2)/N: 21/21
+n=12: N =  26763733, 1/N = 3.7e-08; pontos com erro do jackknife abaixo de 1/N: 0/21; Q < -3 erros: 0 ; resolvidos usando o maior entre o erro do jackknife e raiz(2)/N: 2/21
+n=14: N =   3650914, 1/N = 2.7e-07; pontos com erro do jackknife abaixo de 1/N: 7/21; Q < -3 erros: 1 (theta = 3.142); resolvidos usando o maior entre o erro do jackknife e raiz(2)/N: 0/21
+n=16: N =   4627978, 1/N = 2.2e-07; pontos com erro do jackknife abaixo de 1/N: 6/21; Q < -3 erros: 0 ; resolvidos usando o maior entre o erro do jackknife e raiz(2)/N: 0/21
+n=20: N =   6405871, 1/N = 1.6e-07; pontos com erro do jackknife abaixo de 1/N: 6/21; Q < -3 erros: 0 ; resolvidos usando o maior entre o erro do jackknife e raiz(2)/N: 0/21
+n=24: N =   7783736, 1/N = 1.3e-07; pontos com erro do jackknife abaixo de 1/N: 11/21; Q < -3 erros: 0 ; resolvidos usando o maior entre o erro do jackknife e raiz(2)/N: 0/21
