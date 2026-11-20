@@ -1,0 +1,4 @@
+n=10: sorteios 1000000, validas 177140, descartadas 822860, desvio de B 12.38
+n=20: sorteios 1000000, validas 640100, descartadas 359900, desvio de B 21.36
+n=40: sorteios 1000000, validas 983597, descartadas 16403, desvio de B 46.57
+n=80: sorteios 200000, validas 200000, descartadas 0, desvio de B 109.21

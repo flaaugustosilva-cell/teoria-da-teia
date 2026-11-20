@@ -1,0 +1,1 @@
+n=160: sorteios 50000, validas 50000, descartadas 0, desvio de B 238.02
