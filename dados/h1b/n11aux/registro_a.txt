@@ -1,0 +1,10 @@
+n=11 parte 0: 3667944 classes; soma n!/|Aut| = 113763706629310
+n=11 parte 2: 1754025 classes; soma n!/|Aut| = 51289533034850
+n=11 parte 4: 2250622 classes; soma n!/|Aut| = 63706493477946
+n=11 parte 6: 3101050 classes; soma n!/|Aut| = 97034989484455
+n=11 parte 8: 1903688 classes; soma n!/|Aut| = 57747350823030
+n=11 parte 10: 1826312 classes; soma n!/|Aut| = 51606146144520
+n=11 parte 12: 2426838 classes; soma n!/|Aut| = 73109695826970
+n=11 parte 14: 2238755 classes; soma n!/|Aut| = 66452465834370
+n=11 parte 16: 1934072 classes; soma n!/|Aut| = 54294253212540
+n=11 parte 18: 2169153 classes; soma n!/|Aut| = 65916374516157

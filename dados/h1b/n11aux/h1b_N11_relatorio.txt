@@ -1,0 +1,15 @@
+VALIDACOES:
+  classes: 46749427 (esperado 46749427) -> True
+  rotuladas: 1396281677105899 (esperado 1396281677105899) -> True
+  conexas: 1320327172853172 (esperado 1320327172853172) -> True
+  T_11(ruim) = 1 (esperado +1, Teorema 1') -> True
+  lado ruim x formula do E1: maior diferenca em ln|Z| = 1.4e-07 -> True
+  TODAS AS VALIDACOES: True
+
+A1 (centro): T_11(nao ruim) = 40491236962; |T| > 3^11 = 177147? -> True
+   R_aux maximo pontual na grade = 3.524e-07 em x = 5.6775; refinamento forcado: False
+A2 (analogo de C1): min |Z_nao-ruim| pontual 64.634096 (60 digitos 64.634096) em x = 6.5744; cota rigorosa >= 0.0819; limiar 0.004438 -> vale
+A3 (analogo de H1*): R_aux maximo rigoroso = 0.7004 -> vale
+
+Descritivo: W_nao-ruim = 34954385.4; B de -327 a 226 (436 valores ocupados de 554); desvio 31.67, assimetria -0.33, curtose exc. +0.65; parte nao suave 0.018; mediana de |Z|/W na janela 1.56e-04
+codigo de saida do python: 0
