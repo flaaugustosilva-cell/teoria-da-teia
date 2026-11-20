@@ -5,7 +5,7 @@ Decisão do autor (20/11, 03:39): caminho (b), com o `genposetg` do nauty, e ite
 
 ## Pergunta central
 
-A partir de qual tamanho aparecem teias de altura ≥ 3 que não cabem em Minkowski 3+1? Para n ≤ 8, todas cabem (entrega B). Secundárias: H1* em n = 9 e 10, e o teste prospectivo da conjectura C1.
+A partir de qual tamanho aparecem teias de altura ≥ 3 que não cabem em Minkowski 3+1? Para n ≤ 8, todas cabem (entrega B). Secundárias: H1\* em n = 9 e 10, e o teste prospectivo da conjectura C1.
 
 ## 1. Procedência e compilação do gerador
 
@@ -13,7 +13,7 @@ A partir de qual tamanho aparecem teias de altura ≥ 3 que não cabem em Minkow
 - **Compilação:** gcc 13.3.0, numa pasta isolada fora do repositório (`/home/claude/ferramentas`), sem instalar nada no sistema e sem sudo. São registrados o comando exato e o sha256 do executável gerado.
 - **Se o ambiente bloquear a compilação ou a execução:** pare e registre a limitação. Nada de contornar o bloqueio, mudar políticas ou buscar executáveis prontos de fora. A autorização do autor para o experimento não substitui a autorização técnica do ambiente.
 
-## 2. Validação do gerador (antes de qualquer cálculo de H1*)
+## 2. Validação do gerador (antes de qualquer cálculo de H1\*)
 
 1. **Contagem de classes** produzidas pelo `genposetg`, n = 1 a 10, contra A000112: 1, 2, 5, 16, 63, 318, 2.045, 16.999, 183.231, 2.567.284.
 2. **Cada saída é uma ordem parcial:** irreflexiva, antissimétrica e transitiva (depois do fecho transitivo, se o formato der só as coberturas). Uma única falha interrompe.
@@ -27,7 +27,7 @@ Se qualquer validação falhar, o cálculo para e o erro é reportado.
 - Por classe: B (ação de Benincasa–Dowker 4D, ε = 1), altura e |Aut|. 𝒵 = Σ_classes e^(iθB)/|Aut|.
 - **Certificados (caber em 3+1):** mesmo método da entrega B (L-BFGS, folga δ = 0,05, até 200 recomeços, coordenadas arredondadas para 6 casas e conferidas em frações). As classes sem certificado na primeira passada passam por uma **segunda passada fixada agora:** até 2.000 recomeços, com δ = 0,01.
 - **Lado ruim:** soma exata pela fórmula do E1 (Teorema 1) e, como conferência, pela soma das classes de altura ≤ 2.
-- **H1* na janela inteira:** mesmo método rigoroso de `h1b_B_rigor.py`. Se houver classes não certificadas (peso W_nc), usa-se |𝒵_boa| ≥ |𝒵_cert| − W_nc. Se essa cota não for positiva, H1* fica "não decidida" naquele n.
+- **H1\* na janela inteira:** mesmo método rigoroso de `h1b_B_rigor.py`. Se houver classes não certificadas (peso W_nc), usa-se |𝒵_boa| ≥ |𝒵_cert| − W_nc. Se essa cota não for positiva, H1\* fica "não decidida" naquele n.
 - **C1:** previsto mínimo de |𝒵_boa| > 3⁹/9! = 0,0542 (n = 9) e > 3¹⁰/10! = 0,0163 (n = 10). Se houver classes não certificadas, C1 é avaliada com a mesma cota.
 
 ## 4. Como as classes serão relatadas (exigência do autor)

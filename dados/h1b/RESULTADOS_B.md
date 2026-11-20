@@ -19,7 +19,7 @@ O sorteio é um objeto diferente de φ_n. |Δ_n| vai de 1,5 a 790 erros, e a dis
 
 ## Extras exatos (não registrados): a janela inteira
 
-| n | Mínimo de \|𝒵_boa\| | H1 (≥ 1 em toda a janela) | Máximo rigoroso de R = \|𝒵_ruim\|/\|𝒵_boa\| | H1* (R < 1) |
+| n | Mínimo de \|𝒵_boa\| | H1 (≥ 1 em toda a janela) | Máximo rigoroso de R = \|𝒵_ruim\|/\|𝒵_boa\| | H1\* (R < 1) |
 | --- | --- | --- | --- | --- |
 | 5 | 0,252 (x = 6,27) | falha | 0,570 | demonstrada |
 | 6 | 1,797 (≥ 1,670) | demonstrada | 0,075 | demonstrada |
@@ -34,7 +34,7 @@ Para n ≤ 8, "cabe em 3+1" inclui todas as teias de altura ≥ 3, até as de tr
 
 ## Conclusão
 
-H1, na forma "≥ 1", é falsa em n = 5 e em n = 8 (contraexemplos exatos). H1*, que é o que o E1 precisa, vale exatamente em toda a janela para n = 5 a 8. Nada disso decide n grande.
+H1, na forma "≥ 1", é falsa em n = 5 e em n = 8 (contraexemplos exatos). H1\*, que é o que o E1 precisa, vale exatamente em toda a janela para n = 5 a 8. Nada disso decide n grande.
 
 ## Como reproduzir
 

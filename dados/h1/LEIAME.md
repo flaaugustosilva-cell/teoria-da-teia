@@ -6,7 +6,7 @@ H1 é a hipótese de que a soma das teias boas, por teia não rotulada, vale pel
 
 ## Análise matemática
 
-- **T1 (exato).** Agrupando as teias boas pelo valor inteiro de B, com θ = 2β: 𝒵_boa(θ) = Σ_B W_n(B)·e^(iθB) = W_n·φ_n(θ), com W_n(B) ≥ 0. H1 equivale a |φ_n(θ)| ≥ 1/W_n. O E1 só precisa de |φ_n| > e^L/W_n (hipótese H1*).
+- **T1 (exato).** Agrupando as teias boas pelo valor inteiro de B, com θ = 2β: 𝒵_boa(θ) = Σ_B W_n(B)·e^(iθB) = W_n·φ_n(θ), com W_n(B) ≥ 0. H1 equivale a |φ_n(θ)| ≥ 1/W_n. O E1 só precisa de |φ_n| > e^L/W_n (hipótese H1\*).
 - **T2 (cotas; citações de memória, não conferidas).** n!/(2e²) ≤ W_n ≤ (2e(n−1))^(4n)/n!. A cota inferior vem das ordens de dimensão 2 (permutações simples, Albert, Atkinson e Klazar 2003); a superior, do teorema de Warren. Daí: H1 vale se a fase média decair mais devagar que e^(−n·ln n); o E1 só cai se ela decair mais rápido que cerca de e^(−2n·ln n). Limiar de H1 em n = 160: ln|φ_n| > −652,8.
 - **T3 (exato, Parseval).** A média de |𝒵_boa|² sobre θ é Σ_B W_n(B)² ≥ W_n²/K_n, com K_n ≤ 17n(n−1) + n + 1. Na média sobre β, H1 vale com folga enorme; num β específico, nada está garantido.
 - **T4 (contraexemplo, exato).** As teias ruins de camadas cheias têm pesos positivos e mesmo assim somam zero em β = π/2 (x = 6,953, dentro da janela 1). As de camadas livres somam exatamente |Z| = 1 nesse ponto. Positividade e contagem não demonstram H1.

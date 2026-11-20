@@ -2,7 +2,7 @@
 
 Flavio Augusto da Silva · rodado de 19/11/2026, 23:59, a 20/11/2026, ~02:10 (Brasília), depois do registro [`DECISOES_H1STAR.md`](DECISOES_H1STAR.md) (commit e5dc0ea). Parâmetros de [`PREREGISTRO.md`](PREREGISTRO.md), seção C, sem mudança.
 
-**Interpretação restrita:** C descreve só o conjunto produzido pelo sorteio. A entrega B mostrou que ele é diferente do objeto de H1*. Por isso **nada aqui é evidência a favor ou contra H1***. Não há ajuste de modelo nem veredito, como foi registrado.
+**Interpretação restrita:** C descreve só o conjunto produzido pelo sorteio. A entrega B mostrou que ele é diferente do objeto de H1\*. Por isso **nada aqui é evidência a favor ou contra H1\***. Não há ajuste de modelo nem veredito, como foi registrado.
 
 ## Resultado
 

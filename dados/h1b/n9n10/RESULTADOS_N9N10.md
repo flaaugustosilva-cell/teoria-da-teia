@@ -6,7 +6,7 @@ Flavio Augusto da Silva · 20/11/2026, ~03:45–05:20 (Brasília), depois do pr�
 
 **Até n = 10, toda teia de altura ≥ 3 cabe em Minkowski 3+1.** Não há nenhuma classe sem certificado. Se a mudança de composição existe, ela começa depois de n = 10. Isso é um resultado finito; não diz nada sobre onde ela começa nem se começa.
 
-## Gerador e validações (todas passaram antes de qualquer cálculo de H1*)
+## Gerador e validações (todas passaram antes de qualquer cálculo de H1\*)
 
 - `genposetg` do nauty 2.8.8, de pacote do PyPI com hash conferido, compilado numa pasta isolada; procedência completa em `PROCEDENCIA_GENPOSETG.txt`.
 - Classes geradas, n = 1 a 10: 1, 2, 5, 16, 63, 318, 2.045, 16.999, 183.231, 2.567.284 (= A000112).
@@ -27,19 +27,31 @@ Flavio Augusto da Silva · 20/11/2026, ~03:45–05:20 (Brasília), depois do pr�
 
 Todos os 2.737.526 certificados foram conferidos de novo, de forma independente, com aritmética inteira exata (coordenadas × 10⁶), por `scripts/h1b_N_verifica.py`: nenhum inválido. As coordenadas de n = 9 estão em `h1b_N_cert_n9_inteiros.npz`. As de n = 10 (363 MB) não cabem no GitHub. Publica-se o estado de cada classe (`h1b_N_cert_n10_estado.npz`) e o sha256 das coordenadas (`42421d3f…`); o cálculo é determinístico e pode ser refeito (~80 min em 2 núcleos).
 
-## H1*, H1 e a conjectura C1 (janela inteira, cotas rigorosas)
+## H1\*, H1 e a conjectura C1 (janela inteira, cotas rigorosas)
 
-| n | W_boa | Mínimo pontual de \|𝒵_boa\| (x) | Cota inferior rigorosa | Máximo rigoroso de R | H1* | C1 (limiar) |
+| n | W_boa | Mínimo pontual de \|𝒵_boa\| (x) | Cota inferior rigorosa | Máximo rigoroso de R | H1\* | C1 (limiar) |
 | --- | --- | --- | --- | --- | --- | --- |
 | 9 | 121.989,22 | 23,41 (7,28) | 0,120 | 0,576 | demonstrada | confirmada (0,0542) |
 | 10 | 1.818.177,55 | 150,41 (7,34) | 0,193 | 0,395 | demonstrada | confirmada (0,0163) |
 
-- **H1*** (soma das ruins menor que a das boas, em toda a janela) vale exatamente em n = 9 e 10. Somando a entrega B, vale para n = 5 a 10.
+- **H1\*** (soma das ruins menor que a das boas, em toda a janela) vale exatamente em n = 9 e 10. Somando a entrega B, vale para n = 5 a 10.
 - **C1** foi confirmada nos dois testes prospectivos, fixados antes destes dados ([`../ANALITICO_1.md`](../ANALITICO_1.md)).
-- **H1** (≥ 1) fica "não decidida" pela cota rigorosa, que foi refinada só até decidir C1. Os mínimos pontuais (23,4 e 150,4) estão bem acima de 1. H1 já estava refutada como condição geral (n = 5 e 8).
+- **H1\** (≥ 1) fica "não decidida" pela cota rigorosa, que foi refinada só até decidir C1. Os mínimos pontuais (23,4 e 150,4) estão bem acima de 1. H1 já estava refutada como condição geral (n = 5 e 8).
 - A soma das ruins por classes bate com a fórmula exata do Teorema 1 (diferença ≤ 1,2 × 10⁻⁷ em ln|Z|).
 
 Mudança de método fixada antes de ver n = 9 e 10, conferida em n = 5 a 8: o refinamento rigoroso continua até decidir C1 (cota acima do limiar, ou um ponto exato abaixo dele). Isso apertou a cota de R em n = 8 de 0,278 para 0,086.
+
+## Nomenclatura (correção de 20/11/2026, 14:29, a pedido do autor)
+
+Nas versões anteriores dos arquivos em Markdown, o asterisco de "H1\*" era consumido pela formatação em 5 lugares, e "H1\*" aparecia como "H1". Um desses lugares era o resumo deste arquivo. Os asteriscos foram escapados (`H1\*`) em todos os arquivos; o conteúdo não mudou. As três afirmações são distintas:
+
+| Afirmação | Situação |
+| --- | --- |
+| H1 original: \|𝒵_boa\| ≥ 1 em toda a janela | refutada como hipótese geral (contraexemplos exatos em n = 5 e n = 8); em n = 9 e 10, não decidida pela cota rigorosa (mínimos pontuais de 23,4 e 150,4) |
+| H1\*: \|𝒵_ruim\| < \|𝒵_boa\| em toda a janela | demonstrada para n = 5 a 10 (resultado finito) |
+| C1: \|𝒵_boa\| > 3ⁿ/n! em toda a janela, n ≥ 6 | confirmada de forma prospectiva em n = 9 e 10; compatível com n = 6 a 8, que foram vistos antes de C1 ser registrada; falha em n = 5, fora do enunciado |
+
+Sobre a transição: o que está demonstrado é que, **se** existir uma classe de altura ≥ 3 que não cabe em 3+1, ela tem pelo menos 11 elementos. Não se sabe se ela existe nem se aparece em n = 11.
 
 ## O que estes resultados podem e não podem dizer
 

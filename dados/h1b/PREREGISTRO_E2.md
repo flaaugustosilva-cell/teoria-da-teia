@@ -5,7 +5,7 @@ Item 3 da ordem do autor ([`DECISOES_H1STAR.md`](DECISOES_H1STAR.md)): entender 
 
 ## Escopo
 
-Tudo aqui é sobre o sorteio (diamante 3+1, altura ≥ 3), que a entrega B mostrou ser um objeto diferente do de H1*. **Nenhum resultado desta etapa é evidência sobre H1*.** O nível máximo é evidência numérica sobre o sorteio.
+Tudo aqui é sobre o sorteio (diamante 3+1, altura ≥ 3), que a entrega B mostrou ser um objeto diferente do de H1\*. **Nenhum resultado desta etapa é evidência sobre H1\*.** O nível máximo é evidência numérica sobre o sorteio.
 
 ## O que se testa
 
