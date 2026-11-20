@@ -1,0 +1,42 @@
+
+[OFICIAL: altura >= 3, todas cabem em 3+1] n=5: W = 28.25, desvio de B = 11.65
+  PARIDADE: W_par - W_impar = +1.41667 (+5.01e-02 de W); so conexas: +2.41667; desconexas: -1
+  VIZINHANCA: residuo r = W - G (envelope de largura desvio/4): soma|r|/W = 1.219; autocorrelacao de r nos passos 1..4 = +0.25, -0.18, -0.34, -0.38
+  FOURIER (|.|/W): theta = 0.50: Z 2.2e-01 | G 7.8e-02 | r 1.5e-01  1.00: Z 2.6e-01 | G 3.8e-03 | r 2.6e-01  2.09: Z 1.3e-01 | G 1.1e-09 | r 1.3e-01  2.62: Z 1.8e-01 | G 4.2e-14 | r 1.8e-01  3.14: Z 5.0e-02 | G 1.9e-16 | r 5.0e-02
+  na janela: max |Z_G|/|Z| = 8.3e-09 (envelope desprezivel); pico de |r^| fora de theta < 0,5 em theta = 0.740
+
+[OFICIAL: altura >= 3, todas cabem em 3+1] n=6: W = 164.417, desvio de B = 14.96
+  PARIDADE: W_par - W_impar = -14.25 (-8.67e-02 de W); so conexas: -11.9167; desconexas: -2.33333
+  VIZINHANCA: residuo r = W - G (envelope de largura desvio/4): soma|r|/W = 0.865; autocorrelacao de r nos passos 1..4 = +0.48, -0.08, -0.48, -0.61
+  FOURIER (|.|/W): theta = 0.50: Z 1.1e-01 | G 1.9e-02 | r 9.1e-02  1.00: Z 1.3e-01 | G 1.2e-04 | r 1.3e-01  2.09: Z 2.7e-02 | G 1.3e-15 | r 2.7e-02  2.62: Z 8.1e-02 | G 8.5e-17 | r 8.1e-02  3.14: Z 8.7e-02 | G 1.8e-16 | r 8.7e-02
+  na janela: max |Z_G|/|Z| = 4.9e-14 (envelope desprezivel); pico de |r^| fora de theta < 0,5 em theta = 0.740
+
+[OFICIAL: altura >= 3, todas cabem em 3+1] n=7: W = 1171.03, desvio de B = 18.18
+  PARIDADE: W_par - W_impar = -3.51944 (-3.01e-03 de W); so conexas: -14.1028; desconexas: +10.5833
+  VIZINHANCA: residuo r = W - G (envelope de largura desvio/4): soma|r|/W = 0.635; autocorrelacao de r nos passos 1..4 = +0.64, +0.01, -0.56, -0.81
+  FOURIER (|.|/W): theta = 0.50: Z 4.6e-02 | G 3.5e-03 | r 4.2e-02  1.00: Z 3.4e-02 | G 1.1e-06 | r 3.4e-02  2.09: Z 8.1e-03 | G 1.7e-16 | r 8.1e-03  2.62: Z 2.1e-02 | G 9.8e-17 | r 2.1e-02  3.14: Z 3.0e-03 | G 2.9e-16 | r 3.0e-03
+  na janela: max |Z_G|/|Z| = 1.8e-13 (envelope desprezivel); pico de |r^| fora de theta < 0,5 em theta = 0.740
+
+[OFICIAL: altura >= 3, todas cabem em 3+1] n=8: W = 10551.5, desvio de B = 21.51
+  PARIDADE: W_par - W_impar = -54.1007 (-5.13e-03 de W); so conexas: -75.5215; desconexas: +21.4208
+  VIZINHANCA: residuo r = W - G (envelope de largura desvio/4): soma|r|/W = 0.450; autocorrelacao de r nos passos 1..4 = +0.70, +0.05, -0.58, -0.89
+  FOURIER (|.|/W): theta = 0.50: Z 1.5e-02 | G 4.1e-04 | r 1.5e-02  1.00: Z 4.3e-03 | G 2.3e-09 | r 4.3e-03  2.09: Z 2.3e-03 | G 2.0e-16 | r 2.3e-03  2.62: Z 7.0e-03 | G 1.0e-16 | r 7.0e-03  3.14: Z 5.1e-03 | G 2.6e-16 | r 5.1e-03
+  na janela: max |Z_G|/|Z| = 4.9e-12 (envelope desprezivel); pico de |r^| fora de theta < 0,5 em theta = 0.741
+
+[OFICIAL: altura >= 3, todas cabem em 3+1] n=9: W = 121989, desvio de B = 24.88
+  PARIDADE: W_par - W_impar = -76.8978 (-6.30e-04 de W); so conexas: -147.934; desconexas: +71.0361
+  VIZINHANCA: residuo r = W - G (envelope de largura desvio/4): soma|r|/W = 0.309; autocorrelacao de r nos passos 1..4 = +0.72, +0.07, -0.59, -0.92
+  FOURIER (|.|/W): theta = 0.50: Z 3.5e-03 | G 2.8e-05 | r 3.5e-03  1.00: Z 4.7e-03 | G 1.8e-11 | r 4.7e-03  2.09: Z 1.2e-03 | G 1.8e-16 | r 1.2e-03  2.62: Z 2.7e-03 | G 8.6e-17 | r 2.7e-03  3.14: Z 6.3e-04 | G 1.1e-17 | r 6.3e-04
+  na janela: max |Z_G|/|Z| = 4.5e-12 (envelope desprezivel); pico de |r^| fora de theta < 0,5 em theta = 0.742
+
+[OFICIAL: altura >= 3, todas cabem em 3+1] n=10: W = 1.81818e+06, desvio de B = 28.28
+  PARIDADE: W_par - W_impar = -687.468 (-3.78e-04 de W); so conexas: -868.265; desconexas: +180.796
+  VIZINHANCA: residuo r = W - G (envelope de largura desvio/4): soma|r|/W = 0.208; autocorrelacao de r nos passos 1..4 = +0.73, +0.09, -0.58, -0.93
+  FOURIER (|.|/W): theta = 0.50: Z 7.2e-04 | G 1.4e-06 | r 7.2e-04  1.00: Z 1.1e-03 | G 1.6e-14 | r 1.1e-03  2.09: Z 3.0e-04 | G 1.8e-16 | r 3.0e-04  2.62: Z 1.8e-04 | G 9.5e-17 | r 1.8e-04  3.14: Z 3.8e-04 | G 4.5e-16 | r 3.8e-04
+  na janela: max |Z_G|/|Z| = 7.0e-12 (envelope desprezivel); pico de |r^| fora de theta < 0,5 em theta = 0.742
+
+[AUXILIAR: altura >= 3, todas as ordens (nao e a definicao oficial)] n=11: W = 3.49544e+07, desvio de B = 31.67
+  PARIDADE: W_par - W_impar = -1014.39 (-2.90e-05 de W); so conexas: -1881.57; desconexas: +867.177
+  VIZINHANCA: residuo r = W - G (envelope de largura desvio/4): soma|r|/W = 0.136; autocorrelacao de r nos passos 1..4 = +0.74, +0.12, -0.54, -0.89
+  FOURIER (|.|/W): theta = 0.50: Z 2.2e-04 | G 8.7e-08 | r 2.2e-04  1.00: Z 1.0e-04 | G 2.2e-17 | r 1.0e-04  2.09: Z 1.1e-04 | G 1.7e-16 | r 1.1e-04  2.62: Z 2.3e-05 | G 9.3e-17 | r 2.3e-05  3.14: Z 2.9e-05 | G 1.2e-16 | r 2.9e-05
+  na janela: max |Z_G|/|Z| = 1.2e-10 (envelope desprezivel); pico de |r^| fora de theta < 0,5 em theta = 0.743
