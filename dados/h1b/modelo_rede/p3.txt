@@ -1,0 +1,79 @@
+
+[OFICIAL] n=5: classes 42, W = 28.25, autovalores de Sigma = 0.07917, 0.2829, 0.674, 0.8154; caixa 10569
+  modelo completo: posicao ok 50/51, falha 0, nao testavel 0 -> sucesso; magnitude ok 18/51, falha 0 -> inconclusivo
+     familia A: posicao ok 23/23, magnitude ok 5/23
+     familia B: posicao ok 19/20, magnitude ok 8/20
+     familia C: posicao ok 8/8, magnitude ok 5/8
+     max erro de truncamento 3.7e-14; D-1 = 2.13e-01
+  modelo diagonal: posicao ok 49/51, falha 0, nao testavel 0 -> sucesso; magnitude ok 3/51, falha 0 -> inconclusivo
+     familia A: posicao ok 23/23, magnitude ok 0/23
+     familia B: posicao ok 18/20, magnitude ok 2/20
+     familia C: posicao ok 8/8, magnitude ok 1/8
+     max erro de truncamento 7.3e-15; D-1 = 2.13e-01
+
+[OFICIAL] n=6: classes 262, W = 164.417, autovalores de Sigma = 0.1825, 0.5146, 1.052, 1.378; caixa 3605
+  modelo completo: posicao ok 47/51, falha 0, nao testavel 0 -> sucesso; magnitude ok 0/51, falha 1 -> inconclusivo
+     familia A: posicao ok 22/23, magnitude ok 0/23
+     familia B: posicao ok 17/20, magnitude ok 0/20
+     familia C: posicao ok 8/8, magnitude ok 0/8
+     max erro de truncamento 1.4e-14; D-1 = -6.15e-04
+  modelo diagonal: posicao ok 48/51, falha 0, nao testavel 0 -> sucesso; magnitude ok 0/51, falha 34 -> falha
+     familia A: posicao ok 23/23, magnitude ok 0/23
+     familia B: posicao ok 17/20, magnitude ok 0/20
+     familia C: posicao ok 8/8, magnitude ok 0/8
+     max erro de truncamento 3.7e-15; D-1 = -6.14e-04
+
+[OFICIAL] n=7: classes 1881, W = 1171.03, autovalores de Sigma = 0.3204, 0.7834, 1.482, 2.061; caixa 1623
+  modelo completo: posicao ok 44/51, falha 2, nao testavel 0 -> sucesso; magnitude ok 0/51, falha 46 -> falha
+     familia A: posicao ok 23/23, magnitude ok 0/23
+     familia B: posicao ok 14/20, magnitude ok 0/20
+     familia C: posicao ok 7/8, magnitude ok 0/8
+     max erro de truncamento 2.5e-14; D-1 = -2.74e-04
+  modelo diagonal: posicao ok 42/51, falha 4, nao testavel 0 -> sucesso; magnitude ok 0/51, falha 51 -> falha
+     familia A: posicao ok 23/23, magnitude ok 0/23
+     familia B: posicao ok 13/20, magnitude ok 0/20
+     familia C: posicao ok 6/8, magnitude ok 0/8
+     max erro de truncamento 2.8e-14; D-1 = -2.74e-04
+
+[OFICIAL] n=8: classes 16442, W = 10551.5, autovalores de Sigma = 0.4951, 1.098, 1.959, 2.834; caixa 873
+  modelo completo: posicao ok 43/51, falha 2, nao testavel 0 -> sucesso; magnitude ok 0/51, falha 51 -> falha
+     familia A: posicao ok 23/23, magnitude ok 0/23
+     familia B: posicao ok 13/20, magnitude ok 0/20
+     familia C: posicao ok 7/8, magnitude ok 0/8
+     max erro de truncamento 1.8e-13; D-1 = -1.44e-06
+  modelo diagonal: posicao ok 39/51, falha 5, nao testavel 0 -> inconclusivo; magnitude ok 0/51, falha 51 -> falha
+     familia A: posicao ok 23/23, magnitude ok 0/23
+     familia B: posicao ok 11/20, magnitude ok 0/20
+     familia C: posicao ok 5/8, magnitude ok 0/8
+     max erro de truncamento 1.3e-10; D-1 = -1.44e-06
+
+[OFICIAL] n=9: classes 181008, W = 121989, autovalores de Sigma = 0.7, 1.461, 2.473, 3.686; caixa 569
+  modelo completo: posicao ok 43/51, falha 5, nao testavel 0 -> sucesso; magnitude ok 0/51, falha 51 -> falha
+     familia A: posicao ok 23/23, magnitude ok 0/23
+     familia B: posicao ok 13/20, magnitude ok 0/20
+     familia C: posicao ok 7/8, magnitude ok 0/8
+     max erro de truncamento 1.1e-11; D-1 = 7.07e-09
+  modelo diagonal: posicao ok 39/51, falha 5, nao testavel 0 -> inconclusivo; magnitude ok 0/51, falha 51 -> falha
+     familia A: posicao ok 23/23, magnitude ok 0/23
+     familia B: posicao ok 11/20, magnitude ok 0/20
+     familia C: posicao ok 5/8, magnitude ok 0/8
+     max erro de truncamento 3.3e-10; D-1 = 7.07e-09
+
+[OFICIAL] n=10: classes 2556518, W = 1.81818e+06, autovalores de Sigma = 0.9334, 1.872, 3.017, 4.623; caixa 321
+  modelo completo: posicao ok 42/51, falha 5, nao testavel 0 -> sucesso; magnitude ok 0/51, falha 51 -> falha
+     familia A: posicao ok 23/23, magnitude ok 0/23
+     familia B: posicao ok 12/20, magnitude ok 0/20
+     familia C: posicao ok 7/8, magnitude ok 0/8
+     max erro de truncamento 3.4e-10; D-1 = 1.02e-11
+  modelo diagonal: posicao ok 38/51, falha 4, nao testavel 0 -> inconclusivo; magnitude ok 0/51, falha 51 -> falha
+     familia A: posicao ok 22/23, magnitude ok 0/23
+     familia B: posicao ok 11/20, magnitude ok 0/20
+     familia C: posicao ok 5/8, magnitude ok 0/8
+     max erro de truncamento 2.5e-10; D-1 = 1.02e-11
+
+VEREDITO P3 (n = 9 e 10, modelo completo): P3a posicao SUCESSO | P3b magnitude FALHA
+Descritivo (modelo diagonal): posicao INCONCLUSIVO | magnitude FALHA
+
+real	1m43.021s
+user	1m42.338s
+sys	0m0.247s

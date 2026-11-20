@@ -1,0 +1,12 @@
+[OFICIAL] n=5: P1 theta*_obs 0.740, modelo 0.7435 (formula de um termo 0.7391), |dif| 0.0035 -> ok | P2 janela: erro log10 mediano 0.585, max 1.927 -> intermediario | min|Z| obs 0.2519 mod 0.02849 (cota ruim 2.02) | Z(pi) obs +1.417 mod -0.1171
+[OFICIAL] n=6: P1 theta*_obs 0.740, modelo 0.7444 (formula de um termo 0.7433), |dif| 0.0044 -> ok | P2 janela: erro log10 mediano 1.197, max 3.510 -> falha | min|Z| obs 1.797 mod 0.002288 (cota ruim 1.01) | Z(pi) obs -14.25 mod -0.08481
+[OFICIAL] n=7: P1 theta*_obs 0.740, modelo 0.7444 (formula de um termo 0.7444), |dif| 0.0044 -> ok | P2 janela: erro log10 mediano 2.118, max 4.840 -> falha | min|Z| obs 2.587 mod 0.0005061 (cota ruim 0.434) | Z(pi) obs -3.519 mod +0.004092
+[OFICIAL] n=8: P1 theta*_obs 0.741, modelo 0.7453 (formula de um termo 0.7450), |dif| 0.0043 -> ok | P2 janela: erro log10 mediano 3.046, max 6.499 -> falha | min|Z| obs 0.5422 mod 1.368e-05 (cota ruim 0.163) | Z(pi) obs -54.1 mod +0.0001656
+[OFICIAL] n=9: P1 theta*_obs 0.742, modelo 0.7453 (formula de um termo 0.7454), |dif| 0.0033 -> ok | P2 janela: erro log10 mediano 4.297, max 7.104 -> falha | min|Z| obs 23.42 mod 4.237e-05 (cota ruim 0.0542) | Z(pi) obs -76.9 mod +0.0002059
+[OFICIAL] n=10: P1 theta*_obs 0.742, modelo 0.7453 (formula de um termo 0.7457), |dif| 0.0033 -> ok | P2 janela: erro log10 mediano 5.885, max 8.728 -> falha | min|Z| obs 150.4 mod 2.658e-06 (cota ruim 0.0163) | Z(pi) obs -687.5 mod +5.419e-05
+
+VEREDITO (descritivo, previsoes motivadas pelos dados): P1 SUCESSO | P2 FALHA
+
+real	0m18.199s
+user	0m17.789s
+sys	0m0.293s
