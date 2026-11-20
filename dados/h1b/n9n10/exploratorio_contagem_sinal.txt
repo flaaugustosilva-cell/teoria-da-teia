@@ -1,0 +1,14 @@
+n= 1: rotuladas                1 | T_n =            1 | parte ruim (altura<=2)    1 | parte boa            0 | |T_n|/rotuladas = 1.000e+00 | |parte boa|/n! = 0.0000
+n= 2: rotuladas                3 | T_n =           -1 | parte ruim (altura<=2)   -1 | parte boa            0 | |T_n|/rotuladas = 3.333e-01 | |parte boa|/n! = 0.0000
+n= 3: rotuladas               19 | T_n =           -5 | parte ruim (altura<=2)    1 | parte boa           -6 | |T_n|/rotuladas = 2.632e-01 | |parte boa|/n! = 1.0000
+n= 4: rotuladas              219 | T_n =          -13 | parte ruim (altura<=2)   -1 | parte boa          -12 | |T_n|/rotuladas = 5.936e-02 | |parte boa|/n! = 0.5000
+n= 5: rotuladas             4231 | T_n =         -169 | parte ruim (altura<=2)    1 | parte boa         -170 | |T_n|/rotuladas = 3.994e-02 | |parte boa|/n! = 1.4167
+n= 6: rotuladas           130023 | T_n =       -10261 | parte ruim (altura<=2)   -1 | parte boa       -10260 | |T_n|/rotuladas = 7.892e-02 | |parte boa|/n! = 14.2500
+n= 7: rotuladas          6129859 | T_n =        17739 | parte ruim (altura<=2)    1 | parte boa        17738 | |T_n|/rotuladas = 2.894e-03 | |parte boa|/n! = 3.5194
+n= 8: rotuladas        431723379 | T_n =     -2181341 | parte ruim (altura<=2)   -1 | parte boa     -2181340 | |T_n|/rotuladas = 5.053e-03 | |parte boa|/n! = 54.1007
+n= 9: rotuladas      44511042511 | T_n =     27904687 | parte ruim (altura<=2)    1 | parte boa     27904686 | |T_n|/rotuladas = 6.269e-04 | |parte boa|/n! = 76.8978
+n=10: rotuladas    6611065248783 | T_n =  -2494684501 | parte ruim (altura<=2)   -1 | parte boa  -2494684500 | |T_n|/rotuladas = 3.773e-04 | |parte boa|/n! = 687.4682
+
+conexas (conferencia, sem sinal): [1, 2, 12, 146, 3060, 101642, 5106612, 377403266, 40299722580, 6138497261882]
+conexas com sinal C_n:            [1, -2, 0, -14, -140, -9662, 80444, -3139614, 54773940, -3164932862]
+C_n / n!: ['+1.000', '-1.000', '+0.000', '-0.583', '-1.167', '-13.419', '+15.961', '-77.867', '+150.942', '-872.171']
