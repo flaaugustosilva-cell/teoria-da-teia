@@ -1,0 +1,16 @@
+n=5: categorias {'total': 63, 'altura3': 42, 'cert_passada1': 42, 'cert_passada2': 0, 'sem_certificado': 0, 'nao_tentadas': 0, 'demonstradas_nao_embutiveis': 0}
+   W_boa (certificadas) = 28.2500, W_nc = 0.0, W_ruim = 7.0083; lado ruim x formula: 7.5e-15
+   min |Z_boa| na janela: pontual 0.251866 (60 digitos: 0.251866) em x = 6.2699; rigoroso >= 0.2333
+   R maximo rigoroso = 0.5696 -> H1*: demonstrada; H1 (>= 1): falha; C1 (> 2.0250): refutada
+n=6: categorias {'total': 318, 'altura3': 262, 'cert_passada1': 262, 'cert_passada2': 0, 'sem_certificado': 0, 'nao_tentadas': 0, 'demonstradas_nao_embutiveis': 0}
+   W_boa (certificadas) = 164.4167, W_nc = 0.0, W_ruim = 16.1708; lado ruim x formula: 6.7e-14
+   min |Z_boa| na janela: pontual 1.796961 (60 digitos: 1.796961) em x = 7.6485; rigoroso >= 1.6703
+   R maximo rigoroso = 0.0748 -> H1*: demonstrada; H1 (>= 1): demonstrada; C1 (> 1.0125): confirmada
+n=7: categorias {'total': 2045, 'altura3': 1881, 'cert_passada1': 1881, 'cert_passada2': 0, 'sem_certificado': 0, 'nao_tentadas': 0, 'demonstradas_nao_embutiveis': 0}
+   W_boa (certificadas) = 1171.0250, W_nc = 0.0, W_ruim = 45.2169; lado ruim x formula: 1.2e-12
+   min |Z_boa| na janela: pontual 2.580519 (60 digitos: 2.580519) em x = 7.8424; rigoroso >= 1.5300
+   R maximo rigoroso = 0.0412 -> H1*: demonstrada; H1 (>= 1): demonstrada; C1 (> 0.4339): confirmada
+n=8: categorias {'total': 16999, 'altura3': 16442, 'cert_passada1': 16442, 'cert_passada2': 0, 'sem_certificado': 0, 'nao_tentadas': 0, 'demonstradas_nao_embutiveis': 0}
+   W_boa (certificadas) = 10551.5271, W_nc = 0.0, W_ruim = 155.8980; lado ruim x formula: 7.4e-12
+   min |Z_boa| na janela: pontual 0.539294 (60 digitos: 0.539294) em x = 7.2355; rigoroso >= 0.1697
+   R maximo rigoroso = 0.0857 -> H1*: demonstrada; H1 (>= 1): falha; C1 (> 0.1627): confirmada

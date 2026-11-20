@@ -1,0 +1,98 @@
+{
+ "5": {
+  "categorias": {
+   "total": 63,
+   "altura3": 42,
+   "cert_passada1": 42,
+   "cert_passada2": 0,
+   "sem_certificado": 0,
+   "nao_tentadas": 0,
+   "demonstradas_nao_embutiveis": 0
+  },
+  "W_boa_cert": 28.25,
+  "W_nc": 0.0,
+  "W_ruim": 7.008333333333334,
+  "conferencia_ruim_formula": 7.549516567451064e-15,
+  "min_Zboa_pontual": 0.2518658347158939,
+  "min_Zboa_mpmath": 0.25186583471590007,
+  "x_min": 6.2699486055336955,
+  "min_Zboa_rigoroso": 0.2333487243239744,
+  "R_max_rigoroso": 0.5695913583799306,
+  "H1_toda_janela": "falha",
+  "H1estrela_toda_janela": "demonstrada",
+  "C1_limiar": 2.025,
+  "C1": "refutada"
+ },
+ "6": {
+  "categorias": {
+   "total": 318,
+   "altura3": 262,
+   "cert_passada1": 262,
+   "cert_passada2": 0,
+   "sem_certificado": 0,
+   "nao_tentadas": 0,
+   "demonstradas_nao_embutiveis": 0
+  },
+  "W_boa_cert": 164.41666666666666,
+  "W_nc": 0.0,
+  "W_ruim": 16.170833333333334,
+  "conferencia_ruim_formula": 6.661338147750939e-14,
+  "min_Zboa_pontual": 1.796960544934842,
+  "min_Zboa_mpmath": 1.796960544934922,
+  "x_min": 7.6485097251629615,
+  "min_Zboa_rigoroso": 1.6703264374163305,
+  "R_max_rigoroso": 0.07477210576583321,
+  "H1_toda_janela": "demonstrada",
+  "H1estrela_toda_janela": "demonstrada",
+  "C1_limiar": 1.0125,
+  "C1": "confirmada"
+ },
+ "7": {
+  "categorias": {
+   "total": 2045,
+   "altura3": 1881,
+   "cert_passada1": 1881,
+   "cert_passada2": 0,
+   "sem_certificado": 0,
+   "nao_tentadas": 0,
+   "demonstradas_nao_embutiveis": 0
+  },
+  "W_boa_cert": 1171.025,
+  "W_nc": 0.0,
+  "W_ruim": 45.216865079365064,
+  "conferencia_ruim_formula": 1.1954881529163686e-12,
+  "min_Zboa_pontual": 2.580519040704048,
+  "min_Zboa_mpmath": 2.580519040705048,
+  "x_min": 7.842417117067771,
+  "min_Zboa_rigoroso": 1.5300255329002583,
+  "R_max_rigoroso": 0.041188593949571785,
+  "H1_toda_janela": "demonstrada",
+  "H1estrela_toda_janela": "demonstrada",
+  "C1_limiar": 0.43392857142857144,
+  "C1": "confirmada"
+ },
+ "8": {
+  "categorias": {
+   "total": 16999,
+   "altura3": 16442,
+   "cert_passada1": 16442,
+   "cert_passada2": 0,
+   "sem_certificado": 0,
+   "nao_tentadas": 0,
+   "demonstradas_nao_embutiveis": 0
+  },
+  "W_boa_cert": 10551.527083333334,
+  "W_nc": 0.0,
+  "W_ruim": 155.89799107142858,
+  "conferencia_ruim_formula": 7.44293515708705e-12,
+  "min_Zboa_pontual": 0.5392941638548089,
+  "min_Zboa_mpmath": 0.5392941638552637,
+  "x_min": 7.23552065416607,
+  "min_Zboa_rigoroso": 0.16974728880560241,
+  "R_max_rigoroso": 0.08573513356570868,
+  "H1_toda_janela": "falha",
+  "H1estrela_toda_janela": "demonstrada",
+  "C1_limiar": 0.1627232142857143,
+  "C1": "confirmada"
+ }
+}

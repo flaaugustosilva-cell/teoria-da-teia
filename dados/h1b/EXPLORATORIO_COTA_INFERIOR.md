@@ -25,6 +25,8 @@ Decomposição exata de 𝒵_boa (n = 5 a 10, peso 1/|Aut|, 4.001 ângulos na ja
 - **Os mínimos de |𝒵_boa| vêm de cancelamento entre as partes.** Em n = 8, no ponto de mínimo, as partes por altura (3 a 8) têm módulos 10,7 / 36,5 / 45,4 / 5,5 / 4,0 / 1, e somadas dão 0,62.
 - A parte de altura n (só a cadeia) tem módulo exatamente 1 em todo n.
 
+**Ressalva (do autor, 20/11/2026):** os mínimos desta tabela são mínimos na grade de 4.001 ângulos, não mínimos da janela contínua. Exemplo: em n = 8, a grade de 4.001 pontos dá 0,616, e a de 400.001 pontos, usada nas cotas rigorosas, dá 0,539. A conclusão vale para os pontos examinados.
+
 ## O que isso diz sobre a estratégia
 
 Uma cota inferior para uma subclasse não basta: as demais podem cancelar até ~99% da soma dos módulos em certos ângulos (n = 8). Uma demonstração de C1, ou de H1\*, para todo n precisa controlar esse cancelamento **entre** classes, que é uma propriedade global da soma. Nenhuma propriedade desse tipo foi identificada.
