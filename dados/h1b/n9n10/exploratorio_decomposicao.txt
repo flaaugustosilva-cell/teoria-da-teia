@@ -1,0 +1,36 @@
+
+n=5: W_boa = 28.2; min |Z_boa| = 0.2521 em theta = 2.5541; mediana de |Z_boa| na janela = 3.98
+  por altura: |Z_boa| / soma dos modulos das partes = mediana 0.609, minimo 0.1216
+    fracao mediana de cada parte: 3: 0.41, 4: 0.40, 5: 0.14 | no ponto de minimo: 3: 0.358, 4: 0.698, 5: 1
+  por minimais: |Z_boa| / soma dos modulos das partes = mediana 0.919, minimo 0.4146
+    fracao mediana de cada parte: 1: 0.56, 2: 0.37, 3: 0.06 | no ponto de minimo: 1: 0.194, 2: 0.134, 3: 0.0317
+
+n=6: W_boa = 164.4; min |Z_boa| = 1.7971 em theta = 2.4824; mediana de |Z_boa| na janela = 8.49
+  por altura: |Z_boa| / soma dos modulos das partes = mediana 0.568, minimo 0.0969
+    fracao mediana de cada parte: 3: 0.24, 4: 0.40, 5: 0.23, 6: 0.06 | no ponto de minimo: 3: 3.57, 4: 7.58, 5: 5.98, 6: 1
+  por minimais: |Z_boa| / soma dos modulos das partes = mediana 0.891, minimo 0.2303
+    fracao mediana de cada parte: 1: 0.53, 2: 0.39, 3: 0.14 | no ponto de minimo: 1: 3.79, 2: 2.53, 3: 1.08, 4: 0.008
+
+n=7: W_boa = 1171.0; min |Z_boa| = 2.5810 em theta = 3.9961; mediana de |Z_boa| na janela = 26.60
+  por altura: |Z_boa| / soma dos modulos das partes = mediana 0.578, minimo 0.2052
+    fracao mediana de cada parte: 3: 0.14, 4: 0.31, 5: 0.37, 6: 0.08, 7: 0.02 | no ponto de minimo: 3: 1.76, 4: 1.77, 5: 3.22, 6: 3.31, 7: 1
+  por minimais: |Z_boa| / soma dos modulos das partes = mediana 0.834, minimo 0.1022
+    fracao mediana de cada parte: 1: 0.39, 2: 0.35, 3: 0.15, 4: 0.02 | no ponto de minimo: 1: 5.24, 2: 12.7, 3: 5.61, 4: 1.56, 5: 0.137
+
+n=8: W_boa = 10551.5; min |Z_boa| = 0.6163 em theta = 3.4018; mediana de |Z_boa| na janela = 63.42
+  por altura: |Z_boa| / soma dos modulos das partes = mediana 0.504, minimo 0.0060
+    fracao mediana de cada parte: 3: 0.11, 4: 0.34, 5: 0.31, 6: 0.10, 7: 0.05 | no ponto de minimo: 3: 10.7, 4: 36.5, 5: 45.4, 6: 5.52, 7: 4.03, 8: 1
+  por minimais: |Z_boa| / soma dos modulos das partes = mediana 0.700, minimo 0.0086
+    fracao mediana de cada parte: 1: 0.25, 2: 0.40, 3: 0.22, 4: 0.06 | no ponto de minimo: 1: 18.7, 2: 26.2, 3: 18.6, 4: 6.65, 5: 1.27, 6: 0.00453
+
+n=9: W_boa = 121989.2; min |Z_boa| = 23.4059 em theta = 3.4463; mediana de |Z_boa| na janela = 319.40
+  por altura: |Z_boa| / soma dos modulos das partes = mediana 0.572, minimo 0.0890
+    fracao mediana de cada parte: 3: 0.12, 4: 0.34, 5: 0.30, 6: 0.10, 7: 0.06, 8: 0.01 | no ponto de minimo: 3: 50, 4: 66.8, 5: 95.5, 6: 24.7, 7: 17.5, 8: 7.37, 9: 1
+  por minimais: |Z_boa| / soma dos modulos das partes = mediana 0.796, minimo 0.0685
+    fracao mediana de cada parte: 1: 0.29, 2: 0.40, 3: 0.19, 4: 0.08, 5: 0.01 | no ponto de minimo: 1: 101, 2: 158, 3: 50.8, 4: 28.1, 5: 2.65, 6: 0.16
+
+n=10: W_boa = 1818177.5; min |Z_boa| = 151.3556 em theta = 3.4966; mediana de |Z_boa| na janela = 1257.36
+  por altura: |Z_boa| / soma dos modulos das partes = mediana 0.618, minimo 0.0348
+    fracao mediana de cada parte: 3: 0.09, 4: 0.30, 5: 0.30, 6: 0.12, 7: 0.05 | no ponto de minimo: 3: 155, 4: 579, 5: 658, 6: 72.3, 7: 133, 8: 34.5, 9: 14.5, 10: 1
+  por minimais: |Z_boa| / soma dos modulos das partes = mediana 0.813, minimo 0.0899
+    fracao mediana de cada parte: 1: 0.16, 2: 0.40, 3: 0.24, 4: 0.11, 5: 0.02 | no ponto de minimo: 1: 392, 2: 716, 3: 309, 4: 222, 5: 44.1, 6: 1.38
