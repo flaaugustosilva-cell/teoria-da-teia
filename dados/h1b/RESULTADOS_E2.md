@@ -1,6 +1,6 @@
 # Consolidação de E (E2): resultados
 
-Flavio Augusto da Silva · rodado em 20/11/2026, ~02:22–02:35 (Brasília), depois do pré-registro ([`PREREGISTRO_E2.md`](PREREGISTRO_E2.md), commit 5a3427b). Semente 20261124; nenhum parâmetro mudado.
+Flavio Augusto da Silva · rodado em 20/11/2026, ~02:21–02:26 (Brasília), depois do pré-registro ([`PREREGISTRO_E2.md`](PREREGISTRO_E2.md), commit 5a3427b). Semente 20261124; nenhum parâmetro mudado.
 
 **Escopo:** só o sorteio. Nada aqui é evidência sobre H1*.
 
