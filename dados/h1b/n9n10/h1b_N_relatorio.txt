@@ -1,0 +1,8 @@
+n=9: categorias {'total': 183231, 'altura3': 181008, 'cert_passada1': 181008, 'cert_passada2': 0, 'sem_certificado': 0, 'nao_tentadas': 0, 'demonstradas_nao_embutiveis': 0}
+   W_boa (certificadas) = 121989.2236, W_nc = 0.0, W_ruim = 671.2771; lado ruim x formula: 5.0e-10
+   min |Z_boa| na janela: pontual 23.405862 (60 digitos: 23.405862) em x = 7.2829; rigoroso >= 0.1195
+   R maximo rigoroso = 0.5755 -> H1*: demonstrada; H1 (>= 1): nao decidida; C1 (> 0.0542): confirmada
+n=10: categorias {'total': 2567284, 'altura3': 2556518, 'cert_passada1': 2556518, 'cert_passada2': 0, 'sem_certificado': 0, 'nao_tentadas': 0, 'demonstradas_nao_embutiveis': 0}
+   W_boa (certificadas) = 1818177.5496, W_nc = 0.0, W_ruim = 3654.8051; lado ruim x formula: 1.2e-07
+   min |Z_boa| na janela: pontual 150.405600 (60 digitos: 150.405600) em x = 7.3361; rigoroso >= 0.1927
+   R maximo rigoroso = 0.3947 -> H1*: demonstrada; H1 (>= 1): nao decidida; C1 (> 0.0163): confirmada

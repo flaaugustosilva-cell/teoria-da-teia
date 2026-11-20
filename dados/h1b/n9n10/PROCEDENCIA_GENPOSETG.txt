@@ -1,0 +1,16 @@
+Procedencia e compilacao do genposetg (20/11/2026)
+pacote: pynauty-2.8.8.1.tar.gz (PyPI), sha256 454d3b0e605d649d13478afb090daef4a152f15c4a337a391fe69fded7e683f2 (igual ao publicado no PyPI)
+genposetg.c sha256 b75e2f78a8d74454109d989bee54edefabc9df0fe5f5cb08aee6806226db1fe1
+compilacao: ./configure ; make genposetg   (gcc 13.3.0, pasta isolada /home/claude/ferramentas, sem instalar no sistema)
+executavel genposetg sha256 ea9e6303ad6c9bae0be3590049a256e941211e1b625f7a88cebb7231495ca72a
+comando de geracao: genposetg n t  (diagramas de Hasse, digraph6, ordem topologica)
+n=1: 1 classes; saida sha256 84b7df34cbe0c643cb0fca6981f9ecbb20c5f8b0b10e60c30e3e8a97f2aad60b
+n=2: 2 classes; saida sha256 e82b0620cd19ecab16d799e90355fb48f61c6355b5c1ee2aa229afa09eb3ae22
+n=3: 5 classes; saida sha256 5b480c558fc62ac7541113251c20b597b4646b51f25f79e317bde3ed5b17cc6f
+n=4: 16 classes; saida sha256 d137287aae34d394edf43c5472cb32dde6b9bbb99858c4118e999f408c803b56
+n=5: 63 classes; saida sha256 cfa390ff86e53109be805f2e11d4f8957aca680b799b2e84663b7fd74238b0e1
+n=6: 318 classes; saida sha256 72f25ef8e556e20d58ace863dbd05ad947b14b5f57f59eb2f55af3fb9cb1ce8a
+n=7: 2045 classes; saida sha256 e3b35f95502a60a0fca5ad79726391b0779ee3ac2111a1d7ed5ef1930e3260bb
+n=8: 16999 classes; saida sha256 7f3dee996b30e73b37a0a648b475b92629590a9d531ce339b9cce600df4a36a9
+n=9: 183231 classes; saida sha256 c616b4248e8c1c4ee4fee2a52464651a6a5cb16c59f48e295a2b1f863f0ee9ab
+n=10: 2567284 classes; saida sha256 cd26f2aaf1179dab6e075b4a8085115d619a9e6fbb29affcec36560ef6bc36e8

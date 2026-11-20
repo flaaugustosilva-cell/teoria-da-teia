@@ -1,0 +1,50 @@
+{
+ "9": {
+  "categorias": {
+   "total": 183231,
+   "altura3": 181008,
+   "cert_passada1": 181008,
+   "cert_passada2": 0,
+   "sem_certificado": 0,
+   "nao_tentadas": 0,
+   "demonstradas_nao_embutiveis": 0
+  },
+  "W_boa_cert": 121989.2236276455,
+  "W_nc": 0.0,
+  "W_ruim": 671.2771191578482,
+  "conferencia_ruim_formula": 4.956124399768669e-10,
+  "min_Zboa_pontual": 23.4058624757504,
+  "min_Zboa_mpmath": 23.40586247572004,
+  "x_min": 7.282927671772981,
+  "min_Zboa_rigoroso": 0.11950817405968905,
+  "R_max_rigoroso": 0.5754883652777282,
+  "H1_toda_janela": "nao decidida",
+  "H1estrela_toda_janela": "demonstrada",
+  "C1_limiar": 0.05424107142857143,
+  "C1": "confirmada"
+ },
+ "10": {
+  "categorias": {
+   "total": 2567284,
+   "altura3": 2556518,
+   "cert_passada1": 2556518,
+   "cert_passada2": 0,
+   "sem_certificado": 0,
+   "nao_tentadas": 0,
+   "demonstradas_nao_embutiveis": 0
+  },
+  "W_boa_cert": 1818177.5496197124,
+  "W_nc": 0.0,
+  "W_ruim": 3654.8050934193143,
+  "conferencia_ruim_formula": 1.198699344229226e-07,
+  "min_Zboa_pontual": 150.40559967294993,
+  "min_Zboa_mpmath": 150.4055996730252,
+  "x_min": 7.336077689978924,
+  "min_Zboa_rigoroso": 0.19271871555278608,
+  "R_max_rigoroso": 0.39472430693396016,
+  "H1_toda_janela": "nao decidida",
+  "H1estrela_toda_janela": "demonstrada",
+  "C1_limiar": 0.016272321428571428,
+  "C1": "confirmada"
+ }
+}

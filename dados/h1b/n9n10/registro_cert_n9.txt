@@ -1,0 +1,11 @@
+  n=9 t0 passada 1: 20000, 58s
+  n=9 t0 passada 1: 40000, 118s
+  n=9 t0 passada 1: 60000, 191s
+  n=9 t0 passada 1: 80000, 253s
+  n=9 t0 passada 1: 100000, 313s
+  n=9 t0 passada 1: 120000, 376s
+  n=9 t0 passada 1: 140000, 439s
+  n=9 t0 passada 1: 160000, 500s
+  n=9 t0 passada 1: 180000, 560s
+n=9 t0: fim da passada 1; certificadas 181008, sem certificado 0, nao tentadas 0; 563s
+n=9 t0: fim da passada 2; certificadas 181008, sem certificado 0, nao tentadas 0; 563s

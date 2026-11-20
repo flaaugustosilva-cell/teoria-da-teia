@@ -1,0 +1,4 @@
+n=5: W(B) por classe (1/|Aut|) == enumeracao natural (1/e(P)), em fracoes: True  (25 valores de (B, altura))
+n=6: W(B) por classe (1/|Aut|) == enumeracao natural (1/e(P)), em fracoes: True  (61 valores de (B, altura))
+n=7: W(B) por classe (1/|Aut|) == enumeracao natural (1/e(P)), em fracoes: True  (123 valores de (B, altura))
+n=8: W(B) por classe (1/|Aut|) == enumeracao natural (1/e(P)), em fracoes: True  (197 valores de (B, altura))
