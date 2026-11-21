@@ -71,7 +71,7 @@ Notação: Q̄ = Σ_k |parte do tamanho k|, com os estados somados exatamente de
   O cancelamento entre as partes paralela e série faz parte do mecanismo, como você previu.
 - **A cota que preserva os sinais é a que funciona:**
   - (|E| + Q̄)/|Prim| < 1 vale de n = 8 a 11.
-  - Tomar módulo também por estado (Q̃) dá razões de 3 a 6.7 em todo n: os cancelamentos entre estados são essenciais, e uma cota que os destrói não serve em nenhum tamanho.
+  - Tomar módulo também por estado (Q̃) dá razões de 3,0 a 6,7 em todo n: os cancelamentos entre estados são essenciais, e uma cota que os destrói não serve em nenhum tamanho.
 - **A parte de um ponto domina C.** Os compostos não triviais pesam 0,25, 0,14, 0,06, 0,02 e 0,09 de |Prim| para n = 7 a 11.
 
 ## 4. Desigualdade candidata e o que está demonstrado (D)
