@@ -1,0 +1,33 @@
+Somas "torcidas" (todas as ordens): tau_bot(n) = sum A_n[s] (-1)^(m+D), tau_top(n) = sum A_n[s] (-1)^(M+U); dualidade exige igualdade
+  n=1: tau_bot +1  tau_top +1
+  n=2: tau_bot -1  tau_top -1
+  n=3: tau_bot +1  tau_top +1
+  n=4: tau_bot -53  tau_top -53
+  n=5: tau_bot +741  tau_top +741
+  n=6: tau_bot -849  tau_top -849
+  n=7: tau_bot +113737  tau_top +113737
+  n=8: tau_bot -35405  tau_top -35405
+  n=9: tau_bot +24052333  tau_top +24052333
+  n=10: tau_bot -456228137  tau_top -456228137
+
+1-2) Identidades (D) contra os dados (V), n = 2 a 10; S_bot, S_top, S_bot&top = somas com sinal das ordens com menor, maior, ambos
+ n | S_bot dado / previsto | S_top dado / previsto | S_ambos dado / previsto | Ser_n | S_ext = S_bot + S_top - S_ambos | residuo R_n = Ser - S_ext
+  2 | -2 / -2 | -2 / -2 | -2 / -2 | -2 | -2 | +0
+  3 | +3 / +3 | +3 / +3 | +6 / +6 | +0 | +0 | +0
+  4 | -4 / -4 | -4 / -4 | -12 / -12 | +10 | +4 | +6
+  5 | +265 / +265 | +265 / +265 | +340 / +340 | +260 | +190 | +70
+  6 | -4446 / -4446 | -4446 / -4446 | -1350 / -1350 | -6782 | -7542 | +760
+  7 | +5943 / +5943 | +5943 / +5943 | -37422 / -37422 | +27916 | +49308 | -21392
+  8 | -909896 / -909896 | -909896 / -909896 | -754712 / -754712 | -1359990 | -1065080 | -294910
+  9 | +318645 / +318645 | +318645 / +318645 | -11383416 / -11383416 | +9873636 | +12020706 | -2147070
+ 10 | -240523330 / -240523330 | -240523330 / -240523330 | -226255410 / -226255410 | -587673902 | -254791250 | -332882652
+   identidades conferem em todo n e toda ordem com extremo e do tipo serie: True
+
+   n = 11 pela identidade (todas as ordens): S_bot = S_top = +5018509507; S_ambos = +9583604470; S_ext = +453414544; Ser_11 = +1787428412 (R1 = R2); residuo R_11 = +1334013868
+
+4) Estrutura do residuo (ordens tipo serie SEM menor e SEM maior elemento), n = 6 a 10:
+  n=6: residuo +760 sobre 5.000e+03 ordens; por numero de pecas ordinais: 2: +250 (+6.4e-02); 3: +690 (+7.4e-01); 4: -180 (-1.0e+00)
+  n=7: residuo -21392 sobre 1.821e+05 ordens; por numero de pecas ordinais: 2: -16912 (-1.2e-01); 3: -10360 (-3.3e-01); 4: +4620 (+6.5e-01); 5: +1260 (+1.0e+00)
+  n=8: residuo -294910 sobre 8.654e+06 ordens; por numero de pecas ordinais: 2: -238994 (-3.4e-02); 3: +204764 (+1.5e-01); 4: -198520 (-6.8e-01); 5: -52080 (-8.4e-01); 6: -10080 (-1.0e+00)
+  n=9: residuo -2147070 sobre 5.512e+08 ordens; por numero de pecas ordinais: 2: -6536868 (-1.4e-02); 3: -3137946 (-4.3e-02); 4: +4743144 (+3.4e-01); 5: +2089080 (+7.0e-01); 6: +604800 (+1.0e+00); 7: +90720 (+1.0e+00)
+  n=10: residuo -332882652 sobre 4.806e+10 ordens; por numero de pecas ordinais: 2: -160803102 (-3.9e-03); 3: +33872910 (+6.4e-03); 4: -118427820 (-1.4e-01); 5: -57183840 (-3.5e-01); 6: -23839200 (-7.1e-01); 7: -5594400 (-8.6e-01); 8: -907200 (-1.0e+00)
