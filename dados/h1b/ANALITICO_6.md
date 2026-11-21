@@ -40,12 +40,12 @@ Com s(P) = (−1)^{n+N₀+N₁} e as estatísticas de borda m, D, M e U de `ANAL
 
 - **Peso torcido:** s·(−1)^{m+D} fica **invariante**. Logo
 
-  τ_n = Σ_j C(n, j) τ⁽⁰⁾_{n−j}, e a inversa é τ⁽⁰⁾_n = Σ_j (−1)^j C(n, j) τ_{n−j}.
+  τ\_n = Σ\_j C(n, j) τ⁽⁰⁾\_{n−j}, e a inversa é τ⁽⁰⁾\_n = Σ\_j (−1)^j C(n, j) τ\_{n−j}.
 
   Em séries geradoras exponenciais, τ = e^{x}·τ⁽⁰⁾.
 - **Peso duplamente torcido:** s·(−1)^{m+D+M+U} **troca** de sinal, porque o fator recebe (−1)^{1+1+1}. Logo
 
-  ω_n = Σ_j (−1)^j C(n, j) ω⁽⁰⁾_{n−j}, ou seja, ω = e^{−x}·ω⁽⁰⁾.
+  ω\_n = Σ\_j (−1)^j C(n, j) ω⁽⁰⁾\_{n−j}, ou seja, ω = e^{−x}·ω⁽⁰⁾.
 
   É a mesma regra que vale para a e b.
 - **Fórmula exponencial:** como o peso torcido é multiplicativo na união disjunta, τ = exp(τ das conexas). Isso também foi verificado (V).
