@@ -1,0 +1,296 @@
+
+[OFICIAL] n=5: peso rotulado das boas 3.390000e+03; T = n! Z(pi) = +170; T/W = +5.015e-02
+  por tipo (0 paralelo, 1 serie, 2 primo):  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 7.2000e+02 / -120 / -1.67e-01 / -0.706
+     1: 1.9500e+03 / +290 / +1.49e-01 / +1.706
+     2: 7.2000e+02 / +0 / +0.00e+00 / +0.000
+  por altura:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     3: 2.3100e+03 / -430 / -1.86e-01 / -2.529
+     4: 9.6000e+02 / +480 / +5.00e-01 / +2.824
+     5: 1.2000e+02 / +120 / +1.00e+00 / +0.706
+  por componentes:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     1: 2.6700e+03 / +290 / +1.09e-01 / +1.706
+     2: 6.6000e+02 / -180 / -2.73e-01 / -1.059
+     3: 6.0000e+01 / +60 / +1.00e+00 / +0.353
+  por minimais:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     1: 1.0900e+03 / +270 / +2.48e-01 / +1.588
+     2: 1.9200e+03 / -120 / -6.25e-02 / -0.706
+     3: 3.8000e+02 / +20 / +5.26e-02 / +0.118
+  por isolados:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 2.7900e+03 / +170 / +6.09e-02 / +1.000
+     1: 5.4000e+02 / -60 / -1.11e-01 / -0.353
+     2: 6.0000e+01 / +60 / +1.00e+00 / +0.353
+  por |Aut|=1?:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 1.2300e+03 / +410 / +3.33e-01 / +2.412
+     1: 2.1600e+03 / -240 / -1.11e-01 / -1.412
+  por tem gemeos incomparaveis:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 2.2800e+03 / -360 / -1.58e-01 / -2.118
+     1: 1.1100e+03 / +530 / +4.77e-01 / +3.118
+  por tem gemeos comparaveis:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 8.9000e+02 / -410 / -4.61e-01 / -2.412
+     1: 2.5000e+03 / +580 / +2.32e-01 / +3.412
+  TOGGLE DE GEMEOS (pares incomparaveis -> x<y), contado por (ordem rotulada, par):
+     mantem a paridade, par nao minimal: 0.318 dos pares; soma com sinal das ordens de partida +300
+     mantem a paridade, par minimal: 0.227 dos pares; soma com sinal das ordens de partida +180
+     troca a paridade, par nao minimal: 0.318 dos pares; soma com sinal das ordens de partida -60
+     troca a paridade, par minimal: 0.136 dos pares; soma com sinal das ordens de partida +60
+  TODAS AS ORDENS por tipo: paralelo +29; serie +260; primo -120
+
+[OFICIAL] n=6: peso rotulado das boas 1.183800e+05; T = n! Z(pi) = -10260; T/W = -8.667e-02
+  por tipo (0 paralelo, 1 serie, 2 primo):  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 2.2800e+04 / -1680 / -7.37e-02 / +0.164
+     1: 4.9140e+04 / -6780 / -1.38e-01 / +0.661
+     2: 4.6440e+04 / -1800 / -3.88e-02 / +0.175
+  por altura:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     3: 6.5700e+04 / -900 / -1.37e-02 / +0.088
+     4: 4.2960e+04 / -6120 / -1.42e-01 / +0.596
+     5: 9.0000e+03 / -2520 / -2.80e-01 / +0.246
+     6: 7.2000e+02 / -720 / -1.00e+00 / +0.070
+  por componentes:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     1: 9.5580e+04 / -8580 / -8.98e-02 / +0.836
+     2: 2.0340e+04 / -2460 / -1.21e-01 / +0.240
+     3: 2.3400e+03 / +900 / +3.85e-01 / -0.088
+     4: 1.2000e+02 / -120 / -1.00e+00 / +0.012
+  por minimais:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     1: 2.5380e+04 / -4440 / -1.75e-01 / +0.433
+     2: 6.2250e+04 / -6510 / -1.05e-01 / +0.635
+     3: 2.8800e+04 / +720 / +2.50e-02 / -0.070
+     4: 1.9500e+03 / -30 / -1.54e-02 / +0.003
+  por isolados:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 9.9900e+04 / -9300 / -9.31e-02 / +0.906
+     1: 1.6740e+04 / -1020 / -6.09e-02 / +0.099
+     2: 1.6200e+03 / +180 / +1.11e-01 / -0.018
+     3: 1.2000e+02 / -120 / -1.00e+00 / +0.012
+  por |Aut|=1?:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 4.7100e+04 / -2340 / -4.97e-02 / +0.228
+     1: 7.1280e+04 / -7920 / -1.11e-01 / +0.772
+  por tem gemeos incomparaveis:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 7.7400e+04 / -7560 / -9.77e-02 / +0.737
+     1: 4.0980e+04 / -2700 / -6.59e-02 / +0.263
+  por tem gemeos comparaveis:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 4.1220e+04 / -2220 / -5.39e-02 / +0.216
+     1: 7.7160e+04 / -8040 / -1.04e-01 / +0.784
+  TOGGLE DE GEMEOS (pares incomparaveis -> x<y), contado por (ordem rotulada, par):
+     mantem a paridade, par nao minimal: 0.302 dos pares; soma com sinal das ordens de partida -3120
+     mantem a paridade, par minimal: 0.182 dos pares; soma com sinal das ordens de partida -1320
+     troca a paridade, par nao minimal: 0.340 dos pares; soma com sinal das ordens de partida +1680
+     troca a paridade, par minimal: 0.176 dos pares; soma com sinal das ordens de partida +570
+  TODAS AS ORDENS por tipo: paralelo -599; serie -6782; primo -2880
+
+[OFICIAL] n=7: peso rotulado das boas 5.901966e+06; T = n! Z(pi) = -17738; T/W = -3.005e-03
+  por tipo (0 paralelo, 1 serie, 2 primo):  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 9.2988e+05 / +53340 / +5.74e-02 / -3.007
+     1: 1.8246e+06 / +28042 / +1.54e-02 / -1.581
+     2: 3.1475e+06 / -99120 / -3.15e-02 / +5.588
+  por altura:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     3: 2.5831e+06 / +9142 / +3.54e-03 / -0.515
+     4: 2.5108e+06 / -21000 / -8.36e-03 / +1.184
+     5: 7.1232e+05 / -31080 / -4.36e-02 / +1.752
+     6: 9.0720e+04 / +20160 / +2.22e-01 / -1.137
+     7: 5.0400e+03 / +5040 / +1.00e+00 / -0.284
+  por componentes:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     1: 4.9721e+06 / -71078 / -1.43e-02 / +4.007
+     2: 8.3454e+05 / +42420 / +5.08e-02 / -2.391
+     3: 8.8830e+04 / +13650 / +1.54e-01 / -0.770
+     4: 6.3000e+03 / -2940 / -4.67e-01 / +0.166
+     5: 2.1000e+02 / +210 / +1.00e+00 / -0.012
+  por minimais:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     1: 9.1015e+05 / +5950 / +6.54e-03 / -0.335
+     2: 2.7254e+06 / -74760 / -2.74e-02 / +4.215
+     3: 1.9270e+06 / +56490 / +2.93e-02 / -3.185
+     4: 3.3054e+05 / -5460 / -1.65e-02 / +0.308
+     5: 8.8620e+03 / +42 / +4.74e-03 / -0.002
+  por isolados:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 5.1401e+06 / -86198 / -1.68e-02 / +4.860
+     1: 6.9930e+05 / +65100 / +9.31e-02 / -3.670
+     2: 5.8590e+04 / +3570 / +6.09e-02 / -0.201
+     3: 3.7800e+03 / -420 / -1.11e-01 / +0.024
+     4: 2.1000e+02 / +210 / +1.00e+00 / -0.012
+  por |Aut|=1?:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 2.2681e+06 / +7462 / +3.29e-03 / -0.421
+     1: 3.6338e+06 / -25200 / -6.93e-03 / +1.421
+  por tem gemeos incomparaveis:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 3.9220e+06 / +26040 / +6.64e-03 / -1.468
+     1: 1.9800e+06 / -43778 / -2.21e-02 / +2.468
+  por tem gemeos comparaveis:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 2.4165e+06 / -72632 / -3.01e-02 / +4.095
+     1: 3.4855e+06 / +54894 / +1.57e-02 / -3.095
+  TOGGLE DE GEMEOS (pares incomparaveis -> x<y), contado por (ordem rotulada, par):
+     mantem a paridade, par nao minimal: 0.300 dos pares; soma com sinal das ordens de partida +26040
+     mantem a paridade, par minimal: 0.160 dos pares; soma com sinal das ordens de partida +9240
+     troca a paridade, par nao minimal: 0.356 dos pares; soma com sinal das ordens de partida -12180
+     troca a paridade, par minimal: 0.184 dos pares; soma com sinal das ordens de partida +0
+  TODAS AS ORDENS por tipo: paralelo +62705; serie +27916; primo -108360
+
+[OFICIAL] n=8: peso rotulado das boas 4.254376e+08; T = n! Z(pi) = -2181340; T/W = -5.127e-03
+  por tipo (0 paralelo, 1 serie, 2 primo):  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 5.2207e+07 / +863688 / +1.65e-02 / -0.396
+     1: 9.9450e+07 / -1359988 / -1.37e-02 / +0.623
+     2: 2.7378e+08 / -1685040 / -6.15e-03 / +0.772
+  por altura:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     3: 1.4226e+08 / +377580 / +2.65e-03 / -0.173
+     4: 1.9936e+08 / -1532440 / -7.69e-03 / +0.703
+     5: 7.1311e+07 / -243600 / -3.42e-03 / +0.112
+     6: 1.1481e+07 / -520800 / -4.54e-02 / +0.239
+     7: 9.8784e+05 / -221760 / -2.24e-01 / +0.102
+     8: 4.0320e+04 / -40320 / -1.00e+00 / +0.018
+  por componentes:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     1: 3.7323e+08 / -3045028 / -8.16e-03 / +1.396
+     2: 4.7750e+07 / +981904 / +2.06e-02 / -0.450
+     3: 4.1513e+06 / -68880 / -1.66e-02 / +0.032
+     4: 2.9064e+05 / -56560 / -1.95e-01 / +0.026
+     5: 1.4280e+04 / +7560 / +5.29e-01 / -0.003
+     6: 3.3600e+02 / -336 / -1.00e+00 / +0.000
+  por minimais:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     1: 4.9039e+07 / -909888 / -1.86e-02 / +0.417
+     2: 1.7162e+08 / -282296 / -1.64e-03 / +0.129
+     3: 1.5679e+08 / -468160 / -2.99e-03 / +0.215
+     4: 4.4690e+07 / -551180 / -1.23e-02 / +0.253
+     5: 3.2619e+06 / +30240 / +9.27e-03 / -0.014
+     6: 3.7240e+04 / -56 / -1.50e-03 / +0.000
+  por isolados:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 3.8136e+08 / -2601508 / -6.82e-03 / +1.193
+     1: 4.1121e+07 / +689584 / +1.68e-02 / -0.316
+     2: 2.7972e+06 / -260400 / -9.31e-02 / +0.119
+     3: 1.5624e+05 / -9520 / -6.09e-02 / +0.004
+     4: 7.5600e+03 / +840 / +1.11e-01 / -0.000
+     5: 3.3600e+02 / -336 / -1.00e+00 / +0.000
+  por |Aut|=1?:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 1.5037e+08 / -5165020 / -3.43e-02 / +2.368
+     1: 2.7506e+08 / +2983680 / +1.08e-02 / -1.368
+  por tem gemeos incomparaveis:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 2.9247e+08 / +2274720 / +7.78e-03 / -1.043
+     1: 1.3297e+08 / -4456060 / -3.35e-02 / +2.043
+  por tem gemeos comparaveis:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 1.9648e+08 / -573244 / -2.92e-03 / +0.263
+     1: 2.2896e+08 / -1608096 / -7.02e-03 / +0.737
+  TOGGLE DE GEMEOS (pares incomparaveis -> x<y), contado por (ordem rotulada, par):
+     mantem a paridade, par nao minimal: 0.306 dos pares; soma com sinal das ordens de partida -1842288
+     mantem a paridade, par minimal: 0.148 dos pares; soma com sinal das ordens de partida -1686048
+     troca a paridade, par nao minimal: 0.367 dos pares; soma com sinal das ordens de partida -1228752
+     troca a paridade, par minimal: 0.179 dos pares; soma com sinal das ordens de partida -1297688
+  TODAS AS ORDENS por tipo: paralelo +958273; serie -1359990; primo -1779624
+
+[OFICIAL] n=9: peso rotulado das boas 4.426745e+10; T = n! Z(pi) = -27904686; T/W = -6.304e-04
+  por tipo (0 paralelo, 1 serie, 2 primo):  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 4.1462e+09 / +25777584 / +6.22e-03 / -0.924
+     1: 7.8809e+09 / +9874146 / +1.25e-03 / -0.354
+     2: 3.2240e+10 / -63556416 / -1.97e-03 / +2.278
+  por altura:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     3: 1.1013e+10 / +3039402 / +2.76e-04 / -0.109
+     4: 2.1774e+10 / -38639664 / -1.77e-03 / +1.385
+     5: 9.5011e+09 / -3523464 / -3.71e-04 / +0.126
+     6: 1.7810e+09 / +3870720 / +2.17e-03 / -0.139
+     7: 1.8667e+08 / +4082400 / +2.19e-02 / -0.146
+     8: 1.1612e+07 / +2903040 / +2.50e-01 / -0.104
+     9: 3.6288e+05 / +362880 / +1.00e+00 / -0.013
+  por componentes:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     1: 4.0121e+10 / -53682270 / -1.34e-03 / +1.924
+     2: 3.8709e+09 / +31239180 / +8.07e-03 / -1.119
+     3: 2.5906e+08 / -5386248 / -2.08e-02 / +0.193
+     4: 1.5407e+07 / -246960 / -1.60e-02 / +0.009
+     5: 7.9002e+05 / +187740 / +2.38e-01 / -0.007
+     6: 2.8728e+04 / -16632 / -5.79e-01 / +0.001
+     7: 5.0400e+02 / +504 / +1.00e+00 / -0.000
+  por minimais:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     1: 3.8855e+09 / +318654 / +8.20e-05 / -0.011
+     2: 1.5542e+10 / -7550928 / -4.86e-04 / +0.271
+     3: 1.7207e+10 / -20985720 / -1.22e-03 / +0.752
+     4: 6.7207e+09 / -3427200 / -5.10e-04 / +0.123
+     5: 8.8317e+08 / +3892644 / +4.41e-03 / -0.139
+     6: 2.9304e+07 / -152208 / -5.19e-03 / +0.005
+     7: 1.4825e+05 / +72 / +4.86e-04 / -0.000
+  por isolados:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 4.0641e+10 / -49016742 / -1.21e-03 / +1.757
+     1: 3.4322e+09 / +23413572 / +6.82e-03 / -0.839
+     2: 1.8504e+08 / -3103128 / -1.68e-02 / +0.111
+     3: 8.3916e+06 / +781200 / +9.31e-02 / -0.028
+     4: 3.5154e+05 / +21420 / +6.09e-02 / -0.001
+     5: 1.3608e+04 / -1512 / -1.11e-01 / +0.000
+     6: 5.0400e+02 / +504 / +1.00e+00 / -0.000
+  por |Aut|=1?:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 1.3977e+10 / +37050834 / +2.65e-03 / -1.328
+     1: 3.0290e+10 / -64955520 / -2.14e-03 / +2.328
+  por tem gemeos incomparaveis:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 3.1705e+10 / -82555200 / -2.60e-03 / +2.958
+     1: 1.2562e+10 / +54650514 / +4.35e-03 / -1.958
+  por tem gemeos comparaveis:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 2.2625e+10 / -97271862 / -4.30e-03 / +3.486
+     1: 2.1642e+10 / +69367176 / +3.21e-03 / -2.486
+  TOGGLE DE GEMEOS (pares incomparaveis -> x<y), contado por (ordem rotulada, par):
+     mantem a paridade, par nao minimal: 0.315 dos pares; soma com sinal das ordens de partida +21361536
+     mantem a paridade, par minimal: 0.140 dos pares; soma com sinal das ordens de partida +2626848
+     troca a paridade, par nao minimal: 0.375 dos pares; soma com sinal das ordens de partida +16644096
+     troca a paridade, par minimal: 0.170 dos pares; soma com sinal das ordens de partida -1673280
+  TODAS AS ORDENS por tipo: paralelo +26869253; serie +9873636; primo -64647576
+
+[OFICIAL] n=10: peso rotulado das boas 6.597803e+12; T = n! Z(pi) = -2494684500; T/W = -3.781e-04
+  por tipo (0 paralelo, 1 serie, 2 primo):  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 4.6981e+11 / +656073840 / +1.40e-03 / -0.263
+     1: 8.9943e+11 / -587673900 / -6.53e-04 / +0.236
+     2: 5.2286e+12 / -2563084440 / -4.90e-04 / +1.027
+  por altura:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     3: 1.1965e+12 / +238588140 / +1.99e-04 / -0.096
+     4: 3.2819e+12 / -189118440 / -5.76e-05 / +0.076
+     5: 1.7145e+12 / -2174555880 / -1.27e-03 / +0.872
+     6: 3.5958e+11 / -7927920 / -2.20e-05 / +0.003
+     7: 4.2055e+10 / -271555200 / -6.46e-03 / +0.109
+     8: 3.1165e+09 / -44755200 / -1.44e-02 / +0.018
+     9: 1.4697e+08 / -41731200 / -2.84e-01 / +0.017
+     10: 3.6288e+06 / -3628800 / -1.00e+00 / +0.001
+  por componentes:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     1: 6.1280e+12 / -3150758340 / -5.14e-04 / +1.263
+     2: 4.4629e+11 / +826264860 / +1.85e-03 / -0.331
+     3: 2.2432e+10 / -188973540 / -8.42e-03 / +0.076
+     4: 1.0439e+09 / +16996560 / +1.63e-02 / -0.007
+     5: 4.7338e+07 / +2280600 / +4.82e-02 / -0.001
+     6: 1.8824e+06 / -526680 / -2.80e-01 / +0.000
+     7: 5.2920e+04 / +32760 / +6.19e-01 / -0.000
+     8: 7.2000e+02 / -720 / -1.00e+00 / +0.000
+  por minimais:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     1: 4.4511e+11 / -240523320 / -5.40e-04 / +0.096
+     2: 2.0030e+12 / -940212090 / -4.69e-04 / +0.377
+     3: 2.6068e+12 / -1171507680 / -4.49e-04 / +0.470
+     4: 1.2809e+12 / -76154820 / -5.95e-05 / +0.031
+     5: 2.4585e+11 / -38515680 / -1.57e-04 / +0.015
+     6: 1.5870e+10 / -28466340 / -1.79e-03 / +0.011
+     7: 2.4732e+08 / +695520 / +2.81e-03 / -0.000
+     8: 5.6745e+05 / -90 / -1.59e-04 / +0.000
+  por isolados:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 6.1736e+12 / -2876133780 / -4.66e-04 / +1.153
+     1: 4.0641e+11 / +490167420 / +1.21e-03 / -0.196
+     2: 1.7161e+10 / -117067860 / -6.82e-03 / +0.047
+     3: 6.1681e+08 / +10343760 / +1.68e-02 / -0.004
+     4: 2.0979e+07 / -1953000 / -9.31e-02 / +0.001
+     5: 7.0308e+05 / -42840 / -6.09e-02 / +0.000
+     6: 2.2680e+04 / +2520 / +1.11e-01 / -0.000
+     7: 7.2000e+02 / -720 / -1.00e+00 / +0.000
+  por |Aut|=1?:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 1.8290e+12 / -1917705300 / -1.05e-03 / +0.769
+     1: 4.7688e+12 / -576979200 / -1.21e-04 / +0.231
+  por tem gemeos incomparaveis:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 4.9268e+12 / -3766089600 / -7.64e-04 / +1.510
+     1: 1.6710e+12 / +1271405100 / +7.61e-04 / -0.510
+  por tem gemeos comparaveis:  [valor: peso rotulado / soma com sinal T / vies T/peso / fracao de T]
+     0: 3.6893e+12 / -296911140 / -8.05e-05 / +0.119
+     1: 2.9085e+12 / -2197773360 / -7.56e-04 / +0.881
+  TOGGLE DE GEMEOS (pares incomparaveis -> x<y), contado por (ordem rotulada, par):
+     mantem a paridade, par nao minimal: 0.324 dos pares; soma com sinal das ordens de partida -407925360
+     mantem a paridade, par minimal: 0.135 dos pares; soma com sinal das ordens de partida -632774880
+     troca a paridade, par nao minimal: 0.380 dos pares; soma com sinal das ordens de partida -942194880
+     troca a paridade, par minimal: 0.161 dos pares; soma com sinal das ordens de partida -554775210
+  TODAS AS ORDENS por tipo: paralelo +670248361; serie -587673902; primo -2577258960
+
+SERIES (soma rotulada de (-1)^B, todas as somas exatas):
+ n | todas as ordens | conexas | ruins (altura<=2) | boas | boas conexas
+  1 | -1 | -1 | -1 | +0 | +0
+  2 | -1 | -2 | -1 | +0 | +0
+  3 | +5 | +0 | -1 | +6 | +6
+  4 | -13 | -14 | -1 | -12 | +12
+  5 | +169 | +140 | -1 | +170 | +290
+  6 | -10261 | -9662 | -1 | -10260 | -8580
+  7 | -17739 | -80444 | -1 | -17738 | -71078
+  8 | -2181341 | -3139614 | -1 | -2181340 | -3045028
+  9 | -27904687 | -54773940 | -1 | -27904686 | -53682270
+ 10 | -2494684501 | -3164932862 | -1 | -2494684500 | -3150758340
+formula exponencial (todas = exp(conexas)) confere exatamente: True
