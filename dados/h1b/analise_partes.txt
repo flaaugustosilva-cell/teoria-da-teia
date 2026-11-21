@@ -1,0 +1,27 @@
+1) Formula exponencial nos totais: a_n = sum_k C(n-1,k-1) con_k a_(n-k) (k = tamanho da componente do rotulo 1)
+   Parte paralela por k (n = 8 a 11):
+   n=8: Par = +958273; maiores termos: k=7: +563108 (+0.59), k=6: +202902 (+0.21), k=2: +143654 (+0.15)
+   n=9: Par = +26869253; maiores termos: k=8: +25116912 (+0.93), k=6: -2705360 (-0.10), k=7: +2252432 (+0.08)
+   n=10: Par = +670248361; maiores termos: k=9: +492965460 (+0.74), k=8: +113026104 (+0.17), k=2: +39264138 (+0.06)
+   n=11: Par = +34819420745; maiores termos: k=10: +31649328620 (+0.91), k=1: +2494684501 (+0.07), k=9: +2464827300 (+0.07)
+   Ponto isolado: os termos k=1 (o rotulo 1 isolado) e k=n-1 (uma conexa de n-1 + um ponto isolado) valem -a_(n-1) e -(n-1) con_(n-1).
+2) Parte serie por tamanho k da parte de baixo (n = 8 a 10, e 11 pela recursao):
+   n=8: Ser = -1359990; maiores: k=1: -909896 (+0.67), k=7: +624168 (-0.46), k=6: -309148 (+0.23)
+   n=9: Ser = +9873636; maiores: k=7: +10082556 (+1.02), k=8: -6164433 (-0.62), k=4: +5624766 (+0.57)
+   n=10: Ser = -587673902; maiores: k=9: +407703530 (-0.69), k=8: -271759365 (+0.46), k=1: -240523330 (+0.41)
+   n=11: Ser = +1787428412; maiores: k=10: -21443225111 (-12.00), k=9: +9683763925 (+5.42), k=1: +5018509507 (+2.81)
+3) Razoes de crescimento e vies (todas as ordens):
+   n | Prim_n | con_n/con_(n-1) | |Par|/|Prim| | |Ser|/|Prim| | vies Prim/peso_prim | fracao de peso (par, serie, prima)
+    5 | -120 | -10.0 | 0.242 | 2.167 | -1.11e-01 | (0.277, 0.468, 0.255)
+    6 | -2880 | -69.0 | 0.208 | 2.355 | -5.49e-02 | (0.218, 0.378, 0.403)
+    7 | -108360 | +8.3 | 0.579 | 0.258 | -3.30e-02 | (0.167, 0.298, 0.535)
+    8 | -1779624 | +39.0 | 0.538 | 0.764 | -6.40e-03 | (0.126, 0.230, 0.644)
+    9 | -64647576 | +17.4 | 0.416 | 0.153 | -1.99e-03 | (0.095, 0.177, 0.728)
+   10 | -2577258960 | +57.8 | 0.260 | 0.228 | -4.92e-04 | (0.071, 0.136, 0.792)
+   11 | -77098086120 | +23.8 | 0.452 | 0.023 |    -    | 
+4) Cota grosseira: |Par_n| <= (numero de ordens rotuladas desconexas), |Ser_n| <= (numero do tipo serie):
+   n=6: |Prim_n| = 2.880e+03; desconexas 2.838e+04; serie 4.920e+04 -> cota basta? False
+   n=7: |Prim_n| = 1.084e+05; desconexas 1.023e+06; serie 1.825e+06 -> cota basta? False
+   n=8: |Prim_n| = 1.780e+06; desconexas 5.432e+07; serie 9.945e+07 -> cota basta? False
+   n=9: |Prim_n| = 6.465e+07; desconexas 4.211e+09; serie 7.881e+09 -> cota basta? False
+   n=10: |Prim_n| = 2.577e+09; desconexas 4.726e+11; serie 8.994e+11 -> cota basta? False
