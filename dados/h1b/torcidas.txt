@@ -1,0 +1,31 @@
+(V) tau = sum C(n,j) tau0: True; inversa: True; omega = sum C(n,j)(-1)^j omega0: True; inversa: True  (n = 0..10)
+(V) tau = exp(tau das conexas) (formula exponencial): True
+
+ n | tau_n | tau0_n | sinal*(-1)^(n+1) tau, tau0 | tau por tipo: paralelo (sem isolados) / serie / raiz prima | omega_n | omega0_n
+  1 | +1 | +0 | + 0 | +0 / +0 / +1 | -1 | +0
+  2 | -1 | -2 | + + | +0 / -2 / +0 | -1 | -2
+  3 | +1 | +6 | + + | +0 / +6 / +0 | +17 | +12
+  4 | -53 | -66 | + + | +12 / -102 / +24 | -45 | +14
+  5 | +741 | +1030 | + + | -120 / +910 / +240 | -891 | -960
+  6 | -849 | -6130 | + + | +2580 / -2350 / -6360 | -13477 | -19178
+  7 | +113737 | +137158 | + + | -62160 / +191758 / +7560 | -158103 | -272160
+  8 | -35405 | -1014370 | + + | +1003100 / -720342 / -1297128 | -2513949 | -4208258
+  9 | +24052333 | +28636998 | + + | -27124776 / +64822686 / -9060912 | +87123677 | +57557808
+ 10 | -456228137 | -712369458 | + + | +555442020 / -2405612238 / +1137800760 | +4111792059 | +4847866598
+
+Peso de cada parcela de tau0_n (|parcela|/|tau0_n|): termo j=0 e soma dos termos j>=1 de tau = sum C(n,j) tau0_(n-j)
+  n=4: tau = -53 = tau0 -66 + (isolados) +13; |isolados|/|tau| = 0.245
+  n=5: tau = +741 = tau0 +1030 + (isolados) -289; |isolados|/|tau| = 0.390
+  n=6: tau = -849 = tau0 -6130 + (isolados) +5281; |isolados|/|tau| = 6.220
+  n=7: tau = +113737 = tau0 +137158 + (isolados) -23421; |isolados|/|tau| = 0.206
+  n=8: tau = -35405 = tau0 -1014370 + (isolados) +978965; |isolados|/|tau| = 27.650
+  n=9: tau = +24052333 = tau0 +28636998 + (isolados) -4584665; |isolados|/|tau| = 0.191
+  n=10: tau = -456228137 = tau0 -712369458 + (isolados) +256141321; |isolados|/|tau| = 0.561
+
+Magnitude frente a Prim_n e a parte de um ponto E_ext(n) = -2n tau_(n-1) - n(n-1)(+-)omega_(n-2):
+  n=5: |2n tau_(n-1)|/|Prim_n| = 4.417; |n(n-1) omega_(n-2)|/|Prim_n| = 2.833; E_ext = +190; |tau_(n-1)|/|Prim_(n-1)| = 2.208
+  n=6: |2n tau_(n-1)|/|Prim_n| = 3.087; |n(n-1) omega_(n-2)|/|Prim_n| = 0.469; E_ext = -7542; |tau_(n-1)|/|Prim_(n-1)| = 6.175
+  n=7: |2n tau_(n-1)|/|Prim_n| = 0.110; |n(n-1) omega_(n-2)|/|Prim_n| = 0.345; E_ext = +49308; |tau_(n-1)|/|Prim_(n-1)| = 0.295
+  n=8: |2n tau_(n-1)|/|Prim_n| = 1.023; |n(n-1) omega_(n-2)|/|Prim_n| = 0.424; E_ext = -1065080; |tau_(n-1)|/|Prim_(n-1)| = 1.050
+  n=9: |2n tau_(n-1)|/|Prim_n| = 0.010; |n(n-1) omega_(n-2)|/|Prim_n| = 0.176; E_ext = +12020706; |tau_(n-1)|/|Prim_(n-1)| = 0.020
+  n=10: |2n tau_(n-1)|/|Prim_n| = 0.187; |n(n-1) omega_(n-2)|/|Prim_n| = 0.088; E_ext = -254791250; |tau_(n-1)|/|Prim_(n-1)| = 0.372
