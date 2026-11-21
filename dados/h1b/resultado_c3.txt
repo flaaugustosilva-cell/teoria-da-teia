@@ -1,0 +1,4 @@
+validacao: classes nas 20 partes = 46749427 (A000112(11) = 46749427); soma das ruins = -1 (formula fechada: -1)
+T_todas(11) = -40491236963; paralelo(11) = +34819420745; serie(11) = +1787428412
+Prim_11 = -77098086120  ->  C3 em n = 11: SUCESSO (negativa)
+descritivo: Prim_11 / T_todas(11) = 1.904
