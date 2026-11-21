@@ -1,0 +1,58 @@
+1) Padrao de sinal de cada caractere, n = 4..10 (todas as ordens; e por tipo):
+   caractere (m,D,M,U) | todas | paralelo | serie | raiz prima
+   (0,0,0,0) | irregular | irregular | irregular | sempre -
+   (1,0,0,0) | irregular | irregular | (-1)^n | irregular (tem zero)
+   (0,1,0,0) | (-1)^n | (-1)^n | (-1)^n | irregular
+   (1,1,0,0) | (-1)^(n+1) | (-1)^n | (-1)^(n+1) | irregular
+   (0,0,1,0) | irregular | irregular | (-1)^n | irregular (tem zero)
+   (1,0,1,0) | irregular | irregular | irregular | irregular
+   (0,1,1,0) | irregular | irregular | irregular | irregular
+   (1,1,1,0) | irregular | irregular | irregular | irregular
+   (0,0,0,1) | (-1)^n | (-1)^n | (-1)^n | irregular
+   (1,0,0,1) | irregular | irregular | irregular | irregular
+   (0,1,0,1) | irregular | irregular | irregular | irregular
+   (1,1,0,1) | irregular | irregular | irregular | irregular
+   (0,0,1,1) | (-1)^(n+1) | (-1)^n | (-1)^(n+1) | irregular
+   (1,0,1,1) | irregular | irregular | irregular | irregular
+   (0,1,1,1) | irregular | irregular | irregular | irregular
+   (1,1,1,1) | irregular | irregular | irregular | irregular
+
+   Valores de alguns caracteres de TODAS as ordens, n = 1..10:
+   (0,0,0,0): -1, -1, +5, -13, +169, -10261, -17739, -2181341, -27904687, -2494684501
+   (1,1,0,0): +1, -1, +1, -53, +741, -849, +113737, -35405, +24052333, -456228137
+   (0,1,0,0): -1, +3, -19, +139, -1111, +16151, -201027, +6150803, -160741231, +4497486319
+   (1,0,0,0): +1, +3, +1, +3, -379, -2757, -142575, +514531, +5644525, +405018843
+   (1,1,1,1): -1, -1, +17, -45, -891, -13477, -158103, -2513949, +87123677, +4111792059
+   (0,0,1,1): +1, -1, +1, -53, +741, -849, +113737, -35405, +24052333, -456228137
+   (1,0,1,0): -1, -1, +17, -109, +949, +1019, -151887, +1908451, -49998019, +682886939
+   (0,1,0,1): -1, -1, +5, -45, -231, +15323, -489315, +18915683, -713621455, +30298578939
+
+2) Parte serie torcida (caractere (1,1,0,0)) por tamanho k da peca de baixo (k=1: ponto embaixo; k=n-1 com Q ponto: ponto em cima):
+   n=4: total -102; k=1 -76; k=n-1 -20; meio (2<=k<=n-2) -6; (borda)/total +0.94
+   n=5: total +910; k=1 +695; k=n-1 +355; meio (2<=k<=n-2) -140; (borda)/total +1.15
+   n=6: total -2350; k=1 -6666; k=n-1 +3186; meio (2<=k<=n-2) +1130; (borda)/total +1.48
+   n=7: total +191758; k=1 +113057; k=n-1 +43673; meio (2<=k<=n-2) +35028; (borda)/total +0.82
+   n=8: total -720342; k=1 -1608216; k=n-1 +619704; meio (2<=k<=n-2) +268170; (borda)/total +1.37
+   n=9: total +64822686; k=1 +55357227; k=n-1 -3851073; meio (2<=k<=n-2) +13316532; (borda)/total +0.79
+   n=10: total -2405612238; k=1 -1607412310; k=n-1 -512847410; meio (2<=k<=n-2) -285352518; (borda)/total +0.88
+
+3) Formulas dos termos de borda (D) conferidas:
+   n=4: k=1: -76 = n * A_(n-1)^[(0,1,0,0)] = -76 (True); k=n-1: -20 = -n * I_(n-1)^[(1,1,1,1)] = -20 (True)
+   n=5: k=1: +695 = n * A_(n-1)^[(0,1,0,0)] = +695 (True); k=n-1: +355 = -n * I_(n-1)^[(1,1,1,1)] = +355 (True)
+   n=6: k=1: -6666 = n * A_(n-1)^[(0,1,0,0)] = -6666 (True); k=n-1: +3186 = -n * I_(n-1)^[(1,1,1,1)] = +3186 (True)
+   n=7: k=1: +113057 = n * A_(n-1)^[(0,1,0,0)] = +113057 (True); k=n-1: +43673 = -n * I_(n-1)^[(1,1,1,1)] = +43673 (True)
+   n=8: k=1: -1608216 = n * A_(n-1)^[(0,1,0,0)] = -1608216 (True); k=n-1: +619704 = -n * I_(n-1)^[(1,1,1,1)] = +619704 (True)
+   n=9: k=1: +55357227 = n * A_(n-1)^[(0,1,0,0)] = +55357227 (True); k=n-1: -3851073 = -n * I_(n-1)^[(1,1,1,1)] = -3851073 (True)
+   n=10: k=1: -1607412310 = n * A_(n-1)^[(0,1,0,0)] = -1607412310 (True); k=n-1: -512847410 = -n * I_(n-1)^[(1,1,1,1)] = -512847410 (True)
+4) Caractere D de todas as ordens: propagacao da alternancia
+   (D) {*}+P: w_D = -w_D(P)  =>  parte "menor elemento" = -n D_(n-1)  (n >= 2)
+   n | D_n | menor elemento (= -n D_(n-1)?) | ponto isolado | maior e sem menor | resto | (menor+isolado)/D_n | D_n/D_(n-1)
+    2 | +3 | +2 (True) | +1 | +0 | +0 | +1.00 | -3.0
+    3 | -19 | -9 (True) | -7 | -3 | +0 | +0.84 | -6.3
+    4 | +139 | +76 (True) | +61 | -40 | +42 | +0.99 | -7.3
+    5 | -1111 | -695 (True) | -531 | +45 | +70 | +1.10 | -8.0
+    6 | +16151 | +6666 (True) | +4921 | +5544 | -980 | +0.72 | -14.5
+    7 | -201027 | -113057 (True) | -93983 | +67305 | -61292 | +1.03 | -12.4
+    8 | +6150803 | +1608216 (True) | +1209461 | +1520336 | +1812790 | +0.46 | -30.6
+    9 | -160741231 | -55357227 (True) | -49352971 | +13553757 | -69584790 | +0.65 | -26.1
+   10 | +4497486319 | +1607412310 (True) | +1351610641 | -545907280 | +2084370648 | +0.66 | -28.0
