@@ -1,0 +1,81 @@
+Valores de referencia: f(2) = 0.5000, f(3) = 0.2286, f(4) = 0.1000; cortes das faixas (r): 0.7189, 0.3405, 0.1518, 0.0655
+
+[n=6, todas as ordens] sem fases: <r>_0 = 0.558 (d_MM 1.85); peso por faixa: d<1,5 0.193, 1,5-2,5 0.690, 2,5-3,5 0.114, 3,5-4,5 0.003, d>4,5 0.000
+   acao d=4: Re<r> no centro (pi) = +0.797 (Im +0.000); na janela [2pi/3, pi]: Re<r> de +0.385 a +1.355; |Z(pi)|/W = 7.9e-02
+      participacao em Z(pi) por faixa: d<1,5 +1.13, 1,5-2,5 -0.66, 2,5-3,5 +0.57, 3,5-4,5 -0.03, d>4,5 -0.00
+      theta em que <r> fica mais perto de f(4) = 0.100 (com Im pequeno): theta = 0.650, <r> = +0.349+0.001i
+   acao d=2: Re<r> no centro (pi) = +0.558 (Im -0.000); na janela [2pi/3, pi]: Re<r> de -1.715 a +3.354; |Z(pi)|/W = 1.0e+00
+      participacao em Z(pi) por faixa: d<1,5 +0.19, 1,5-2,5 +0.69, 2,5-3,5 +0.11, 3,5-4,5 +0.00, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(2) = 0.500 (com Im pequeno): theta = 3.142, <r> = +0.558-0.000i
+
+[n=6, oficial (altura >= 3)] sem fases: <r>_0 = 0.581 (d_MM 1.80); peso por faixa: d<1,5 0.212, 1,5-2,5 0.728, 2,5-3,5 0.060, 3,5-4,5 0.000, d>4,5 0.000
+   acao d=4: Re<r> no centro (pi) = +0.797 (Im +0.000); na janela [2pi/3, pi]: Re<r> de +0.389 a +1.316; |Z(pi)|/W = 8.7e-02
+      participacao em Z(pi) por faixa: d<1,5 +1.13, 1,5-2,5 -0.51, 2,5-3,5 +0.38, 3,5-4,5 +0.00, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(4) = 0.100 (com Im pequeno): theta = 0.637, <r> = +0.258-0.011i
+   acao d=2: Re<r> no centro (pi) = +0.581 (Im -0.000); na janela [2pi/3, pi]: Re<r> de -0.743 a +1.467; |Z(pi)|/W = 1.0e+00
+      participacao em Z(pi) por faixa: d<1,5 +0.21, 1,5-2,5 +0.73, 2,5-3,5 +0.06, 3,5-4,5 +0.00, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(2) = 0.500 (com Im pequeno): theta = 3.142, <r> = +0.581-0.000i
+
+[n=7, todas as ordens] sem fases: <r>_0 = 0.540 (d_MM 1.90); peso por faixa: d<1,5 0.085, 1,5-2,5 0.823, 2,5-3,5 0.091, 3,5-4,5 0.001, d>4,5 0.000
+   acao d=4: Re<r> no centro (pi) = +0.755 (Im +0.000); na janela [2pi/3, pi]: Re<r> de +0.280 a +1.089; |Z(pi)|/W = 2.9e-03
+      participacao em Z(pi) por faixa: d<1,5 +3.23, 1,5-2,5 +5.65, 2,5-3,5 -7.65, 3,5-4,5 -0.23, d>4,5 -0.00
+      theta em que <r> fica mais perto de f(4) = 0.100 (com Im pequeno): theta = 0.423, <r> = +0.093-0.010i
+   acao d=2: Re<r> no centro (pi) = +0.540 (Im -0.000); na janela [2pi/3, pi]: Re<r> de +0.375 a +0.793; |Z(pi)|/W = 1.0e+00
+      participacao em Z(pi) por faixa: d<1,5 +0.09, 1,5-2,5 +0.82, 2,5-3,5 +0.09, 3,5-4,5 +0.00, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(2) = 0.500 (com Im pequeno): theta = 3.142, <r> = +0.540-0.000i
+
+[n=7, oficial (altura >= 3)] sem fases: <r>_0 = 0.549 (d_MM 1.87); peso por faixa: d<1,5 0.089, 1,5-2,5 0.845, 2,5-3,5 0.066, 3,5-4,5 0.000, d>4,5 0.000
+   acao d=4: Re<r> no centro (pi) = +0.755 (Im +0.000); na janela [2pi/3, pi]: Re<r> de +0.285 a +1.089; |Z(pi)|/W = 3.0e-03
+      participacao em Z(pi) por faixa: d<1,5 +3.23, 1,5-2,5 +4.34, 2,5-3,5 -6.56, 3,5-4,5 -0.01, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(4) = 0.100 (com Im pequeno): theta = 0.183, <r> = +0.243-0.004i
+   acao d=2: Re<r> no centro (pi) = +0.549 (Im -0.000); na janela [2pi/3, pi]: Re<r> de +0.400 a +0.793; |Z(pi)|/W = 1.0e+00
+      participacao em Z(pi) por faixa: d<1,5 +0.09, 1,5-2,5 +0.85, 2,5-3,5 +0.07, 3,5-4,5 +0.00, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(2) = 0.500 (com Im pequeno): theta = 3.142, <r> = +0.549-0.000i
+
+[n=8, todas as ordens] sem fases: <r>_0 = 0.525 (d_MM 1.93); peso por faixa: d<1,5 0.054, 1,5-2,5 0.886, 2,5-3,5 0.060, 3,5-4,5 0.000, d>4,5 0.000
+   acao d=4: Re<r> no centro (pi) = +0.928 (Im -0.000); na janela [2pi/3, pi]: Re<r> de -4.007 a +1.877; |Z(pi)|/W = 5.1e-03
+      participacao em Z(pi) por faixa: d<1,5 +1.21, 1,5-2,5 -2.14, 2,5-3,5 +1.96, 3,5-4,5 -0.03, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(4) = 0.100 (com Im pequeno): theta = 0.419, <r> = +0.215+0.005i
+   acao d=2: Re<r> no centro (pi) = +0.525 (Im -0.000); na janela [2pi/3, pi]: Re<r> de +0.499 a +0.888; |Z(pi)|/W = 1.0e+00
+      participacao em Z(pi) por faixa: d<1,5 +0.05, 1,5-2,5 +0.89, 2,5-3,5 +0.06, 3,5-4,5 +0.00, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(2) = 0.500 (com Im pequeno): theta = 1.571, <r> = +0.515-0.000i
+
+[n=8, oficial (altura >= 3)] sem fases: <r>_0 = 0.529 (d_MM 1.93); peso por faixa: d<1,5 0.054, 1,5-2,5 0.895, 2,5-3,5 0.050, 3,5-4,5 0.000, d>4,5 0.000
+   acao d=4: Re<r> no centro (pi) = +0.928 (Im -0.000); na janela [2pi/3, pi]: Re<r> de -4.009 a +1.877; |Z(pi)|/W = 5.1e-03
+      participacao em Z(pi) por faixa: d<1,5 +1.21, 1,5-2,5 -1.89, 2,5-3,5 +1.68, 3,5-4,5 -0.00, d>4,5 -0.00
+      theta em que <r> fica mais perto de f(4) = 0.100 (com Im pequeno): theta = 0.401, <r> = +0.110-0.000i
+   acao d=2: Re<r> no centro (pi) = +0.529 (Im -0.000); na janela [2pi/3, pi]: Re<r> de +0.492 a +0.887; |Z(pi)|/W = 1.0e+00
+      participacao em Z(pi) por faixa: d<1,5 +0.05, 1,5-2,5 +0.90, 2,5-3,5 +0.05, 3,5-4,5 +0.00, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(2) = 0.500 (com Im pequeno): theta = 1.571, <r> = +0.515-0.000i
+
+[n=9, todas as ordens] sem fases: <r>_0 = 0.512 (d_MM 1.97); peso por faixa: d<1,5 0.045, 1,5-2,5 0.892, 2,5-3,5 0.063, 3,5-4,5 0.000, d>4,5 0.000
+   acao d=4: Re<r> no centro (pi) = +0.769 (Im -0.000); na janela [2pi/3, pi]: Re<r> de +0.053 a +0.903; |Z(pi)|/W = 6.3e-04
+      participacao em Z(pi) por faixa: d<1,5 +1.80, 1,5-2,5 -6.17, 2,5-3,5 +5.43, 3,5-4,5 -0.05, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(4) = 0.100 (com Im pequeno): theta = 0.589, <r> = +0.194-0.002i
+   acao d=2: Re<r> no centro (pi) = +0.512 (Im -0.000); na janela [2pi/3, pi]: Re<r> de +0.504 a +0.842; |Z(pi)|/W = 1.0e+00
+      participacao em Z(pi) por faixa: d<1,5 +0.04, 1,5-2,5 +0.89, 2,5-3,5 +0.06, 3,5-4,5 +0.00, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(2) = 0.500 (com Im pequeno): theta = 3.142, <r> = +0.512-0.000i
+
+[n=9, oficial (altura >= 3)] sem fases: <r>_0 = 0.513 (d_MM 1.97); peso por faixa: d<1,5 0.045, 1,5-2,5 0.896, 2,5-3,5 0.059, 3,5-4,5 0.000, d>4,5 0.000
+   acao d=4: Re<r> no centro (pi) = +0.769 (Im -0.000); na janela [2pi/3, pi]: Re<r> de +0.053 a +0.903; |Z(pi)|/W = 6.3e-04
+      participacao em Z(pi) por faixa: d<1,5 +1.80, 1,5-2,5 -5.69, 2,5-3,5 +4.91, 3,5-4,5 -0.01, d>4,5 -0.00
+      theta em que <r> fica mais perto de f(4) = 0.100 (com Im pequeno): theta = 0.611, <r> = +0.236-0.003i
+   acao d=2: Re<r> no centro (pi) = +0.513 (Im -0.000); na janela [2pi/3, pi]: Re<r> de +0.502 a +0.841; |Z(pi)|/W = 1.0e+00
+      participacao em Z(pi) por faixa: d<1,5 +0.04, 1,5-2,5 +0.90, 2,5-3,5 +0.06, 3,5-4,5 +0.00, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(2) = 0.500 (com Im pequeno): theta = 3.142, <r> = +0.513-0.000i
+
+[n=10, todas as ordens] sem fases: <r>_0 = 0.500 (d_MM 2.00); peso por faixa: d<1,5 0.018, 1,5-2,5 0.927, 2,5-3,5 0.055, 3,5-4,5 0.000, d>4,5 0.000
+   acao d=4: Re<r> no centro (pi) = +0.788 (Im -0.000); na janela [2pi/3, pi]: Re<r> de -0.763 a +1.064; |Z(pi)|/W = 3.8e-04
+      participacao em Z(pi) por faixa: d<1,5 +1.26, 1,5-2,5 -5.23, 2,5-3,5 +4.98, 3,5-4,5 -0.01, d>4,5 -0.00
+      theta em que <r> fica mais perto de f(4) = 0.100 (com Im pequeno): theta = 0.327, <r> = +0.303-0.002i
+   acao d=2: Re<r> no centro (pi) = +0.500 (Im -0.000); na janela [2pi/3, pi]: Re<r> de -0.620 a +0.904; |Z(pi)|/W = 1.0e+00
+      participacao em Z(pi) por faixa: d<1,5 +0.02, 1,5-2,5 +0.93, 2,5-3,5 +0.05, 3,5-4,5 +0.00, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(2) = 0.500 (com Im pequeno): theta = 3.142, <r> = +0.500-0.000i
+
+[n=10, oficial (altura >= 3)] sem fases: <r>_0 = 0.501 (d_MM 2.00); peso por faixa: d<1,5 0.018, 1,5-2,5 0.929, 2,5-3,5 0.053, 3,5-4,5 0.000, d>4,5 0.000
+   acao d=4: Re<r> no centro (pi) = +0.788 (Im -0.000); na janela [2pi/3, pi]: Re<r> de -0.763 a +1.064; |Z(pi)|/W = 3.8e-04
+      participacao em Z(pi) por faixa: d<1,5 +1.26, 1,5-2,5 -5.02, 2,5-3,5 +4.76, 3,5-4,5 -0.00, d>4,5 -0.00
+      theta em que <r> fica mais perto de f(4) = 0.100 (com Im pequeno): theta = 0.916, <r> = +0.037+0.010i
+   acao d=2: Re<r> no centro (pi) = +0.501 (Im -0.000); na janela [2pi/3, pi]: Re<r> de -0.619 a +0.904; |Z(pi)|/W = 1.0e+00
+      participacao em Z(pi) por faixa: d<1,5 +0.02, 1,5-2,5 +0.93, 2,5-3,5 +0.05, 3,5-4,5 +0.00, d>4,5 +0.00
+      theta em que <r> fica mais perto de f(2) = 0.500 (com Im pequeno): theta = 3.142, <r> = +0.501-0.000i
