@@ -1,0 +1,20 @@
+n=11 parte 0: 3667944 classes; soma com sinal por tipo {0: 5104339701, 1: -20032211067, 2: -2109323040}
+parte 0: 1104 s
+n=11 parte 2: 1754025 classes; soma com sinal por tipo {0: -749045440, 1: 1844013930, 2: -32509299900}
+parte 2: 485 s
+n=11 parte 4: 2250622 classes; soma com sinal por tipo {0: 13623269220, 1: -7788064746, 2: -9093664800}
+parte 4: 639 s
+n=11 parte 6: 3101050 classes; soma com sinal por tipo {0: 683167320, 1: -3514463425, 2: 13334053590}
+parte 6: 859 s
+n=11 parte 8: 1903688 classes; soma com sinal por tipo {0: -400293960, 1: 1871652420, 2: -34747347690}
+parte 8: 539 s
+n=11 parte 10: 1826312 classes; soma com sinal por tipo {0: 5134404000, 1: -786797880, 2: -40578798480}
+parte 10: 515 s
+n=11 parte 12: 2426838 classes; soma com sinal por tipo {0: -1992925440, 1: -7365432690, 2: -35363817720}
+parte 12: 735 s
+n=11 parte 14: 2238755 classes; soma com sinal por tipo {0: 12180606900, 1: -7935358200, 2: 12457070010}
+parte 14: 648 s
+n=11 parte 16: 1934072 classes; soma com sinal por tipo {0: 1914711810, 1: 7069645110, 2: -7425342540}
+parte 16: 537 s
+n=11 parte 18: 2169153 classes; soma com sinal por tipo {0: 7162917300, 1: 3079488753, 2: 55127089710}
+parte 18: 631 s

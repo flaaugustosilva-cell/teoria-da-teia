@@ -1,0 +1,25 @@
+parte 0: classes 3667944, soma com sinal -17037194406 vs auxiliar -17037194406 -> confere
+parte 1: classes 2330406, soma com sinal +8051275782 vs auxiliar +8051275782 -> confere
+parte 2: classes 1754025, soma com sinal -31414331410 vs auxiliar -31414331410 -> confere
+parte 3: classes 2478065, soma com sinal -16937620920 vs auxiliar -16937620920 -> confere
+parte 4: classes 2250622, soma com sinal -3258460326 vs auxiliar -3258460326 -> confere
+parte 5: classes 2106683, soma com sinal +18898359315 vs auxiliar +18898359315 -> confere
+parte 6: classes 3101050, soma com sinal +10502757485 vs auxiliar +10502757485 -> confere
+parte 7: classes 2223168, soma com sinal -18566434260 vs auxiliar -18566434260 -> confere
+parte 8: classes 1903688, soma com sinal -33275989230 vs auxiliar -33275989230 -> confere
+parte 9: classes 2354757, soma com sinal +5738370660 vs auxiliar +5738370660 -> confere
+parte 10: classes 1826312, soma com sinal -36231192360 vs auxiliar -36231192360 -> confere
+parte 11: classes 2418218, soma com sinal +42972124470 vs auxiliar +42972124470 -> confere
+parte 12: classes 2426838, soma com sinal -44722175850 vs auxiliar -44722175850 -> confere
+parte 13: classes 2007603, soma com sinal -21246169428 vs auxiliar -21246169428 -> confere
+parte 14: classes 2238755, soma com sinal +16702318710 vs auxiliar +16702318710 -> confere
+parte 15: classes 2761525, soma com sinal +13212782715 vs auxiliar +13212782715 -> confere
+parte 16: classes 1934072, soma com sinal +1559014380 vs auxiliar +1559014380 -> confere
+parte 17: classes 2924503, soma com sinal +4772938830 vs auxiliar +4772938830 -> confere
+parte 18: classes 2169153, soma com sinal +65369495763 vs auxiliar +65369495763 -> confere
+parte 19: classes 1872040, soma com sinal -5581106883 vs auxiliar -5581106883 -> confere
+20/20 partes; todas conferem com as partes auxiliares: True
+classes = 46749427 (A000112(11) = 46749427)
+R2: paralelo +34819420745; serie +1787428412; raiz prima -77098086120
+R1: raiz prima -77098086120 -> R1 e R2 CONCORDAM
+R2 tambem confere as partes paralela e serie da recursao (R1): True

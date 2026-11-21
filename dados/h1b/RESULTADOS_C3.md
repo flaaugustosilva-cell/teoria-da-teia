@@ -38,6 +38,23 @@ O registro declarou que o teste só teria força de verdade se Par₁₁ + Ser�
   - nada sobre H1\* fora de θ = π.
 - **Observação descritiva:** em n = 11, a parte paralela é positiva e grande. Isso mostra por que a redução às ordens de raiz prima **não** basta, sozinha, para C2′: seria preciso controlar o tamanho relativo das partes.
 
-## Pendente
+## Rota R2: confirmação independente (executada em 20 e 21/11/2026)
 
-**Rota R2:** a confirmação independente, gerando de novo as ordens de n = 11 e somando diretamente as de raiz prima (cerca de 2 horas). Ainda não foi executada. Se ela discordar de R1, o veredito fica suspenso e o erro é relatado.
+As 46.749.427 classes de n = 11 foram geradas de novo com o genposetg, com o mesmo executável registrado (sha256 `ea9e6303…`) e a mesma divisão em 20 partes. Cada classe foi classificada diretamente por tipo.
+
+- Script por parte: `scripts/h1b_C3_R2_parte.py` (sha256 `79f77a50…dddd`). Antes de n = 11, ele foi conferido em n = 7 e n = 8, onde reproduziu exatamente as somas por tipo já conhecidas.
+- Junção e comparação: `scripts/h1b_C3_R2_junta.py`.
+- Dados e tempos: `c3_r2/`. Saída: `resultado_c3_r2.txt`.
+- Duração: de 22:20 a 00:14, em dois processos.
+
+**Validação parte a parte.** Nas 20 partes, a soma com sinal e o número de classes são **idênticos** aos das partes auxiliares publicadas.
+
+| Quantidade | R1 (identidade) | R2 (geração direta) |
+| --- | --- | --- |
+| Par₁₁ | +34.819.420.745 | +34.819.420.745 |
+| Ser₁₁ | +1.787.428.412 | +1.787.428.412 |
+| **Prim₁₁** | **−77.098.086.120** | **−77.098.086.120** |
+
+**R1 e R2 concordam exatamente.** O veredito de C3 em n = 11 (SUCESSO) fica confirmado.
+
+R2 também confirma a recursão do `ANALITICO_3.md` em n = 11. As partes paralela e série previstas a partir de n ≤ 10 batem com a contagem direta, e isso estende para n = 11 a verificação da identidade (antes feita até n ≤ 10).
