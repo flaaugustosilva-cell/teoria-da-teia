@@ -1,0 +1,37 @@
+(V) C_n = E_iso + E_ext + Q_par + Q_ser, cada parte pela formula de tamanhos menores = contagem direta, n = 4..10: True
+
+TODAS AS ORDENS. Razoes em relacao a |Prim_n| (C = Par + Ser; E = um ponto; Q = compostos; Qbar = |.| por k com estados exatos;
+Qtil = |.| por k e por par de estados; L1 = soma dos |.| de todos os estados de tamanho n-1)
+ n | Prim_n | |C|/|P| | (|Par|+|Ser|)/|P| | |Par|/|P| | |Ser|/|P| | |E|/|P| | |Q|/|P| | (|E|+Qbar)/|P| | (|E|+Qtil)/|P|
+  5 | -120 | 2.408 | 2.408 | 0.242 | 2.167 | 1.825 | 0.583 | 2.408 | 5.242
+  6 | -2880 | 2.563 | 2.563 | 0.208 | 2.355 | 2.931 | 0.368 | 3.632 | 6.730
+  7 | -108360 | 0.836 | 0.836 | 0.579 | 0.258 | 1.088 | 0.252 | 1.340 | 3.935
+  8 | -1779624 | 0.226 | 1.303 | 0.538 | 0.764 | 0.362 | 0.137 | 0.839 | 4.623
+  9 | -64647576 | 0.568 | 0.568 | 0.416 | 0.153 | 0.513 | 0.056 | 0.731 | 3.978
+ 10 | -2577258960 | 0.032 | 0.488 | 0.260 | 0.228 | 0.049 | 0.017 | 0.297 | 3.011
+ 11 | -77098086120 | 0.475 | 0.475 | 0.452 | 0.023 | 0.387 | 0.088 | 0.624 | 4.364
+
+Partes de E e Q (todas as ordens):
+  n=5: E_iso +29; E_ext +190; termo de ordem n-1 [-n b_(n-1) - 2n tau(n-1)] = +540 (+2.47 de E); Q +70
+  n=6: E_iso -899; E_ext -7542; termo de ordem n-1 [-n b_(n-1) - 2n tau(n-1)] = -9732 (+1.15 de E); Q +1060
+  n=7: E_iso +68585; E_ext +49308; termo de ordem n-1 [-n b_(n-1) - 2n tau(n-1)] = +77420 (+0.66 de E); Q -27272
+  n=8: E_iso +420421; E_ext -1065080; termo de ordem n-1 [-n b_(n-1) - 2n tau(n-1)] = -1129200 (+1.75 de E); Q +242942
+  n=9: E_iso +21112565; E_ext +12020706; termo de ordem n-1 [-n b_(n-1) - 2n tau(n-1)] = +24053148 (+0.73 de E); Q +3609618
+  n=10: E_iso +381450301; E_ext -254791250; termo de ordem n-1 [-n b_(n-1) - 2n tau(n-1)] = +9125860 (+0.07 de E); Q -44084592
+  n=11: E_iso +29346728465; E_ext +453414544; termo de ordem n-1 [-n b_(n-1) - 2n tau(n-1)] = +41674501836 (+1.40 de E); Q +6806706148
+
+Crescimento: |Prim_n|/|Prim_(n-1)| e |Prim_n| / (n * L1_(n-1)), L1 = soma dos |A_(n-1)[s]|:
+  n=6: 24.0; 0.194
+  n=7: 37.6; 0.511
+  n=8: 16.4; 0.401
+  n=9: 36.3; 0.377
+  n=10: 39.9; 0.361
+  n=11: 29.9; 0.231
+
+POPULACAO OFICIAL (altura >= 3, n = 5..10; a recursao NAO vale dentro dela; so descritivo):
+  n=5: Prim +0; Par -120; Ser +290; |Par+Ser|/|Prim| = Prim = 0
+  n=6: Prim -1800; Par -1680; Ser -6780; |Par+Ser|/|Prim| = 4.700
+  n=7: Prim -99120; Par +53340; Ser +28042; |Par+Ser|/|Prim| = 0.821
+  n=8: Prim -1685040; Par +863688; Ser -1359988; |Par+Ser|/|Prim| = 0.295
+  n=9: Prim -63556416; Par +25777584; Ser +9874146; |Par+Ser|/|Prim| = 0.561
+  n=10: Prim -2563084440; Par +656073840; Ser -587673900; |Par+Ser|/|Prim| = 0.027
