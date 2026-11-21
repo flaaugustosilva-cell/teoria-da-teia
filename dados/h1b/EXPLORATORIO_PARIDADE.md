@@ -68,11 +68,11 @@ A soma rotulada de (−1)^B sobre as ordens de altura ≤ 2 vale **−1 para tod
 
 - **paralela**: união disjunta de partes;
 - **série**: soma ordinal, isto é, uma parte inteira abaixo da outra;
-- **prima**: obtida por substituição a partir de uma ordem que não tem módulos não triviais.
+- **de raiz modular prima** (chamada "prima" na primeira versão deste arquivo): o grafo de comparabilidade e o de incomparabilidade são ambos conexos. Equivale a ser obtida por substituição de módulos quaisquer dentro de uma ordem prima (uma ordem sem módulos não triviais). **Não** é o mesmo que "ordem sem módulos não triviais".
 
 Soma com sinal por tipo, **todas as ordens**:
 
-| n | paralelo | série | primo |
+| n | paralelo | série | raiz prima |
 | --- | --- | --- | --- |
 | 5 | +29 | +260 | **−120** |
 | 6 | −599 | −6.782 | **−2.880** |
@@ -81,10 +81,10 @@ Soma com sinal por tipo, **todas as ordens**:
 | 9 | +26.869.253 | +9.873.636 | **−64.647.576** |
 | 10 | +670.248.361 | −587.673.902 | **−2.577.258.960** |
 
-- **As ordens primas têm sinal negativo em todo n de 5 a 10.** As partes paralela e série trocam de sinal conforme n.
-- Na população oficial (só altura ≥ 3), a parte prima vale 0, −1.800, −99.120, −1.685.040, −63.556.416 e −2.563.084.440. Ela é negativa a partir de n = 6 e carrega 103% do saldo em n = 10.
-- As primas são a **maior parte** do peso: 79% em n = 10. Isso de novo indica um viés sistemático em uma população enorme (−4,9×10⁻⁴), e não teias atípicas.
-- As ordens primas não têm gêmeos, porque gêmeos são módulos de tamanho 2. Isso explica por que as ordens sem gêmeos carregam o saldo.
+- **As ordens de raiz prima têm sinal negativo em todo n de 5 a 10.** As partes paralela e série trocam de sinal conforme n.
+- Na população oficial (só altura ≥ 3), a parte de raiz prima vale 0, −1.800, −99.120, −1.685.040, −63.556.416 e −2.563.084.440. Ela é negativa a partir de n = 6 e carrega 103% do saldo em n = 10.
+- As ordens de raiz prima são a **maior parte** do peso: 79% em n = 10. Isso de novo indica um viés sistemático em uma população enorme (−4,9×10⁻⁴), e não teias atípicas.
+- ~~As ordens primas não têm gêmeos, porque gêmeos são módulos de tamanho 2. Isso explica por que as ordens sem gêmeos carregam o saldo.~~ **Errado** (ver Errata).
 
 ## 3. Pergunta 2 (primeira sondagem): o toggle de gêmeos
 
@@ -103,14 +103,14 @@ Soma com sinal por tipo, **todas as ordens**:
 
 O que a exploração sugere, **sem** que isso seja conjectura registrada:
 
-**(a)** O sinal parece estar nas ordens **primas**. Uma possível conjectura futura seria: "a soma rotulada de (−1)^B sobre as ordens primas em n elementos é negativa para todo n ≥ 5". Ela foi inspirada por estes dados, então só poderia ser testada de forma independente em n ≥ 11, com todas as ordens, ou demonstrada.
+**(a)** O sinal parece estar nas ordens **de raiz prima**. Uma possível conjectura futura seria: "a soma rotulada de (−1)^B sobre as ordens de raiz prima em n elementos é negativa para todo n ≥ 5". Ela foi inspirada por estes dados, então só poderia ser testada de forma independente em n ≥ 11, com todas as ordens, ou demonstrada.
 
 **(b)** As partes paralela e série são determinadas por ordens menores:
 
 - a paralela, exatamente pela fórmula exponencial;
 - a série, pela soma ordinal P ⊕ Q. Os pares que cruzam de P para Q têm exatamente |acima_P(p)| + |abaixo_Q(q)| elementos entre si. Então o sinal de P ⊕ Q é s(P)·s(Q) vezes um fator que depende só de quatro números: os máximos de P, os elementos de P com exatamente um elemento acima, os mínimos de Q e os elementos de Q com exatamente um elemento abaixo.
 
-Isso sugere uma recursão exata, refinada por essas estatísticas, em que o problema todo se reduz às ordens primas. A identidade da série é **verificável** (é um teorema a conferir, não uma conjectura a testar) nos dados de n ≤ 10.
+Isso sugere uma recursão exata, refinada por essas estatísticas, em que o problema todo se reduz às ordens de raiz prima. A identidade da série é **verificável** (é um teorema a conferir, não uma conjectura a testar) nos dados de n ≤ 10.
 
 ## 5. Alcance
 
@@ -121,3 +121,8 @@ Isso sugere uma recursão exata, refinada por essas estatísticas, em que o prob
 | H1\* em toda a janela | provada só para n = 5 a 10 (por computador); a prova no centro não a implicaria |
 
 Não consegui consultar a OEIS para ver se a sequência +169, −10.261, −17.739, −2.181.341, … é conhecida: o site bloqueia o acesso automático.
+
+## Errata (20/11/2026, depois da revisão do Flavio)
+
+1. **Terminologia.** O que o script chama de "primo" (comparabilidade conexa **e** incomparabilidade conexa) é uma ordem **de raiz modular prima**. Uma ordem assim pode conter módulos substituídos que não são primos. O nome foi trocado no texto. O script não muda: a classificação é a mesma.
+2. **Afirmação errada.** Escrevi que "as ordens primas não têm gêmeos". Isso vale para ordens **sem módulos não triviais**, mas **não** para as de raiz prima: um par de gêmeos pode ser um dos módulos substituídos. A afirmação está riscada acima. A observação de que as ordens sem gêmeos carregam 151% do saldo continua valendo como dado, mas fica sem a explicação que eu tinha dado.

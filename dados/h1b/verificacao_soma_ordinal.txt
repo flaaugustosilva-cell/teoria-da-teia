@@ -1,0 +1,14 @@
+(a) identidade N_k(P+Q) = N_k(P) + N_k(Q) + sum_(x+y=k) u_x(P) d_y(Q), k = 0..3: confere em todos os 524009 pares de classes com |P| + |Q| <= 10
+(b1) partes paralela e serie de cada n <= 10 reproduzidas exatamente a partir dos tamanhos menores: True
+(b2) recursao pura (so raiz prima como dado) reproduz exatamente as somas de todas as ordens, n <= 10: True
+ n | raiz prima (dado) | paralelo | serie | todas
+  1 | -1 | +0 | +0 | -1
+  2 | +0 | +1 | -2 | -1
+  3 | +0 | +5 | +0 | +5
+  4 | -24 | +1 | +10 | -13
+  5 | -120 | +29 | +260 | +169
+  6 | -2880 | -599 | -6782 | -10261
+  7 | -108360 | +62705 | +27916 | -17739
+  8 | -1779624 | +958273 | -1359990 | -2181341
+  9 | -64647576 | +26869253 | +9873636 | -27904687
+ 10 | -2577258960 | +670248361 | -587673902 | -2494684501
