@@ -1,0 +1,31 @@
+(V) chi: isolado invariante, chi = sum C(n,j) chi0: True
+(V) kappa: isolado troca, kappa = sum C(n,j)(-1)^j kappa0: True
+(V) chi: menor elemento = -n chi_(n-1)  (n>=3): True
+(V) chi: maior elemento = +n kappa_(n-1)  (n>=3): True
+(V) kappa: menor elemento = -n kappa_(n-1)  (n>=3): True
+(V) kappa: maior elemento = -n kappa_(n-1)  (n>=3): True
+(V) kappa: ambos = +n(n-1) kappa_(n-2)  (n>=4): True
+(V) chi: ambos = -n(n-1) kappa_(n-2)  (n>=4): True
+
+Decomposicao de kappa_n (todas as ordens): um ponto = menor + maior - ambos + isolado; resto = sem extremos e sem isolados, por tipo
+ n | total | menor | maior | -ambos | isolado | resto paralelo | resto serie | resto raiz prima | (um ponto)/total | sinais vs (-1)^n
+  4 | -45 | -20 | -20 | +12 | -11 | +12 | +6 | -24 | +0.87 | ---+-++-
+  5 | -231 | +225 | +225 | -100 | +189 | +0 | -170 | -600 | -2.33 | +--+-0++
+  6 | +15323 | +1386 | +1386 | +1350 | +1981 | +1260 | +2440 | +5520 | +0.40 | ++++++++
+  7 | -489315 | -107261 | -107261 | +9702 | -100983 | +17640 | -44072 | -157080 | +0.62 | +++-+-++
+  8 | +18915683 | +3914520 | +3914520 | -858088 | +3501317 | -639492 | +301826 | +8781080 | +0.55 | +++-+-++
+  9 | -713621455 | -170241147 | -170241147 | +35230680 | -153878539 | +31029264 | +3277986 | -288798552 | +0.64 | +++-+--+
+ 10 | +30298578939 | +7136214550 | +7136214550 | -1702411470 | +6340575901 | -1514422740 | +1044427188 | +11857980960 | +0.62 | +++-+-++
+
+Decomposicao de chi_n (todas as ordens): um ponto = menor + maior - ambos + isolado; resto = sem extremos e sem isolados, por tipo
+ n | total | menor | maior | -ambos | isolado | resto paralelo | resto serie | resto raiz prima | (um ponto)/total | sinais vs (-1)^n
+  4 | -13 | -4 | +20 | -12 | -11 | +12 | +6 | -24 | +0.54 | --+--++-
+  5 | -859 | +65 | -225 | +100 | -49 | -120 | -150 | -480 | +0.13 | +-+-++++
+  6 | -4461 | +5154 | -1386 | -1350 | -4979 | +60 | +2120 | -4080 | +0.57 | -+---++-
+  7 | -158815 | +31227 | +107261 | -9702 | -13621 | -28560 | -32900 | -212520 | -0.73 | +--+++++
+  8 | -235453 | +1270520 | -3914520 | +858088 | -1192827 | +274428 | +327138 | +2141720 | +12.65 | -+-+-+++
+  9 | +56709805 | +2119077 | +170241147 | -35230680 | +3330151 | -8363880 | +4277238 | -79663248 | +2.48 | ---+-+-+
+ 10 | -1618231837 | -567098050 | -7136214550 | +1702411470 | +559358701 | +226247100 | +502614372 | +3094449120 | +3.36 | ---+++++
+
+(V) regra geral para os 16 caracteres, n <= 10: ponto embaixo True; ponto em cima True; pontos isolados True
+    caracteres fixos pelas duas operacoes de extremo: ['(0,1,0,1)']
