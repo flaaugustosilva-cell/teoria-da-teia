@@ -1,0 +1,17 @@
+ordens estritamente primas (classes): k=4: 1, k=5: 4, k=6: 28
+(V1) 2065 substituicoes aleatorias Q[M1..Mk] (k = 4..6, n <= 10): sinal True; estado True; modulos recuperados True
+
+Raiz prima por estrutura de modulos (somas rotuladas com sinal; kappa = s(-1)^(D+U); trivial = s):
+ n | trivial: estritamente prima / com modulos | kappa: estritamente prima / com modulos | sinal de kappa vs (-1)^n (total, estrita, com mod.)
+  4 | -24 / +0 | -24 / +0 | --0
+  5 | -120 / +0 | -120 / -480 | +++
+  6 | -3480 / +600 | +840 / +4680 | +++
+  7 | -80640 / -27720 | +33600 / -190680 | +-+
+  8 | +1448160 / -3227784 | +2684640 / +6096440 | +++
+  9 | -65378880 / +731304 | -60056640 / -228741912 | +++
+ 10 | -1439998560 / -1137260400 | +1092299040 / +10765681920 | +++
+
+kappa na raiz prima por (numero de modulos nao triviais, maior modulo), n = 8..10:
+  n=8: (0, 1): kappa +2684640 (2585 classes); (1, 2): kappa +2036160 (3074 classes); (1, 3): kappa +1283520 (755 classes); (1, 4): kappa +845040 (256 classes); (1, 5): kappa +591360 (252 classes); (2, 3): kappa +560000 (750 classes)
+  n=9: (1, 2): kappa -74390400 (39830 classes); (0, 1): kappa -60056640 (36326 classes); (1, 4): kappa -50909040 (2416 classes); (1, 3): kappa -19978560 (7685 classes); (2, 4): kappa -19817280 (2880 classes); (3, 2): kappa -19323360 (3916 classes)
+  n=10: (1, 2): kappa +3788769600 (639080 classes); (2, 2): kappa +1860364800 (274643 classes); (1, 4): kappa +1241402400 (24592 classes); (0, 1): kappa +1092299040 (646405 classes); (3, 2): kappa +974484000 (59854 classes); (1, 3): kappa +782611200 (99575 classes)
