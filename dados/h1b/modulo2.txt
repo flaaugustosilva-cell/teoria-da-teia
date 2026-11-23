@@ -1,0 +1,16 @@
+ n | k | dado: anticadeia / cadeia | formula: anticadeia / cadeia | confere | kappa estritamente prima (k)
+  5 | 4 | +0 / -480 | +0 / -480 | True | -24
+  6 | 5 | +1800 / -2160 | +1800 / -2160 | True | -120
+  7 | 6 | -93240 / -5040 | -93240 / -5040 | True | +840
+  8 | 7 | +1646400 / +389760 | +1646400 / +389760 | True | +33600
+  9 | 8 | -108017280 / +33626880 | -108017280 / +33626880 | True | +2684640
+ 10 | 9 | +5151988800 / -1363219200 | +5151988800 / -1363219200 | True | -60056640
+
+Por tipo local da posicao, (paridade de beta+delta+eps, paridade de alpha+gamma+eps):
+  (0,*): a cadeia NAO troca o sinal de kappa(Q); (1,*): troca.  (*,0): a anticadeia troca; (*,1): nao troca.
+  n=5: (0, 0): soma kappa(Q) ponderada -120 (2 posicoes); (0, 1): soma kappa(Q) ponderada -120 (2 posicoes) | total (anticadeia+cadeia) -480; sinal vs (-1)^n: +
+  n=6: (0, 0): soma kappa(Q) ponderada -720 (8 posicoes); (0, 1): soma kappa(Q) ponderada -720 (4 posicoes); (1, 0): soma kappa(Q) ponderada -1080 (4 posicoes); (1, 1): soma kappa(Q) ponderada +720 (4 posicoes) | total (anticadeia+cadeia) -360; sinal vs (-1)^n: -
+  n=7: (0, 0): soma kappa(Q) ponderada +40320 (69 posicoes); (0, 1): soma kappa(Q) ponderada -32760 (28 posicoes); (1, 0): soma kappa(Q) ponderada +15120 (44 posicoes); (1, 1): soma kappa(Q) ponderada -5040 (27 posicoes) | total (anticadeia+cadeia) -98280; sinal vs (-1)^n: +
+  n=8: (0, 0): soma kappa(Q) ponderada -292320 (549 posicoes); (0, 1): soma kappa(Q) ponderada +860160 (326 posicoes); (1, 0): soma kappa(Q) ponderada -60480 (406 posicoes); (1, 1): soma kappa(Q) ponderada +433440 (357 posicoes) | total (anticadeia+cadeia) +2036160; sinal vs (-1)^n: +
+  n=9: (0, 0): soma kappa(Q) ponderada +64653120 (6313 posicoes); (0, 1): soma kappa(Q) ponderada -7922880 (4388 posicoes); (1, 0): soma kappa(Q) ponderada +37679040 (5186 posicoes); (1, 1): soma kappa(Q) ponderada +2237760 (4793 posicoes) | total (anticadeia+cadeia) -74390400; sinal vs (-1)^n: +
+  n=10: (0, 0): soma kappa(Q) ponderada -2356149600 (94349 posicoes); (0, 1): soma kappa(Q) ponderada +664070400 (71160 posicoes); (1, 0): soma kappa(Q) ponderada -1571119200 (83990 posicoes); (1, 1): soma kappa(Q) ponderada +560649600 (77435 posicoes) | total (anticadeia+cadeia) +3788769600; sinal vs (-1)^n: +
