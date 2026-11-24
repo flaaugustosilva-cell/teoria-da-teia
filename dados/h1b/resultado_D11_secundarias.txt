@@ -1,0 +1,16 @@
+Recalculo determinista confere com a execucao unica: True (R_3 = 8.0552, sensibilidade = 8.6080)
+
+SECUNDARIA, particao Myrheim-Meyer: indice I mediana 1.08 [min 0.27, max 1.70]; |Z|^2/soma|Z_g|^2 mediana 1.35e-01
+   d<1,5    : p 0.0096 -> mu mediana 0.0028 [0.0001, 0.0802]
+   1,5-2,5  : p 0.9488 -> mu mediana 0.5025 [0.1068, 0.9877]
+   2,5-3,5  : p 0.0416 -> mu mediana 0.4950 [0.0119, 0.8863]
+   3,5-4,5  : p 0.0000 -> mu mediana 0.0000 [0.0000, 0.0003]
+   d>4,5    : p 0.0000 -> mu mediana 0.0000 [0.0000, 0.0000]
+
+SECUNDARIA, particao perfil de intervalos: indice I mediana 1.68 [min 1.03, max 2.03]; |Z|^2/soma|Z_g|^2 mediana 4.30e-03
+   d=2      : p 0.7439 -> mu mediana 0.1012 [0.0001, 0.5983]
+   d=3      : p 0.0573 -> mu mediana 0.4889 [0.0413, 0.8195]
+   d=4      : p 0.0000 -> mu mediana 0.0000 [0.0000, 0.0004]
+   camadas  : p 0.1988 -> mu mediana 0.4300 [0.0461, 0.6633]
+
+JSON gravado: teoria-da-teia/dados/h1b/resultado_D11.json

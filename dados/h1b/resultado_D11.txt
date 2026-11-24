@@ -1,0 +1,9 @@
+Validacao: classes 46749427; soma com sinal -40491236963; ruins (altura <= 2) -1
+Validacoes obrigatorias: OK
+
+PRIMARIA: R_3(11) = 8.055 (referencia R_3(10) = 6.044) -> CONFIRMA o criterio pre-registrado (R_3 > 6,0)
+  d<1,5: real 2.6066e-03; controles mediana 1.3428e-03 [1.075e-03, 1.720e-03]; razao 1.941
+  1,5-2,5: real 4.1178e-04; controles mediana 1.6138e-04 [1.454e-04, 1.743e-04]; razao 2.552
+  2,5-3,5: real 5.6589e-03; controles mediana 7.0251e-04 [5.195e-04, 1.004e-03]; razao 8.055
+
+SENSIBILIDADE (200 controles, faixa 2,5-3,5): razao 8.608; controles: mediana 6.574e-04, percentis 2,5% e 97,5% 4.705e-04 e 8.862e-04, maximo 9.596e-04; real/maximo = 5.90
