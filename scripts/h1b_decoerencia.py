@@ -56,5 +56,38 @@ def main(pasta):
             print(f'   media complexa <r>_theta na janela: Re de {rm.real.min():+.2f} a {rm.real.max():+.2f}; '
                   f'fracao da janela com Re<r> fora de [0, 1]: {fora:.2f}', flush=True)
 
-if __name__ == '__main__':
+if __name__ == '__main__' and len(sys.argv) == 2:
     main(sys.argv[1])
+
+# ---------------- controle por subconjuntos aleatorios (antes so num comando avulso; agora congelado aqui) ----------------
+TH_JANELA = np.linspace(2 * np.pi / 3, np.pi, 241)
+
+def coerencia(B, w, mask):
+    """mediana na janela de |Z_mask(theta)| / W_mask, com Z_mask = sum_{mask} w e^{i theta B}."""
+    v, inv = np.unique(B, return_inverse=True); E = np.exp(1j * np.outer(TH_JANELA, v))
+    return float(np.median(np.abs(E @ np.bincount(inv, weights=w * mask, minlength=len(v))))) / float(w[mask].sum())
+
+def razoes_controle(B, w, g, rng, sorteios=20, faixas=(0, 1, 2)):
+    """Para cada faixa k: real = coerencia da faixa; controle: 'sorteios' subconjuntos com cada classe incluida
+    independentemente com probabilidade q = W_k/W (rng.random(numero de classes) < q), na ordem faixa a faixa.
+    Retorna {k: (real, lista dos controles, razao = real / mediana(controles))}."""
+    out = {}
+    for k in faixas:
+        mk = g == k; real = coerencia(B, w, mk); q = w[mk].sum() / w.sum(); cs = []
+        for _ in range(sorteios):
+            sub = rng.random(len(w)) < q; cs.append(coerencia(B, w, sub))
+        out[k] = (real, cs, real / float(np.median(cs)))
+    return out
+
+def reproduz_n8_10(pasta):
+    """Reproduz o controle de 24/11/2026 (n = 8, 9, 10; todas as ordens; semente 20261124, um so gerador na ordem n, faixa)."""
+    rng = np.random.default_rng(20261124)
+    for n in (8, 9, 10):
+        d = np.load(f'{pasta}/h1b_N_n{n}.npz'); P = d['pred'].astype(np.int64)
+        pc = np.array([bin(x).count('1') for x in range(1 << n)]); r = pc[P].sum(1) / math.comb(n, 2)
+        res = razoes_controle(d['B'], 1.0 / d['aut'], faixa(r), rng)
+        print(f'  n={n}: ' + ' | '.join(f'{NOMES[k]}: real {v[0]:.4e}, controle mediano {np.median(v[1]):.4e} '
+                                         f'[{min(v[1]):.2e}, {max(v[1]):.2e}], razao {v[2]:.3f}' for k, v in res.items()), flush=True)
+
+if __name__ == '__main__' and len(sys.argv) > 2 and sys.argv[2] == 'controle':
+    reproduz_n8_10(sys.argv[1])

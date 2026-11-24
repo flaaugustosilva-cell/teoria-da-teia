@@ -89,3 +89,15 @@ Os valores são a razão real/aleatório. O intervalo dos sorteios aleatórios n
 - o crescimento do excesso foi visto nos mesmos dados que o sugerem, então ele **não é um teste**.
 
 **Teste independente possível:** n = 11, gerando de novo as ordens com o genposetg (cerca de 2 horas), com pré-registro **antes**.
+
+## 6. Precisões depois da revisão do Flavio (24/11/2026)
+
+1. **Formulação da conclusão do item 1.** Onde está escrito que "dimensão não é atributo definido das teias", vale esta formulação mais precisa:
+
+   > Para n = 8 a 10, na janela e nas partições estudadas, a dimensão não se comporta como uma propriedade clássica decoerente da soma de histórias.
+
+   Cada teia continua pertencendo a uma classe bem definida pelo estimador. O que falha é a leitura clássica, aditiva, da soma dessas classes.
+2. **μ_g não é medida quântica normalizada da partição.** μ_g = |Z_g|²/Σ_h |Z_h|² é a distribuição normalizada das contribuições **diagonais**. Como há interferência, ela não é probabilidade nem medida da partição. Isso vale sempre que os valores de 29% a 41% forem citados.
+3. **O índice I** mede a magnitude dos termos fora da diagonal em relação à diagonal. É um indicador de interferência, não um critério universal de decoerência.
+4. **Auditoria do controle.** O controle por subconjuntos aleatórios tinha sido rodado num comando avulso. Agora ele está congelado em `scripts/h1b_decoerencia.py` (funções `razoes_controle` e `reproduz_n8_10`). Com a mesma semente e a mesma ordem, ele reproduz exatamente os valores antes relatados (`decoerencia_controle_reproduzido.txt`): **R₃ = 2,817, 3,572 e 6,044** para n = 8, 9 e 10.
+5. **Incerteza do controle.** Com outra semente e outra ordem das classes, o mesmo cálculo em n = 8 dá 2,905 em vez de 2,817. A razão tem incerteza de alguns por cento, que vem da mediana de 20 sorteios.
