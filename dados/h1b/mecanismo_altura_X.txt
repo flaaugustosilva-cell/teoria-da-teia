@@ -1,0 +1,118 @@
+
+== n = 8: identidade B = n - R + X confere; altura <= 2 <=> N1=N2=N3=R4=0 confere (=> X = 0); peso de X = 0 que vem de altura >= 3: 0.663 ==
+  d<1,5   | toda a faixa: peso 0.0537, coerencia 5.111e-02, razao 1.66 | altura <= 2: vazio | altura >= 3: peso 0.0537, coerencia 5.111e-02, razao 1.68
+  1,5-2,5 | toda a faixa: peso 0.8859, coerencia 1.273e-02, razao 2.01 | altura <= 2: peso 0.0036, coerencia 3.650e-01, razao 3.03 | altura >= 3: peso 0.8823, coerencia 1.230e-02, razao 1.91
+  2,5-3,5 | toda a faixa: peso 0.0602, coerencia 8.679e-02, razao 3.01 | altura <= 2: peso 0.0108, coerencia 1.223e-01, razao 1.79 | altura >= 3: peso 0.0495, coerencia 1.221e-01, razao 3.84
+  Concentracao de X dentro de cada fatia R (peso no valor modal; numero de valores com 90% do peso; desvio de X):
+     R= 6 (2,5-3,5): modal 0.511 (X = +0);   2 valores; desvio   6.2
+     R= 7 (2,5-3,5): modal 0.461 (X = +10);   3 valores; desvio   8.0
+     R= 8 (2,5-3,5): modal 0.366 (X = +10);   4 valores; desvio   9.7
+     R= 9 (2,5-3,5): modal 0.368 (X = +20);   6 valores; desvio  11.7
+     R=10 (1,5-2,5): modal 0.283 (X = +20);   7 valores; desvio  13.9
+     R=11 (1,5-2,5): modal 0.189 (X = +30);  11 valores; desvio  16.2
+     R=12 (1,5-2,5): modal 0.128 (X = +15);  15 valores; desvio  18.2
+     R=13 (1,5-2,5): modal 0.109 (X = +15);  21 valores; desvio  19.9
+     R=14 (1,5-2,5): modal 0.077 (X = +24);  30 valores; desvio  21.1
+     R=15 (1,5-2,5): modal 0.067 (X = +34);  38 valores; desvio  22.1
+     R=16 (1,5-2,5): modal 0.054 (X = +19);  43 valores; desvio  23.1
+     R=17 (1,5-2,5): modal 0.044 (X = +20);  50 valores; desvio  24.3
+     R=18 (1,5-2,5): modal 0.068 (X = +20);  57 valores; desvio  25.4
+     R=19 (1,5-2,5): modal 0.049 (X = +39);  54 valores; desvio  25.9
+     R=20 (1,5-2,5): modal 0.047 (X = +34);  57 valores; desvio  26.4
+     R=21 (d<1,5): modal 0.061 (X = +1);  55 valores; desvio  27.0
+     R=22 (d<1,5): modal 0.085 (X = +10);  47 valores; desvio  26.7
+     R=23 (d<1,5): modal 0.103 (X = +36);  31 valores; desvio  23.9
+     R=24 (d<1,5): modal 0.130 (X = +30);  21 valores; desvio  25.3
+     R=25 (d<1,5): modal 0.105 (X = +24);  14 valores; desvio  24.9
+
+== n = 9: identidade B = n - R + X confere; altura <= 2 <=> N1=N2=N3=R4=0 confere (=> X = 0); peso de X = 0 que vem de altura >= 3: 0.810 ==
+  d<1,5   | toda a faixa: peso 0.0446, coerencia 1.807e-02, razao 1.77 | altura <= 2: vazio | altura >= 3: peso 0.0446, coerencia 1.807e-02, razao 1.76
+  1,5-2,5 | toda a faixa: peso 0.8921, coerencia 4.349e-03, razao 1.62 | altura <= 2: peso 0.0008, coerencia 3.812e-01, razao 5.01 | altura >= 3: peso 0.8913, coerencia 4.101e-03, razao 1.52
+  2,5-3,5 | toda a faixa: peso 0.0632, coerencia 2.911e-02, razao 3.39 | altura <= 2: peso 0.0046, coerencia 6.897e-02, razao 2.20 | altura >= 3: peso 0.0586, coerencia 2.910e-02, razao 3.27
+  Concentracao de X dentro de cada fatia R (peso no valor modal; numero de valores com 90% do peso; desvio de X):
+     R= 9 (2,5-3,5): modal 0.346 (X = +10);   5 valores; desvio  10.0
+     R=10 (2,5-3,5): modal 0.341 (X = +20);   6 valores; desvio  11.8
+     R=11 (2,5-3,5): modal 0.282 (X = +20);   8 valores; desvio  13.7
+     R=12 (2,5-3,5): modal 0.198 (X = +30);  11 valores; desvio  15.7
+     R=13 (1,5-2,5): modal 0.142 (X = +30);  15 valores; desvio  17.7
+     R=14 (1,5-2,5): modal 0.121 (X = +15);  19 valores; desvio  19.6
+     R=15 (1,5-2,5): modal 0.093 (X = +25);  27 valores; desvio  21.2
+     R=16 (1,5-2,5): modal 0.066 (X = +25);  35 valores; desvio  22.6
+     R=17 (1,5-2,5): modal 0.052 (X = +34);  46 valores; desvio  23.6
+     R=18 (1,5-2,5): modal 0.045 (X = +20);  54 valores; desvio  24.8
+     R=19 (1,5-2,5): modal 0.043 (X = +29);  63 valores; desvio  25.9
+     R=20 (1,5-2,5): modal 0.044 (X = +30);  73 valores; desvio  27.0
+     R=21 (1,5-2,5): modal 0.031 (X = +40);  81 valores; desvio  27.8
+     R=22 (1,5-2,5): modal 0.030 (X = +49);  85 valores; desvio  28.6
+     R=23 (1,5-2,5): modal 0.026 (X = +26);  86 valores; desvio  29.0
+     R=24 (1,5-2,5): modal 0.027 (X = +35);  89 valores; desvio  30.1
+     R=25 (1,5-2,5): modal 0.030 (X = +20);  88 valores; desvio  30.2
+     R=26 (d<1,5): modal 0.027 (X = +46);  84 valores; desvio  30.2
+     R=27 (d<1,5): modal 0.036 (X = +31);  79 valores; desvio  29.5
+     R=28 (d<1,5): modal 0.039 (X = +32);  77 valores; desvio  30.0
+     R=29 (d<1,5): modal 0.062 (X = +26);  69 valores; desvio  29.1
+     R=30 (d<1,5): modal 0.060 (X = +52);  62 valores; desvio  29.4
+
+== n = 10: identidade B = n - R + X confere; altura <= 2 <=> N1=N2=N3=R4=0 confere (=> X = 0); peso de X = 0 que vem de altura >= 3: 0.900 ==
+  d<1,5   | toda a faixa: peso 0.0180, coerencia 8.435e-03, razao 1.99 | altura <= 2: vazio | altura >= 3: peso 0.0180, coerencia 8.435e-03, razao 2.01
+  1,5-2,5 | toda a faixa: peso 0.9271, coerencia 1.454e-03, razao 2.08 | altura <= 2: peso 0.0002, coerencia 3.665e-01, razao 9.66 | altura >= 3: peso 0.9268, coerencia 1.454e-03, razao 2.07
+  2,5-3,5 | toda a faixa: peso 0.0549, coerencia 1.409e-02, razao 5.82 | altura <= 2: peso 0.0018, coerencia 4.725e-02, razao 3.54 | altura >= 3: peso 0.0531, coerencia 1.487e-02, razao 6.03
+  Concentracao de X dentro de cada fatia R (peso no valor modal; numero de valores com 90% do peso; desvio de X):
+     R=11 (2,5-3,5): modal 0.321 (X = +20);   6 valores; desvio  11.9
+     R=12 (2,5-3,5): modal 0.279 (X = +20);   8 valores; desvio  13.5
+     R=13 (2,5-3,5): modal 0.204 (X = +20);  10 valores; desvio  15.3
+     R=14 (2,5-3,5): modal 0.164 (X = +30);  13 valores; desvio  17.2
+     R=15 (2,5-3,5): modal 0.119 (X = +40);  17 valores; desvio  19.0
+     R=16 (1,5-2,5): modal 0.098 (X = +25);  24 valores; desvio  20.8
+     R=17 (1,5-2,5): modal 0.085 (X = +25);  31 valores; desvio  22.4
+     R=18 (1,5-2,5): modal 0.061 (X = +35);  41 valores; desvio  23.7
+     R=19 (1,5-2,5): modal 0.052 (X = +20);  51 valores; desvio  25.0
+     R=20 (1,5-2,5): modal 0.042 (X = +20);  61 valores; desvio  26.1
+     R=21 (1,5-2,5): modal 0.040 (X = +30);  71 valores; desvio  27.2
+     R=22 (1,5-2,5): modal 0.035 (X = +30);  81 valores; desvio  28.3
+     R=23 (1,5-2,5): modal 0.028 (X = +40);  88 valores; desvio  29.2
+     R=24 (1,5-2,5): modal 0.025 (X = +34);  93 valores; desvio  30.1
+     R=25 (1,5-2,5): modal 0.022 (X = +34);  97 valores; desvio  30.9
+     R=26 (1,5-2,5): modal 0.019 (X = +44); 100 valores; desvio  31.7
+     R=27 (1,5-2,5): modal 0.021 (X = +45); 103 valores; desvio  32.4
+     R=28 (1,5-2,5): modal 0.021 (X = +30); 105 valores; desvio  33.0
+     R=29 (1,5-2,5): modal 0.020 (X = +40); 106 valores; desvio  33.3
+     R=30 (1,5-2,5): modal 0.020 (X = +41); 107 valores; desvio  33.5
+     R=31 (1,5-2,5): modal 0.019 (X = +42); 107 valores; desvio  33.6
+     R=32 (1,5-2,5): modal 0.022 (X = +36); 107 valores; desvio  33.8
+     R=33 (d<1,5): modal 0.022 (X = +36); 106 valores; desvio  33.9
+     R=34 (d<1,5): modal 0.022 (X = +30); 104 valores; desvio  33.6
+     R=35 (d<1,5): modal 0.028 (X = +31); 100 valores; desvio  33.3
+
+== n = 11: identidade B = n - R + X confere; altura <= 2 <=> N1=N2=N3=R4=0 confere (=> X = 0); peso de X = 0 que vem de altura >= 3: 0.948 ==
+  d<1,5   | toda a faixa: peso 0.0096, coerencia 2.607e-03, razao 1.93 | altura <= 2: vazio | altura >= 3: peso 0.0096, coerencia 2.607e-03, razao 1.96
+  1,5-2,5 | toda a faixa: peso 0.9488, coerencia 4.118e-04, razao 2.62 | altura <= 2: peso 0.0001, coerencia 3.366e-01, razao 22.27 | altura >= 3: peso 0.9488, coerencia 3.954e-04, razao 2.50
+  2,5-3,5 | toda a faixa: peso 0.0416, coerencia 5.659e-03, razao 8.78 | altura <= 2: peso 0.0006, coerencia 4.000e-02, razao 7.84 | altura >= 3: peso 0.0409, coerencia 5.577e-03, razao 8.62
+  Concentracao de X dentro de cada fatia R (peso no valor modal; numero de valores com 90% do peso; desvio de X):
+     R=15 (2,5-3,5): modal 0.177 (X = +30);  12 valores; desvio  16.7
+     R=16 (2,5-3,5): modal 0.133 (X = +30);  15 valores; desvio  18.4
+     R=17 (2,5-3,5): modal 0.109 (X = +40);  20 valores; desvio  20.1
+     R=18 (2,5-3,5): modal 0.093 (X = +25);  27 valores; desvio  21.8
+     R=19 (1,5-2,5): modal 0.074 (X = +25);  35 valores; desvio  23.3
+     R=20 (1,5-2,5): modal 0.059 (X = +35);  45 valores; desvio  24.7
+     R=21 (1,5-2,5): modal 0.050 (X = +20);  55 valores; desvio  26.0
+     R=22 (1,5-2,5): modal 0.043 (X = +30);  64 valores; desvio  27.2
+     R=23 (1,5-2,5): modal 0.038 (X = +30);  75 valores; desvio  28.3
+     R=24 (1,5-2,5): modal 0.031 (X = +40);  86 valores; desvio  29.4
+     R=25 (1,5-2,5): modal 0.026 (X = +40);  93 valores; desvio  30.4
+     R=26 (1,5-2,5): modal 0.023 (X = +25);  98 valores; desvio  31.3
+     R=27 (1,5-2,5): modal 0.021 (X = +35); 102 valores; desvio  32.2
+     R=28 (1,5-2,5): modal 0.018 (X = +44); 106 valores; desvio  33.1
+     R=29 (1,5-2,5): modal 0.016 (X = +45); 109 valores; desvio  33.8
+     R=30 (1,5-2,5): modal 0.016 (X = +30); 112 valores; desvio  34.6
+     R=31 (1,5-2,5): modal 0.016 (X = +40); 114 valores; desvio  35.3
+     R=32 (1,5-2,5): modal 0.015 (X = +40); 116 valores; desvio  35.8
+     R=33 (1,5-2,5): modal 0.014 (X = +35); 118 valores; desvio  36.3
+     R=34 (1,5-2,5): modal 0.014 (X = +36); 119 valores; desvio  36.7
+     R=35 (1,5-2,5): modal 0.015 (X = +36); 120 valores; desvio  37.0
+     R=36 (1,5-2,5): modal 0.016 (X = +46); 121 valores; desvio  37.3
+     R=37 (1,5-2,5): modal 0.015 (X = +46); 121 valores; desvio  37.5
+     R=38 (1,5-2,5): modal 0.015 (X = +57); 122 valores; desvio  37.5
+     R=39 (1,5-2,5): modal 0.016 (X = +42); 122 valores; desvio  37.6
+     R=40 (d<1,5): modal 0.017 (X = +44); 121 valores; desvio  37.5
+     R=41 (d<1,5): modal 0.017 (X = +53); 120 valores; desvio  37.4
