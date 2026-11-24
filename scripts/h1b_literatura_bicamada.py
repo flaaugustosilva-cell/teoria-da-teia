@@ -61,3 +61,20 @@ def onde(n=80):
 
 if __name__ == '__main__' and len(sys.argv) > 2 and sys.argv[2] == 'onde':
     onde()
+
+def separa(ns=(10, 20, 40, 80)):
+    """(D) (y^a - 1)^(n-a) = sum_k C(n-a,k) (-1)^(n-a-k) y^(ak): o termo k = n-a (todo elemento de cima livre, grafo bipartido
+    qualquer entre camadas fixas, como na contagem C(alpha n^2, .) de Loomis-Carlip) e o resto (inclusao-exclusao que exige
+    um elemento abaixo para cada elemento de cima). Compara o termo bipartido em a = n/2 com a sela de Loomis-Carlip."""
+    print('\nSeparacao exata: termo "bipartido livre" F = sum_a C(n,a) y^(a(n-a)) e resto = a_n e^{-i theta n} - F')
+    for th in (mp.mpf('2.114'), mp.mpf('2.5'), mp.mpf('2.9')):
+        y = 1 + mp.exp(-1j * th); beta = th / 2
+        for n in ns:
+            ex = mp.fsum(mp.binomial(n, a) * (y ** a - 1) ** (n - a) for a in range(n + 1))
+            F = mp.fsum(mp.binomial(n, a) * y ** (a * (n - a)) for a in range(n + 1))
+            meio = y ** ((n // 2) * (n - n // 2)); sela = mp.exp((n * n / 4) * (-1j * beta + mp.log(2 * mp.cos(beta))))
+            print(f'  theta {float(th):.3f} n={n:2d}: |exato| {mp.nstr(abs(ex), 4)}; |F| {mp.nstr(abs(F), 4)}; |resto| {mp.nstr(abs(ex - F), 4)}; '
+                  f'termo a=n/2 de F: {mp.nstr(meio, 4)}; sela LC exp[(n^2/4)(-i beta + ln(2 cos beta))]: {mp.nstr(sela, 4)}')
+
+if __name__ == '__main__' and len(sys.argv) > 2 and sys.argv[2] == 'separa':
+    separa()
