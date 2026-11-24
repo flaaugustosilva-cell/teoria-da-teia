@@ -1,0 +1,28 @@
+Condicoes: Loomis-Carlip |cos beta| < 1/2  <=>  beta em (pi/3, 2pi/3) mod pi  <=>  theta em (2pi/3, 4pi/3) = janela da Teia (aberta).
+P. e S. Carlip (2022), Eq. 3.3: tan beta > 1.7590  <=>  beta em (1.0539, pi/2) mod pi <=>  theta em (2.1077, 3.1416); janela da Teia: (2.0944, 4.1888)
+(V) formulas de a_n e b_n conferem com os dados exatos, n = 1..10, theta = pi e theta = 2pi/3 + 0,3: True
+
+ theta | n | |a_n| (altura <= 2) | |b_n| (sem isolados) | sela de Loomis-Carlip e^{(n^2/4)ln(2|cos beta|)} | 2^(n^2/4) (contagem) | log10(|b_n|/sela)
+ 2.114 | 10 | 19041.0 | 3.3905e+5 | 0.64528 | 3.3554e+7 | 5.7205
+ 2.114 | 20 | 2.0357e+8 | 1.2704e+11 | 0.17338 | 1.2677e+30 | 11.865
+ 2.114 | 40 | 1.1208e+17 | 4.2375e+22 | 0.00090358 | 2.5822e+120 | 25.671
+ 2.114 | 80 | 4.1414e+32 | 5.404e+44 | 6.6662e-13 | 4.4462e+481 | 56.909
+ 2.500 | 10 | 742.04 | 37503.0 | 9.8769e-6 | 3.3554e+7 | 9.5794
+ 2.500 | 20 | 38522.0 | 1.4957e+9 | 9.5165e-21 | 1.2677e+30 | 29.196
+ 2.500 | 40 | 1.0169e+8 | 9.6586e+16 | 8.2018e-81 | 2.5822e+120 | 97.071
+ 2.500 | 80 | 5.1929e+13 | 2.3975e+32 | 4.5251e-321 | 4.4462e+481 | 352.72
+ 2.900 | 10 | 33.211 | 5193.3 | 3.5537e-16 | 3.3554e+7 | 19.165
+ 2.900 | 20 | 288.0 | 3.9298e+7 | 1.5948e-62 | 1.2677e+30 | 69.392
+ 2.900 | 40 | 6628.8 | 3.5644e+14 | 6.4686e-248 | 2.5822e+120 | 261.74
+ 2.900 | 80 | 4.0265e+5 | 9.2416e+27 | 1.7508e-989 | 4.4462e+481 | 1016.7
+ 3.142 | 10 | 1.0 | 1022.0 | 1.5873e-10017 | 3.3554e+7 | 10020.0
+ 3.142 | 20 | 1.0 | 1.0486e+6 | 6.3478e-40068 | 1.2677e+30 | 40073.0
+ 3.142 | 40 | 1.0 | 1.0995e+12 | 1.6237e-160269 | 2.5822e+120 | 1.6028e+5
+ 3.142 | 80 | 1.0 | 1.2089e+24 | 6.9506e-641076 | 4.4462e+481 | 6.411e+5
+
+(D) Em theta = pi: a_n = -1 para todo n >= 1 e b_n = 2 - 2^n (exatos).
+    conferencia: n=5: a -1.0, b -30.0, n=12: a -1.0, b -4094.0, n=30: a -1.0, b -1.07374e+9
+Termos da soma exata (n = 80): a = numero de elementos minimais; a camada de cima tem n - a elementos.
+  theta 2.114: |soma| 5.03e+32; maior termo em a = 21 (cima com 59 elementos), |termo| 2.677e+32; tres maiores: a = [21, 27, 15]; termos com a <= n/2: soma dos modulos 5.587e+32
+  theta 2.500: |soma| 5.193e+13; maior termo em a = 40 (cima com 40 elementos), |termo| 1.075e+23; tres maiores: a = [40, 39, 41]; termos com a <= n/2: soma dos modulos 6.582e+23
+  theta 2.900: |soma| 4.027e+5; maior termo em a = 40 (cima com 40 elementos), |termo| 1.075e+23; tres maiores: a = [40, 41, 39]; termos com a <= n/2: soma dos modulos 6.582e+23
