@@ -1,5 +1,7 @@
 # Conjectura do resíduo (registrada em 25/11/2026, antes de qualquer tentativa de prova)
 
+**Atualização (25/11/2026): DEMONSTRADA, numa forma mais forte**, em `ANALITICO_11_TEOREMA2.md` (Teorema 2). A versão demonstrada não precisa de k\* único: S_n/(2T_{k̂}) → 1, com k̂ o maior maximizador. A versão fraca C-R′ também sai, com limite no lugar do lim sup. O texto abaixo foi mantido como estava no registro.
+
 Aprovada pelo autor em 25/11/2026 ("siga"). Origem: `EXPLORATORIO_RESIDUO_ASSINTOTICO.md`. Os dados que a inspiraram foram n = 40 a 640 em θ = 2,114; 2,2; 2,3; 2,4; 2,5; 2,7; 2,9; 3,05. **Eles não servem para validá-la.**
 
 ## Notação

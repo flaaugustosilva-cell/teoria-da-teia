@@ -51,7 +51,7 @@ Dentro da janela, |a_n| cresce como e^{cn} (`COMPARACAO_LITERATURA.md`, seção 
 
 - **Taxa de crescimento:** (1/n) ln|a_n| → ln ρ_{k\*}, devagar, porque C(n, k\*) é polinomial em n. Para k\* = 2, ρ = √(5 + 4 cos θ).
 - **No centro θ = π:** todos os ρ_k valem 1 e a_n = −1. É o caso degenerado.
-- **Comparação com o Teorema 1 (|a_n| ≤ 3ⁿ):** pela observação, o crescimento real é no máximo da ordem de n^{k\*}·ρⁿ, com ρ ≤ 1 + |y|² ≤ 2 na janela. **Isso não está provado:** faltaria uma cota para o resto (as ordens com pelo menos k\* + 1 minimais e maximais).
+- **Comparação com o Teorema 1 (|a_n| ≤ 3ⁿ):** pela observação, o crescimento real é no máximo da ordem de n^{k\*}·ρⁿ, com ρ ≤ 1 + |y|² ≤ 2 na janela. **Isso não está provado:** faltaria uma cota para o resto (as ordens com pelo menos k\* + 1 minimais e maximais). **Atualização (25/11): agora está provado.** Ver `ANALITICO_11_TEOREMA2.md`.
 
 ## 4. Leitura (O)
 

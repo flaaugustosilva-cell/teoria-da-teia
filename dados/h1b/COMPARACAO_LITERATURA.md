@@ -146,6 +146,6 @@ Sem pontos isolados, b_n = Σ_j C(n, j)(−e^{iθ})^j·a_{n−j}.
 Detalhes, tabelas e regras de leitura em `EXPLORATORIO_RESIDUO_ASSINTOTICO.md`. Resumo:
 
 - **(D)** O termo a da soma, T_a = C(n,a)·(y^a − 1)^{n−a}, é exatamente a soma com fase das ordens com **exatamente a elementos minimais**.
-- **(V numérico, n até 640, 8 valores de θ na janela)** A soma inteira fica igual a **2·T_{k\*}**, em que k\* é o k que maximiza |1 − y^k| (k\* = 2 para θ ≳ 2,35; k\* = 3 perto da borda de baixo). O fator 2 é o espelho: ordens com k\* maximais dão a mesma soma (a inversão da ordem não muda B).
+- **(D desde 25/11: Teorema 2, `ANALITICO_11_TEOREMA2.md`; antes era V numérico, n até 640, 8 valores de θ)** A soma inteira fica igual a **2·T_{k\*}**, em que k\* é o k que maximiza |1 − y^k| (k\* = 2 para θ ≳ 2,35; k\* = 3 perto da borda de baixo). O fator 2 é o espelho: ordens com k\* maximais dão a mesma soma (a inversão da ordem não muda B).
 - **Leitura:** o resíduo que não se cancela vem das camadas **mais desiguais possíveis** (2 ou 3 elementos numa camada, todo o resto na outra). É o canto oposto ao das camadas equilibradas (q = 1/2) da sela. Esse canto tem entropia desprezível (por isso some no o(n²)), mas as fases dele não se cancelam.
 
