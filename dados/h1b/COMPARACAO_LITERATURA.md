@@ -70,7 +70,8 @@ Sem pontos isolados, b_n = Σ_j C(n, j)(−e^{iθ})^j·a_{n−j}.
 
 - **A supressão relativa ao número de ordens é enorme e confirmada.** A soma é superexponencialmente menor que 2^{n²/4}. Isso concorda com a literatura em essência.
 - **A soma absoluta não vai a zero.** Ela fica entre 1 e 3ⁿ (rotulada), muito acima da estimativa de sela. Algo de ordem exponencial fica fora da forma e^{−bn²}.
-- **Onde está essa parte (V, n = 80):** ela **não** vem de um canto de ordens muito esparsas. Os maiores termos da soma por número de minimais estão em a ≈ n/2, com módulos de cerca de 10²³, e se cancelam até cerca de 10¹³.
+- **Onde está essa parte (V, n = 80):** os maiores termos da soma por número de minimais estão em a ≈ n/2, com módulos de cerca de 10²³, e se cancelam até cerca de 10¹³.
+- **Correção (25/11):** eu tinha concluído daí que a parte que sobra "não vem de um canto". **Estava errado.** Ela vem justamente de um canto: as ordens com só 2 ou 3 elementos minimais (ou maximais). Ver a seção 7 e `EXPLORATORIO_RESIDUO_ASSINTOTICO.md`.
 - **As três explicações que eu tinha listado** (classe diferente, normalização diferente, extremidades da integral) foram conferidas na seção 6. As duas primeiras caem: a classe é a mesma e a normalização bate. O que sobra é um detalhe de contagem, explicado na seção 6.
 
 ## 4. Por que isso importa para a Teia (O)
@@ -84,7 +85,7 @@ Sem pontos isolados, b_n = Σ_j C(n, j)(−e^{iθ})^j·a_{n−j}.
 
 ## 5. Próximos passos
 
-1. **Conferir no PDF de Loomis–Carlip** a Eq. 4.2 (como eles contam as ordens de duas camadas). Se for mesmo "escolher as camadas e depois qualquer conjunto de relações", a seção 6 explica toda a discrepância. Se não for, a seção 6 continua valendo como identidade, mas a ligação com o artigo cai.
+1. ~~Conferir no PDF a Eq. 4.2.~~ **Feito em 25/11** (seção 6, parte "Conferência no PDF").
 2. **Testar se as teias boas superam o resíduo de forma assintótica** (H1\* para todo n). Esse é o ponto em que a Teia pode contribuir de fato ao problema central de emergência do contínuo.
 
 ## 6. De onde vem a discrepância (D, com V; a ligação com o artigo é L, a conferir)
@@ -108,6 +109,14 @@ Sem pontos isolados, b_n = Σ_j C(n, j)(−e^{iθ})^j·a_{n−j}.
 - **Prova:** dada a ordem, quem está abaixo de alguém tem de ficar embaixo, e quem está acima de alguém tem de ficar em cima. Só os pontos isolados podem ir para qualquer lado. Então cada ordem aparece 2^{iso} vezes.
 - **Em funções geradoras exponenciais:** F̂(x) = e^{e^{iθ}x}·Â(x). A soma exata é a do bipartido livre "descontada" de um fator por ponto isolado.
 
+**Conferência no PDF (25/11; L, leitura do PDF por ferramenta automática).**
+
+- **Eq. 4.2:** |C_{q,p,n}| = C(αn², ½pn(n−1)), com α = q(1−q). Eles põem qn elementos em cima e (1−q)n embaixo e escolhem **qualquer** subconjunto das αn² relações possíveis. Não exigem que cada elemento de cima tenha relação e não falam de pontos isolados nem de dupla contagem.
+- **Eq. 4.4:** |C_{½,p,n}| ≤ |C_{p,n}| ≤ Σ_q |C_{q,p,n}|. Daí a Eq. 4.5: ln|C_{p,n}| = ¼h(2p)n² + o(n²). Os termos o(n²) são **escritos e depois desprezados** no ponto de sela.
+- **Rotulada ou não:** a seção 4 não diz. A seção 5 só menciona que há "sutilezas" entre rotuladas e não rotuladas.
+
+**O que isso muda na leitura (D).** Para altura ≤ 2, B = n − N₀. Então a soma que eles querem, Σ_p |C_{p,n}|·e^{iS(p)}, com a contagem **exata** |C_{p,n}|, é exatamente o nosso a_n. O que eles calculam de fato é só a parte de ordem n² dessa contagem (camadas q = 1/2, relações livres), que dá o termo do meio de F. **A discrepância está inteira nos termos o(n²) desprezados.** Eles não fazem um erro de lógica no expoente n²; a conclusão em valor absoluto é que fica incompleta.
+
 **A sela de Loomis–Carlip é o termo do meio de F, e não da soma exata (V, `literatura_separa.txt`).**
 
 - O termo a = n/2 de F é **idêntico**, em todas as casas mostradas, a exp[(n²/4)(−iβ + ln(2 cos β))], que é a forma de sela.
@@ -128,6 +137,15 @@ Sem pontos isolados, b_n = Σ_j C(n, j)(−e^{iθ})^j·a_{n−j}.
 
 - Na **entropia**, contar cada ordem 2^{iso} vezes não muda nada no termo n² (as ordens com muitos isolados são raras). Por isso a aproximação é legítima para contar.
 - Na **soma com fase**, o mesmo detalhe muda tudo: com o peso 2^{iso} a soma fica limitada (≈ 2); com o peso certo (1), ela cresce exponencialmente.
-- **Se** a Eq. 4.2 for mesmo a contagem bipartida livre (passo 1 da seção 5), então a estimativa e^{−bn²} descreve F, e não a soma exata sobre ordens. A afirmação "as ordens de duas camadas são exponencialmente suprimidas" continuaria certa **em relação ao número de ordens** (2^{n²/4}), mas não em valor absoluto.
+- A Eq. 4.2 é a contagem bipartida livre com q fixo (conferido no PDF, acima). Então a estimativa e^{−bn²} descreve o termo do meio de F, e não a soma exata sobre ordens. A afirmação "as ordens de duas camadas são exponencialmente suprimidas" continuaria certa **em relação ao número de ordens** (2^{n²/4}), mas não em valor absoluto.
 - **O que isto não diz:** não diz que a conclusão física deles está errada. O que importa para a emergência do contínuo é se as ordens boas superam esse resíduo e^{cn}, o que é a pergunta do H1\*. Também não diz nada sobre as outras classes de ordens ruins que eles tratam.
-- **Cuidado de nível:** a identidade e a separação são (D). A ligação "a Eq. 4.2 deles é F" é (L) e ainda precisa do PDF.
+- **Cuidado de nível:** a identidade e a separação são (D). A forma da Eq. 4.2 é (L), lida no PDF por ferramenta automática.
+
+## 7. Qual parte das ordens produz o resíduo (exploratório, 25/11; O com V numérico)
+
+Detalhes, tabelas e regras de leitura em `EXPLORATORIO_RESIDUO_ASSINTOTICO.md`. Resumo:
+
+- **(D)** O termo a da soma, T_a = C(n,a)·(y^a − 1)^{n−a}, é exatamente a soma com fase das ordens com **exatamente a elementos minimais**.
+- **(V numérico, n até 640, 8 valores de θ na janela)** A soma inteira fica igual a **2·T_{k\*}**, em que k\* é o k que maximiza |1 − y^k| (k\* = 2 para θ ≳ 2,35; k\* = 3 perto da borda de baixo). O fator 2 é o espelho: ordens com k\* maximais dão a mesma soma (a inversão da ordem não muda B).
+- **Leitura:** o resíduo que não se cancela vem das camadas **mais desiguais possíveis** (2 ou 3 elementos numa camada, todo o resto na outra). É o canto oposto ao das camadas equilibradas (q = 1/2) da sela. Esse canto tem entropia desprezível (por isso some no o(n²)), mas as fases dele não se cancelam.
+
